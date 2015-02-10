@@ -1,0 +1,25 @@
+<dictionary>
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="post"    c="Postposition"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+  </sdefs>
+  <pardefs> 
+    <!-- SECTION: Postpositions -->
+
+    <pardef n="کان__post">
+      <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>
+    
+  </pardefs>
+
+  <section id="main" type="standard">
+    <!-- SECTION: Postpositions -->
+
+    <e lm="کان"><i>کان</i><par n="کان__post"/></e>
+    <e lm="کون"><i>کون</i><par n="کان__post"/></e>
+  </section>
+</dictionary>
