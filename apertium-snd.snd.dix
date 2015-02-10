@@ -23,7 +23,6 @@
 
     <sdef n="nom"     c="Direct"/>
     <sdef n="obl"     c="Oblique"/>
-    <sdef n="voc"     c="Vocative"/>
     <sdef n="abl"     c="Ablative"/>
 
     <sdef n="pers"    c="Personal"/>
@@ -110,25 +109,53 @@
 
     <!-- SECTION: Nouns -->
 
-    <pardef n="دوست__n">
+    <pardef n="دوست__n_GD">
       <e><p><l></l><r><s n="n"/><s n="GD"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ي</l><r><s n="n"/><s n="GD"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>ي</l><r><s n="n"/><s n="GD"/><s n="sg"/><s n="voc"/></r></p></e>
       <e><p><l>ي</l><r><s n="n"/><s n="GD"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ن</l><r><s n="n"/><s n="GD"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ن</l><r><s n="n"/><s n="GD"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e><p><l>ن</l><r><s n="n"/><s n="GD"/><s n="pl"/><s n="voc"/></r></p></e>
       <e><p><l>ن</l><r><s n="n"/><s n="GD"/><s n="pl"/><s n="abl"/></r></p></e>
     </pardef>
 
-    <pardef n="ڇوڪر/و__n">
+    <pardef n="ڇوڪر/و__n_m">
       <e><p><l>و</l><r>و<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ا</l><r>و<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
 
-    <pardef n="زال__n">
+    <pardef n="زال__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ون</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <pardef n="پکي__n_m">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <pardef n="ھفت/و__n_m">
+      <e>       <p><l>و</l><r>و<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ا</l><r>و<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <pardef n="رات__n_f">
+      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>يون</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <pardef n="ھوا__n_f">
+      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ئون</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <pardef n="ڇوڪري__n_f">
+      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ون</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <pardef n="ڪتاب__n_m">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Proper nouns -->
@@ -172,12 +199,19 @@
 
     <!-- SECTION: Nouns -->
 
-    <e lm="دوست"><i>دوست</i><par n="دوست__n"/></e>
+    <e lm="دوست"><i>دوست</i><par n="دوست__n_GD"/></e>
 
-    <e lm="زال"><i>زال</i><par n="زال__n"/></e>
-    <e lm="ڇوڪري"><i>ڇوڪري</i><par n="زال__n"/></e>
+    <e lm="زال"><i>زال</i><par n="زال__n_f"/></e>
+    <e lm="ڇوڪري"><i>ڇوڪري</i><par n="زال__n_f"/></e>
 
-    <e lm="ڇوڪرو"><i>ڇوڪر</i><par n="ڇوڪر/و__n"/></e>
+    <e lm="ڇوڪرو"><i>ڇوڪر</i><par n="ڇوڪر/و__n_m"/></e>
+
+    <e lm="پکي"><i>پکي</i><par n="پکي__n_m"/></e>
+    <e lm="ھفتو"><i>ھفت</i><par n="ھفت/و__n_m"/></e>
+    <e lm="رات"><i>رات</i><par n="رات__n_f"/></e>
+    <e lm="ھوا"><i>ھوا</i><par n="ھوا__n_f"/></e>
+    <e lm="ڇوڪري"><i>ڇوڪري</i><par n="ڇوڪري__n_f"/></e>
+    <e lm="ڪتاب"><i>ڪتاب</i><par n="ڪتاب__n_m"/></e>
 
 
     <!-- SECTION: Proper nouns -->
@@ -201,4 +235,5 @@
     <e><par n="paren"/></e>
   </section>
 </dictionary>
+
 
