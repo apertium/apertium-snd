@@ -8,6 +8,12 @@
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
   </sdefs>
   <pardefs> 
+    <!-- SECTION: Conjunctions -->
+
+    <pardef n="مگر__cnjcoo">
+      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Postpositions -->
 
     <pardef n="کان__post">
@@ -17,6 +23,11 @@
   </pardefs>
 
   <section id="main" type="standard">
+
+    <!-- SECTION: Conjunctions -->
+
+    <e lm="مگر"><i>مگر</i><par n="مگر__cnjcoo"/></e>
+
     <!-- SECTION: Postpositions -->
 
     <e lm="کان"><i>کان</i><par n="کان__post"/></e>
