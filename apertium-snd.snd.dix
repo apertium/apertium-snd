@@ -110,12 +110,12 @@
     <!-- SECTION: Nouns -->
 
     <pardef n="دوست__n_GD">
-      <e><p><l></l><r><s n="n"/><s n="GD"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ي</l><r><s n="n"/><s n="GD"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>ي</l><r><s n="n"/><s n="GD"/><s n="sg"/><s n="abl"/></r></p></e>
-      <e><p><l>ن</l><r><s n="n"/><s n="GD"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ن</l><r><s n="n"/><s n="GD"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e><p><l>ن</l><r><s n="n"/><s n="GD"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ي</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ي</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ن</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
     </pardef>
 
     <pardef n="ڇوڪر/و__n_m">
@@ -199,7 +199,7 @@
 
     <!-- SECTION: Nouns -->
 
-    <e lm="دوست"><i>دوست</i><par n="دوست__n_GD"/></e>
+    <e lm="دوست"><i>دوست</i><par n="دوست__n_m"/></e>
 
     <e lm="زال"><i>زال</i><par n="زال__n_f"/></e>
     <e lm="ڇوڪري"><i>ڇوڪري</i><par n="زال__n_f"/></e>
