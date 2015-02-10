@@ -1,13 +1,48 @@
 <dictionary>
-  <alphabet></alphabet>
+  <alphabet>ابٻڀپتٿٽٺثجڄجھڃچڇحخدڌڏڊڍذرڙڙھزسشکگڳگھڱلمنڻوهي</alphabet>
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="prn"     c="Pronoun"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="num"     c="Numeral"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+
+    <sdef n="p1"      c="First person"/>
+    <sdef n="p2"      c="Second person"/>
+    <sdef n="p3"      c="Third person"/>
+
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+
+    <sdef n="dir"     c="Direct"/>
+    <sdef n="obl"     c="Oblique"/>
+    <sdef n="voc"     c="Vocative"/>
+    <sdef n="abl"     c="Ablative"/>
+
+    <sdef n="pers"    c="Personal"/>
+
+    <sdef n="GD"      c="Gender to be determined"/>
+
+    <sdef n="sent"    c="End of sentence marker"/>
+    <sdef n="cm"      c="Comma"/>
   </sdefs>
   <pardefs> 
+    <!-- SECTION: Punctuation -->
+
+    <pardef n="sent">
+      <e><re>[.!\?:]+</re><p><l></l><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e><re>[،,]</re><p><l></l><r><s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="ciph">
+      <e><re>[0-9]+</re><p><l></l><r><s n="num"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Conjunctions -->
 
     <pardef n="مگر__cnjcoo">
@@ -19,6 +54,53 @@
     <pardef n="کان__post">
       <e><p><l></l><r><s n="post"/></r></p></e>
     </pardef>
+
+    <!-- SECTION: Pronouns -->
+
+    <pardef n="مان__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dir"/></r></p></e>
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="obl"/></r></p></e>
+    </pardef>
+
+    <pardef n="تون__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dir"/></r></p></e>
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="obl"/></r></p></e>
+    </pardef>
+
+    <pardef n="ه/وُ__prn">
+      <e><p><l>وُ</l><r>وُ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dir"/></r></p></e>
+      <e><p><l>نکي</l><r>وُ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="obl"/></r></p></e>
+    </pardef>
+
+    <pardef n="ا/هي__prn">
+      <e><p><l>هي</l><r>هي<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="dir"/></r></p></e>
+      <e><p><l>نهن<b/>کي</l><r>هي<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Determiners -->
+
+
+    <!-- SECTION: Numerals -->
+
+    <!-- SECTION: Nouns -->
+
+    <pardef n="دوست__n">
+      <e><p><l></l><r><s n="n"/><s n="GD"/><s n="sg"/><s n="dir"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Proper nouns -->
+
+    <!-- SECTION: Adjectives -->
+
+    <!-- SECTION: Adverbs -->
+
+    <pardef n="هاڻي__adv">
+      <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Verbs -->
+
+    <!-- SECTION: Interjections -->
     
   </pardefs>
 
@@ -32,5 +114,38 @@
 
     <e lm="کان"><i>کان</i><par n="کان__post"/></e>
     <e lm="کون"><i>کون</i><par n="کان__post"/></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <e lm="مان"><i>مان</i><par n="مان__prn"/></e>
+    <e lm="تون"><i>تون</i><par n="تون__prn"/></e>
+    <e lm="هوُ"><i>ه</i><par n="ه/وُ__prn"/></e>
+    <e lm="اهي"><i>ا</i><par n="ا/هي__prn"/></e>
+
+    <!-- SECTION: Determiners -->
+
+    <!-- SECTION: Numerals -->
+
+    <!-- SECTION: Nouns -->
+
+    <e lm="دوست"><i>دوست</i><par n="دوست__n"/></e>
+
+    <!-- SECTION: Proper nouns -->
+
+    <!-- SECTION: Adjectives -->
+
+    <!-- SECTION: Adverbs -->
+  
+    <e lm="هاڻي"><i>هاڻي</i><par n="هاڻي__adv"/></e>
+ 
+    <!-- SECTION: Verbs -->
+
+    <!-- SECTION: Interjections -->
+ 
+  </section>
+  <section id="main" type="inconditional">
+    <e><par n="sent"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="ciph"/></e>
   </section>
 </dictionary>
