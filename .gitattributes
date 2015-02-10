@@ -1,3 +1,4 @@
 * text=auto !eol
 /Makefile -text
+/NOTES -text
 /apertium-snd.snd.dix -text
