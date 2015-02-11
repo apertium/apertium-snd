@@ -14,6 +14,9 @@
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
     <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
 
+    <sdef n="iv"      c="Intransitive"/>
+    <sdef n="tv"      c="Transitive"/>
+
     <sdef n="p1"      c="First person"/>
     <sdef n="p2"      c="Second person"/>
     <sdef n="p3"      c="Third person"/>
@@ -32,6 +35,8 @@
 
     <sdef n="pers"    c="Personal"/>
     <sdef n="pos"     c="Possessive"/>
+
+    <sdef n="inf"     c="Infinitive"/> <!-- FIXME: Check this -->
 
     <sdef n="pres"    c="Present"/>
 
@@ -318,6 +323,14 @@
       <e><p><l>آهيون</l><r>copula<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>آهيو</l><r>copula<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>آهن</l><r>copula<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="سمھ/ڻ__vblex_iv">
+      <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="inf"/></r></p></e>
+    </pardef>
+
+    <pardef n="ڏس/ڻ__vblex_tv">
+      <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Interjections -->
@@ -640,6 +653,9 @@
 
     <e lm="ٿو"><i/><par n="/ٿو__vbcop"/></e>
     <e lm=""><i/><par n="copula__vblex"/></e>
+
+    <e lm="سمھڻ"><i>سمھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڏسڻ"><i>ڏس</i><par n="ڏس/ڻ__vblex_tv"/></e>
 
     <!-- SECTION: Interjections -->
 
