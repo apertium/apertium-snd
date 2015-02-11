@@ -188,14 +188,16 @@
 
     <pardef n="ڇوڪر/و__n_m" c="I">
       <e><p><l>و</l><r>و<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ی</l><r>و<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+<!--      <e><p><l>ی</l><r>و<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e> -->
+      <e><p><l>ي</l><r>و<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>ا</l><r>و<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ن</l><r>و<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="ڪارخان/و__n_f" c="II">
       <e><p><l>و</l><r>و<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ى</l><r>و<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+<!--      <e><p><l>ى</l><r>و<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>-->
+      <e><p><l>ي</l><r>و<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>ا</l><r>و<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ن</l><r>و<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
@@ -207,7 +209,7 @@
       <e><p><l>ن</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
-    <pardef n="ٻيڙي__n_f" c="IV">
+    <pardef n="ٻيڙي__n_f" c="IV"> <!-- BIG BOSS IS WATCHING YOU -->
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -221,6 +223,7 @@
       <e><p><l>ن</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
+<!-- no token found, which'd fall into this paradigm
     <pardef n="__n_f" c="VI">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
@@ -234,7 +237,7 @@
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
-
+-->
     <pardef n="ھوا__n_m" c="VIII"> <!-- FIXME: Check gender -->
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
@@ -249,13 +252,6 @@
       <e><p><l>ن</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
-    <pardef n="__n_m" c="X">
-      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-    </pardef>
-
     <pardef n="ڀي/ڻ__n_f" c="XI">
       <e><p><l>ڻ</l><r>ڻ<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ڻ</l><r>ڻ<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
@@ -263,14 +259,14 @@
       <e><p><l>نرن</l><r>ڻ<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
-    <pardef n="دريا__n_m" c="XII">
+    <pardef n="دريا__n_m" c="XII"> <!-- Big boss is watching you -->
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>۶ن</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>ء</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
-    <pardef n="وڻ__n_m" c="XIII">
+    <pardef n="سج__n_m" c="XIII">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -283,25 +279,26 @@
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
-
+    <!-- Verify the 3 manual ones below, once again sometime  -->
     <pardef n="ڇوڪري__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>ون</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-    </pardef>
-
-    <pardef n="پکي__n_m">
-      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ون</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="ھفت/و__n_m">
-      <e><p><l>و</l><r>و<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ا</l><r>و<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>و</l><r>و<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ي</l><r>و<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+        <e><p><l>ا</l><r>و<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>ن</l><r>و<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="رات__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>يون</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ين</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>يون</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Proper nouns -->
@@ -315,6 +312,7 @@
 
     <pardef n="ڪراچي__np">
 	<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/></r></p></e>
+	<e r="LR"><p><l>ء</l><r><s n="np"/><s n="top"/><s n="sg"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Adjectives -->
@@ -480,9 +478,8 @@
 
     <e lm="دوست"><i>دوست</i><par n="دوست__n_m"/></e>
     <e lm="امام"><i>امام</i><par n="دوست__n_m"/></e>
-    <e lm="ٻار"><i>ٻار</i><par n="دوست__n_m"/></e>
-    <e lm="دوست"><i>دوست</i><par n="دوست__n_m"/></e>
-    <e lm="سپاهي"><i>سپاهي</i><par n="دوست__n_m"/></e>
+    <e lm="ٻار"><i>ٻار</i><par n="ڪتاب__n_m"/></e>
+    <e lm="سپاهي"><i>سپاهي</i><par n="ڪتاب__n_m"/></e>
     <e lm="پريسٽ"><i>پريسٽ</i><par n="دوست__n_m"/></e>
     <e lm="هوٽل"><i>هوٽل</i><par n="دوست__n_m"/></e>
     <e lm="پٿر"><i>پٿر</i><par n="دوست__n_m"/></e>
@@ -494,11 +491,11 @@
 
     <e lm="ٻيڙي"><i>ٻيڙي</i><par n="ٻيڙي__n_f"/></e>
     <e lm="اخبار"><i>اخبار</i><par n="ٻيڙي__n_f"/></e>
-    <e lm="جوراب"><i>جوراب</i><par n="ٻيڙي__n_f"/></e>
-    <e lm="ميز"><i>ميز</i><par n="ٻيڙي__n_f"/></e>
-    <e lm="شراب"><i>شراب</i><par n="ٻيڙي__n_f"/></e>
+<!--    <e lm="جوراب"><i>جوراب</i><par n="ٻيڙي__n_f"/></e> -->
+<!--    <e lm="ميز"><i>ميز</i><par n="ٻيڙي__n_f"/></e>  -->
+<!--    <e lm="شراب"><i>شراب</i><par n="ٻيڙي__n_f"/></e> --> 
     <e lm="گاھ"><i>گاھ</i><par n="ٻيڙي__n_f"/></e>
-    <e lm="ڪنڌ"><i>ڪنڌ</i><par n="ٻيڙي__n_f"/></e>
+<!--    <e lm="ڪنڌ"><i>ڪنڌ</i><par n="ٻيڙي__n_f"/></e> -->
 
     <e lm="زال"><i>زال</i><par n="زال__n_f"/></e>
     <e lm="ڇوڪري"><i>ڇوڪري</i><par n="زال__n_f"/></e>
@@ -571,16 +568,17 @@
     <e lm="ڪوڙو"><i>ڪوڙ</i><par n="ڇوڪر/و__n_m"/></e>
 
 
-    <e lm="پکي"><i>پکي</i><par n="پکي__n_m"/></e>
+    <e lm="پکي"><i>پکي</i><par n="ڇوڪري__n_f"/></e>
 
     <e lm="ھفتو"><i>ھفت</i><par n="ھفت/و__n_m"/></e>
 
     <e lm="رات"><i>رات</i><par n="رات__n_f"/></e>
 
+<!--prolly incorrect paradigm
+    <e lm="بندر"><i>بندر</i><par n="ھوا__n_m"/></e> 
+    <e lm="ٽڪري"><i>ٽڪري</i><par n="ھوا__n_m"/></e> -->
     <e lm="ھوا"><i>ھوا</i><par n="ھوا__n_m"/></e>
-    <e lm="بندر"><i>بندر</i><par n="ھوا__n_m"/></e>
     <e lm="محبت"><i>محبت</i><par n="ھوا__n_m"/></e>
-    <e lm="ٽڪري"><i>ٽڪري</i><par n="ھوا__n_m"/></e>
     <e lm="زمين"><i>زمين</i><par n="ھوا__n_m"/></e>
     <e lm="زبان"><i>زبان</i><par n="ھوا__n_m"/></e>
 
@@ -646,30 +644,30 @@
     <e lm="سوال"><i>سوال</i><par n="ڪتاب__n_m"/></e>
     <e lm="سبب"><i>سبب</i><par n="ڪتاب__n_m"/></e>
 
-    <e lm="فن"><i>فن</i><par n="وڻ__n_m"/></e>
-    <e lm="مکڻ"><i>مکڻ</i><par n="وڻ__n_m"/></e>
-    <e lm="ثمر"><i>ثمر</i><par n="وڻ__n_m"/></e>
-    <e lm="سون"><i>سون</i><par n="وڻ__n_m"/></e>
-    <e lm="کير"><i>کير</i><par n="وڻ__n_m"/></e>
-    <e lm="چنڊ"><i>چنڊ</i><par n="وڻ__n_m"/></e>
-    <e lm="پئرس"><i>پئرس</i><par n="وڻ__n_m"/></e>
-    <e lm="امن"><i>امن</i><par n="وڻ__n_m"/></e>
-    <e lm="مڙندڙ"><i>مڙندڙ</i><par n="وڻ__n_m"/></e>
-    <e lm="رٻڙ"><i>رٻڙ</i><par n="وڻ__n_m"/></e>
-    <e lm="سائنس"><i>سائنس</i><par n="وڻ__n_m"/></e>
-    <e lm="اسٽيل"><i>اسٽيل</i><par n="وڻ__n_m"/></e>
-    <e lm="سج"><i>سج</i><par n="وڻ__n_m"/></e>
-    <e lm="وڻ"><i>وڻ</i><par n="وڻ__n_m"/></e>
-    <e lm="ڪاٺ"><i>ڪاٺ</i><par n="وڻ__n_m"/></e>
-    <e lm="ڀؤنڪڻ"><i>ڀؤنڪڻ</i><par n="وڻ__n_m"/></e>
-    <e lm="رت"><i>رت</i><par n="وڻ__n_m"/></e>
-    <e lm="ڏينهن"><i>ڏينهن</i><par n="وڻ__n_m"/></e>
-    <e lm="کنڀ"><i>کنڀ</i><par n="وڻ__n_m"/></e>
-    <e lm="ماڪ"><i>ماڪ</i><par n="وڻ__n_m"/></e>
-    <e lm="سڱ"><i>سڱ</i><par n="وڻ__n_m"/></e>
-    <e lm="دونھو"><i>دونھو</i><par n="وڻ__n_m"/></e>
-    <e lm="برف"><i>برف</i><par n="وڻ__n_m"/></e>
-    <e lm="پڇ"><i>پڇ</i><par n="وڻ__n_m"/></e>
+    <e lm="فن"><i>فن</i><par n="سج__n_m"/></e>
+    <e lm="مکڻ"><i>مکڻ</i><par n="سج__n_m"/></e>
+    <e lm="ثمر"><i>ثمر</i><par n="سج__n_m"/></e>
+<!-- GOld, find paradigm	<e lm="سون"><i>سون</i><par n="ھفت/و__n_m"/></e> -->
+    <e lm="کير"><i>کير</i><par n="سج__n_m"/></e>
+    <e lm="چنڊ"><i>چنڊ</i><par n="سج__n_m"/></e>
+    <e lm="پئرس"><i>پئرس</i><par n="سج__n_m"/></e>
+    <e lm="امن"><i>امن</i><par n="سج__n_m"/></e>
+    <e lm="مڙندڙ"><i>مڙندڙ</i><par n="سج__n_m"/></e>
+    <e lm="رٻڙ"><i>رٻڙ</i><par n="سج__n_m"/></e>
+    <e lm="سائنس"><i>سائنس</i><par n="سج__n_m"/></e>
+    <e lm="اسٽيل"><i>اسٽيل</i><par n="سج__n_m"/></e>
+    <e lm="سج"><i>سج</i><par n="سج__n_m"/></e>
+    <e lm="وڻ"><i>وڻ</i><par n="ڪتاب__n_m"/></e>
+    <e lm="ڪاٺ"><i>ڪاٺ</i><par n="سج__n_m"/></e>
+    <e lm="ڀؤنڪڻ"><i>ڀؤنڪڻ</i><par n="سج__n_m"/></e>
+    <e lm="رت"><i>رت</i><par n="سج__n_m"/></e>
+    <e lm="ڏينهن"><i>ڏينهن</i><par n="سج__n_m"/></e>
+    <e lm="کنڀ"><i>کنڀ</i><par n="سج__n_m"/></e>
+    <e lm="ماڪ"><i>ماڪ</i><par n="سج__n_m"/></e>
+    <e lm="سڱ"><i>سڱ</i><par n="سج__n_m"/></e>
+    <e lm="دونھو"><i>دونھو</i><par n="سج__n_m"/></e>
+    <e lm="برف"><i>برف</i><par n="سج__n_m"/></e>
+    <e lm="پڇ"><i>پڇ</i><par n="سج__n_m"/></e>
 
 
     <e lm="پنير"><i>پنير</i><par n="قلم__n_f"/></e>
