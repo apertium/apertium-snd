@@ -9,6 +9,7 @@
     <sdef n="post"    c="Postposition"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="prn"     c="Pronoun"/>
+    <sdef n="np"      c="Proper noun"/>
     <sdef n="adv"     c="Adverb"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
@@ -29,9 +30,11 @@
     <sdef n="sg"      c="Singular"/>
     <sdef n="pl"      c="Plural"/>
 
-    <sdef n="nom"     c="Direct"/>
+    <sdef n="nom"     c="Nominative"/>
     <sdef n="obl"     c="Oblique"/>
     <sdef n="gen"     c="Genitive"/>
+
+    <sdef n="top"     c="Toponym"/>
 
     <sdef n="pers"    c="Personal"/>
     <sdef n="pos"     c="Possessive"/>
@@ -302,6 +305,13 @@
     </pardef>
 
     <!-- SECTION: Proper nouns -->
+
+    <pardef n="پاڪستان__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ي</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ين</l><r><s n="np"/><s n="top"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Adjectives -->
 
@@ -678,6 +688,13 @@
 
 
     <!-- SECTION: Proper nouns -->
+
+    <e lm="پاڪستان"><i>پاڪستان</i><par n="پاڪستان__np"/></e>
+    <e lm="هندستان"><i>هندستان</i><par n="پاڪستان__np"/></e>
+    <e lm="هندستان" r="LR"><p><l>هندوستان</l><r>هندستان</r></p><par n="پاڪستان__np"/></e>
+    <e lm="بلوچستان"><i>بلوچستان</i><par n="پاڪستان__np"/></e>
+    <e lm="افغانستان"><i>افغانستان</i><par n="پاڪستان__np"/></e>
+    <e lm="انگلستان"><i>انگلستان</i><par n="پاڪستان__np"/></e>
 
     <!-- SECTION: Adjectives -->
 
