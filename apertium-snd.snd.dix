@@ -5,6 +5,7 @@
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="post"    c="Postposition"/>
+    <sdef n="genpost" c="Postposition"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="prn"     c="Pronoun"/>
     <sdef n="adv"     c="Adverb"/>
@@ -25,7 +26,7 @@
 
     <sdef n="nom"     c="Direct"/>
     <sdef n="obl"     c="Oblique"/>
-    <sdef n="abl"     c="Ablative"/>
+    <sdef n="gen"     c="Genitive"/>
 
     <sdef n="pers"    c="Personal"/>
     <sdef n="pos"     c="Possessive"/>
@@ -95,6 +96,17 @@
 
     <pardef n="کان__post">
       <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>
+
+    <pardef n="ج/ي__gen">
+      <e><p><l>و</l><r>ي<s n="gen"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ي</l><r>ي<s n="gen"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ا</l><r>ي<s n="gen"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ن</l><r>ي<s n="gen"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ي</l><r>ي<s n="gen"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ي</l><r>ي<s n="gen"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>وُن</l><r>ي<s n="gen"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ن</l><r>ي<s n="gen"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Pronouns -->
@@ -295,6 +307,8 @@
     <e lm="یا"><i>یا</i><par n="مگر__cnjcoo"/></e>
 
     <!-- SECTION: Postpositions -->
+
+    <e lm="جي"><i>ج</i><par n="ج/ي__gen"/></e>
 
     <e lm="کان"><i>کان</i><par n="کان__post"/></e>
     <e lm="کون"><i>کون</i><par n="کان__post"/></e>
