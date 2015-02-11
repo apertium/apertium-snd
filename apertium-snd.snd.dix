@@ -12,6 +12,7 @@
     <sdef n="adv"     c="Adverb"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
 
     <sdef n="p1"      c="First person"/>
     <sdef n="p2"      c="Second person"/>
@@ -93,6 +94,12 @@
 
     <pardef n="مگر__cnjcoo">
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Subordinating Conjunctions -->
+
+    <pardef n="اگر__cnjsub">
+      <e><p><l></l><r><s n="cnjsub"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Postpositions -->
@@ -293,7 +300,6 @@
 
     <pardef n="هاڻي__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
-    </pardef>
 
     <!-- SECTION: Verbs -->
 
@@ -301,6 +307,7 @@
       <e><p><l>ٿو</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ٿي</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ٿا</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
       <e><p><l>ٿيون</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
@@ -315,6 +322,15 @@
     <e lm="مگر"><i>مگر</i><par n="مگر__cnjcoo"/></e>
     <e lm="۽"><i>۽</i><par n="مگر__cnjcoo"/></e>
     <e lm="یا"><i>یا</i><par n="مگر__cnjcoo"/></e>
+    <e lm="پر"><i>پر</i><par n="مگر__cnjcoo"/></e>
+    <e lm="جيڪڏهن"><i>جيڪڏهن</i><par n="مگر__cnjcoo"/></e>
+
+    <!-- SECTION: Sub-ordinating Conjunctions -->
+    <e lm="ت"><i>ت</i><par n="اگر__cnjsub"/></e>
+    <e lm="جڏهين"><i>جڏهين</i><par n="اگر__cnjsub"/></e>
+    <e lm="تڏهن"><i>تڏهن</i><par n="اگر__cnjsub"/></e>
+    <e lm="جيڪر"><i>جيڪر</i><par n="اگر__cnjsub"/></e>
+    <e lm="اگر"><i>اگر</i><par n="اگر__cnjsub"/></e>
 
     <!-- SECTION: Postpositions -->
 
