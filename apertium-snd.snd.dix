@@ -37,6 +37,7 @@
     <sdef n="pos"     c="Possessive"/>
 
     <sdef n="inf"     c="Infinitive"/> <!-- FIXME: Check this -->
+    <sdef n="pprs"    c="Present participle"/>
 
     <sdef n="pres"    c="Present"/>
 
@@ -331,6 +332,9 @@
 
     <pardef n="ڏس/ڻ__vblex_tv">
       <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
+
+      <e><p><l>ندو</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pprs"/><s n="sg"/></r></p></e>
+      <e><p><l>ندا</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pprs"/><s n="pl"/></r></p></e>
   
       <e><p><l>ان</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ين</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
