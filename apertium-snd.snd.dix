@@ -331,6 +331,13 @@
 
     <pardef n="ڏس/ڻ__vblex_tv">
       <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
+  
+      <e><p><l>ان</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ين</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ون</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>و</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Interjections -->
