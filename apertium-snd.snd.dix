@@ -334,7 +334,6 @@
     <e lm="پر"><i>پر</i><par n="مگر__cnjcoo"/></e>
     <e lm="جيڪڏهن"><i>جيڪڏهن</i><par n="مگر__cnjcoo"/></e>
 
-    <!-- SECTION: Sub-ordinating Conjunctions -->
     <e lm="ت"><i>ت</i><par n="اگر__cnjsub"/></e>
     <e lm="جڏهين"><i>جڏهين</i><par n="اگر__cnjsub"/></e>
     <e lm="تڏهن"><i>تڏهن</i><par n="اگر__cnjsub"/></e>
