@@ -4,9 +4,9 @@
 
   <sdefs>
     <sdef n="n"       c="Noun"/>
+    <sdef n="vblex"   c="Verb"/>
     <sdef n="vbcop"   c="Copula verb"/>
     <sdef n="post"    c="Postposition"/>
-    <sdef n="genpost" c="Postposition"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="prn"     c="Pronoun"/>
     <sdef n="adv"     c="Adverb"/>
@@ -300,15 +300,24 @@
 
     <pardef n="هاڻي__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Verbs -->
 
-    <pardef n="/ٿو__vbcop">
+    <pardef n="/ٿو__vbcop"> <!-- FIXME: Check the lemma -->
       <e><p><l>ٿو</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ٿي</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ٿا</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="pl"/></r></p></e>
-    </pardef>
       <e><p><l>ٿيون</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="copula__vblex"> <!-- FIXME: Check the lemma -->
+      <e><p><l>آهيان</l><r>copula<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>آهين</l><r>copula<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>آهي</l><r>copula<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>آهيون</l><r>copula<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>آهيو</l><r>copula<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>آهن</l><r>copula<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Interjections -->
@@ -631,6 +640,7 @@
     <!-- SECTION: Verbs -->
 
     <e lm="ٿو"><i/><par n="/ٿو__vbcop"/></e>
+    <e lm=""><i/><par n="copula__vblex"/></e>
 
     <!-- SECTION: Interjections -->
 
