@@ -4,6 +4,7 @@
 
   <sdefs>
     <sdef n="n"       c="Noun"/>
+    <sdef n="vbcop"   c="Copula verb"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="genpost" c="Postposition"/>
     <sdef n="det"     c="Determiner"/>
@@ -30,6 +31,8 @@
 
     <sdef n="pers"    c="Personal"/>
     <sdef n="pos"     c="Possessive"/>
+
+    <sdef n="pres"    c="Present"/>
 
     <sdef n="percent" c="Percent"/>
     <sdef n="year"    c=""/>
@@ -293,6 +296,13 @@
     </pardef>
 
     <!-- SECTION: Verbs -->
+
+    <pardef n="/ٿو__vbcop">
+      <e><p><l>ٿو</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿي</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿا</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ٿيون</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Interjections -->
     
@@ -603,6 +613,8 @@
 
  
     <!-- SECTION: Verbs -->
+
+    <e lm="ٿو"><i/><par n="/ٿو__vbcop"/></e>
 
     <!-- SECTION: Interjections -->
 
