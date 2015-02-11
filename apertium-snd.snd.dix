@@ -150,7 +150,8 @@
     </pardef>
 
     <pardef n="ه/وُ__prn">
-      <e><p><l>وُ</l><r>وُ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>وُ</l><r>وُ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>و</l><r>وُ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>نکي</l><r>وُ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="obl"/></r></p></e>
     </pardef>
 
