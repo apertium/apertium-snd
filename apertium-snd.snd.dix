@@ -38,6 +38,7 @@
 
     <sdef n="inf"     c="Infinitive"/> <!-- FIXME: Check this -->
     <sdef n="pprs"    c="Present participle"/>
+    <sdef n="pp"      c="Past participle"/>
 
     <sdef n="pres"    c="Present"/>
 
