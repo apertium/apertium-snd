@@ -41,6 +41,7 @@
     <sdef n="pp"      c="Past participle"/>
 
     <sdef n="pres"    c="Present"/>
+    <sdef n="past"    c="Past"/>
 
     <sdef n="percent" c="Percent"/>
     <sdef n="year"    c=""/>
@@ -343,6 +344,13 @@
       <e><p><l>ون</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>و</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ن</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>دم</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+<!--      <e><p><l></l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>-->
     </pardef>
 
     <!-- SECTION: Interjections -->
