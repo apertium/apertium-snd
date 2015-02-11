@@ -333,27 +333,26 @@
       <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="inf"/></r></p></e>
     </pardef>
 
-     <pardef n="ڳالهاي/ڻ__vblex_tv">
-       <e><p><l>ئڻ</l><r>يڻ<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
+    <pardef n="ڳالهائ/ڻ__vblex_tv">
+      <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
 
-       <e><p><l>ندو</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pprs"/><s n="sg"/></r></p></e>
-       <e><p><l>ندا</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pprs"/><s n="pl"/></r></p></e>
+      <e><p><l>ندو</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pprs"/><s n="sg"/></r></p></e>
+      <e><p><l>ندا</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pprs"/><s n="pl"/></r></p></e>
  
-       <e><p><l>ان</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-       <e><p><l>ين</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-       <e><p><l>ي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-       <e><p><l>ون</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-       <e><p><l>يو</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-       <e><p><l>ن</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-<!--
-<e><p><l>ان</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>ين</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>ي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>ون</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>يو</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
-<e><p><l>ن</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
--->
-</pardef>
+      <e><p><l>ان</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ين</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ون</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>يو</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+<!--  <e><p><l>ان</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ين</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ون</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>يو</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>-->
+    </pardef>
 
     <pardef n="ڏس/ڻ__vblex_tv">
       <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
@@ -369,7 +368,7 @@
       <e><p><l>ن</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>دم</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-<!--      <e><p><l></l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+<!--  <e><p><l></l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l></l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l></l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l></l><r>ڻ<s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -699,7 +698,7 @@
 
     <e lm="سمھڻ"><i>سمھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="ڏسڻ"><i>ڏس</i><par n="ڏس/ڻ__vblex_tv"/></e>
-    <e lm="ڳالهايڻ"><i>ڳالهاي</i><par n="ڳالهاي/ڻ__vblex_tv"/></e>
+    <e lm="ڳالهائڻ"><i>ڳالهائ</i><par n="ڳالهائ/ڻ__vblex_tv"/></e>
 
 
     <!-- SECTION: Interjections -->
