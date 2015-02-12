@@ -12,6 +12,7 @@
     <sdef n="np"      c="Proper noun"/>
     <sdef n="adv"     c="Adverb"/>
     <sdef n="num"     c="Numeral"/>
+    <sdef n="ord"     c="Ordinal"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
     <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
 
@@ -180,9 +181,20 @@
 
     <!-- SECTION: Numerals -->
 
-    <pardef n="ست__num"> <!-- FIXME: check paradigm for agreement patterns -->
+    <pardef n="ست__num">
+      <e><p><l>ون</l><r>ن<s n="num"/><s n="ord"/><s n ="m"/></r></p></e>  <!-- FIXME : Discuss the case -->
+      <e><p><l>ون</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
+      <e><p><l>ي</l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
+
       <e><p><l></l><r><s n="num"/></r></p></e>
+      <e r="LR"><p><l>ه</l><r><s n="num"/></r></p></e>
     </pardef>
+
+    <pardef n="پهريون__ord">
+	<e><p><l>ون</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
+	<e><p><l>ي</l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Nouns -->
 
@@ -468,11 +480,48 @@
     <e lm="پنهنجي"><i>پنهنج</i><par n="منهنج/و__det"/></e>
 
     <!-- SECTION: Numerals -->
+<!-- 1-10 -->
+     <e lm="هڪ"><i>هڪ</i><par n="ست__num"/></e>
+     <e lm="ٻ"><i>ٻ</i><par n="ست__num"/></e>
+     <e lm="ٽي"><i>ٽي</i><par n="ست__num"/></e>
+     <e lm="چار"><i>چار</i><par n="ست__num"/></e>
+     <e lm="پنج"><i>پنج</i><par n="ست__num"/></e>
+     <e lm="ڇھ"><i>ڇھ</i><par n="ست__num"/></e>
+     <e lm="ست"><i>ست</i><par n="ست__num"/></e>
+     <e lm="اٺ"><i>اٺ</i><par n="ست__num"/></e>
+     <e lm="نو"><i>نو</i><par n="ست__num"/></e>
+     <e lm="ڏھ"><i>ڏھ</i><par n="ست__num"/></e>
+<!-- 11-20 -->
+     <e lm="يارنهن"><i>يارنهن</i><par n="ست__num"/></e>
+     <e lm="ٻارنهن"><i>ٻارنهن</i><par n="ست__num"/></e>
+     <e lm="تيرنهن"><i>تيرنهن</i><par n="ست__num"/></e>
+     <e lm="چوڏنهن"><i>چوڏنهن</i><par n="ست__num"/></e>
+     <e lm="پندرنهن"><i>پندرنهن</i><par n="ست__num"/></e>
+     <e lm="سورنهن"><i>سورنهن</i><par n="ست__num"/></e>
+     <e lm="سترنهن"><i>سترنهن</i><par n="ست__num"/></e>
+     <e lm="ارڙنهن"><i>ارڙنهن</i><par n="ست__num"/></e>
+     <e lm="اوڻيھ"><i>اوڻيھ</i><par n="ست__num"/></e>
+     <e lm="ويھ"><i>ويھ</i><par n="ست__num"/></e>
 
-    <e lm="ٽي"><i>ٽي</i><par n="ست__num"/></e>
-    <e lm="چار"><i>چار</i><par n="ست__num"/></e>
-    <e lm="پنج"><i>پنج</i><par n="ست__num"/></e>
-    <e lm="ست"><i>ست</i><par n="ست__num"/></e>
+<!--multiples of 10-->
+     <e lm="ٽيھ"><i>ٽيھ</i><par n="ست__num"/></e>
+     <e lm="چاليھ"><i>چاليھ</i><par n="ست__num"/></e>
+     <e lm="پنجاھ"><i>پنجاھ</i><par n="ست__num"/></e>
+     <e lm="سٺ"><i>سٺ</i><par n="ست__num"/></e>
+     <e lm="ستر"><i>ستر</i><par n="ست__num"/></e>
+     <e lm="اسي"><i>اَسي</i><par n="ست__num"/></e>
+     <e lm="نوَي"><i>نوَي</i><par n="ست__num"/></e>
+     <e lm="ھزار"><i>ھزار</i><par n="ست__num"/></e>
+     <e lm="لک"><i>لک</i><par n="ست__num"/></e>
+     <e lm="ڪروڙ"><i>ڪروڙ</i><par n="ست__num"/></e>
+
+     <e lm="سو"><i>سو</i><par n="ست__num"/></e>
+     <e lm="سئو"><i>سئو</i><par n="ست__num"/></e>
+<!-- ordinals -->
+     <e lm="پهريون"><i>پهري</i><par n="پهريون__ord"/></e>
+     <e lm="چوٿون"><i>چوٿ</i><par n="پهريون__ord"/></e>
+     <e lm="ٻيون"><i>ٻي</i><par n="پهريون__ord"/></e>
+     <e lm="نائون"><i>نائ</i><par n="پهريون__ord"/></e>
 
     <!-- SECTION: Nouns -->
 
@@ -650,6 +699,15 @@
     <e lm="اصول"><i>اصول</i><par n="ڪتاب__n_m"/></e>
     <e lm="سوال"><i>سوال</i><par n="ڪتاب__n_m"/></e>
     <e lm="سبب"><i>سبب</i><par n="ڪتاب__n_m"/></e>
+<!-- days & months-->
+    <e lm="سومر"><i>سومر</i><par n="سج__n_m"/></e>
+    <e lm="اڱارو"><i>اڱارو</i><par n="سج__n_m"/></e>
+    <e lm="اربع"><i>اربع</i><par n="سج__n_m"/></e>
+    <e lm="خميس"><i>خميس</i><par n="سج__n_m"/></e>
+    <e lm="جمعو"><i>جمعو</i><par n="سج__n_m"/></e>
+    <e lm="ڇنڇر"><i>ڇنڇر</i><par n="سج__n_m"/></e>
+    <e lm="آچر"><i>آچر</i><par n="سج__n_m"/></e>
+
 
     <e lm="طور"><i>طور</i><par n="سج__n_m"/></e>
     <e lm="ڪم"><i>ڪم</i><par n="سج__n_m"/></e>
