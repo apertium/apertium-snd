@@ -349,6 +349,16 @@
       <e><p><l>ون</l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
+    <pardef n="تمام__adj">
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Adverbs -->
 
@@ -780,6 +790,7 @@
 
     <e lm="پنير"><i>پنير</i><par n="قلم__n_f"/></e>
     <e lm="سنگيت"><i>سنگيت</i><par n="قلم__n_f"/></e>
+    <e lm="سياست"><i>سياست</i><par n="قلم__n_f"/></e>
     <e lm="قلم"><i>قلم</i><par n="قلم__n_f"/></e>
     <e lm="ڇت"><i>ڇت</i><par n="قلم__n_f"/></e>
     <e lm="سمنڊ"><i>سمنڊ</i><par n="قلم__n_f"/></e>
@@ -816,7 +827,7 @@
     <e lm="ننڍڙو"><i>ننڍڙ</i><par n="سٺ/و__adj"/></e>
     <e lm="ننڍو"><i>ننڍ</i><par n="سٺ/و__adj"/></e>
     <e lm="سولو"><i>سول</i><par n="سٺ/و__adj"/></e>
-
+    <e lm="ٿڌو"><i>ٿڌ</i><par n="سٺ/و__adj"/></e>
 <!--colors-->
     <e lm="ڪارو"><i>ڪار</i><par n="سٺ/و__adj"/></e>
     <e lm="ڳاڙهو"><i>ڳاڙه</i><par n="سٺ/و__adj"/></e>
@@ -826,6 +837,7 @@
     <e lm="اَڇو"><i>اَڇ</i><par n="سٺ/و__adj"/></e>
     <e lm="ڦڪو"><i>ڦڪ</i><par n="سٺ/و__adj"/></e>
     <e lm="ڀورو"><i>ڀور</i><par n="سٺ/و__adj"/></e>
+    <e lm="اهڙو"><i>اهڙ</i><par n="سٺ/و__adj"/></e>
 
     <e lm="سليٽي"><i>سليٽي</i><par n="نارنگي__adj"/></e>
     <e lm="گلابي"><i>گلابي</i><par n="نارنگي__adj"/></e>
@@ -833,9 +845,14 @@
     <e lm="نارنگي"><i>نارنگي</i><par n="نارنگي__adj"/></e>
     <e lm="ناسي"><i>ناسي</i><par n="نارنگي__adj"/></e>
     <e lm="فيروزي"><i>فيروزي</i><par n="نارنگي__adj"/></e>
+    <e lm="سياسي"><i>سياسي</i><par n="نارنگي__adj"/></e>
+
+<!--non inflecting adjs-->
+    <e lm="تمام"><i>تمام</i><par n="تمام__adj"/></e>
+
 
     <!-- SECTION: Adverbs -->
-  
+
     <e lm="هاڻي"><i>هاڻي</i><par n="هاڻي__adv"/></e>
     <e lm="هاڻ"><i>هاڻ</i><par n="هاڻي__adv"/></e>
     <e lm="ستت"><i>ستت</i><par n="هاڻي__adv"/></e>
@@ -843,7 +860,7 @@
     <e lm="گڏوگڏ"><i>گڏوگڏ</i><par n="هاڻي__adv"/></e>
     <e lm="سدائين"><i>سدائين</i><par n="هاڻي__adv"/></e>
     <e lm="ورلي"><i>ورلي</i><par n="هاڻي__adv"/></e>
-
+    <e lm="وڌيڪ"><i>وڌيڪ</i><par n="هاڻي__adv"/></e>
 
  
     <!-- SECTION: Verbs -->
