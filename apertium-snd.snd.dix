@@ -11,6 +11,7 @@
     <sdef n="prn"     c="Pronoun"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="adv"     c="Adverb"/>
+    <sdef n="adj"     c="Adjective"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="ord"     c="Ordinal"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
@@ -328,6 +329,26 @@
     </pardef>
 
     <!-- SECTION: Adjectives -->
+
+    <pardef n="سٺ/و__adj">
+      <e><p><l>و</l><r>و<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ي</l><r>و<s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ا</l><r>و<s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ن</l><r>و<s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+
+      <e><p><l>ي</l><r>و<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ي</l><r>و<s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>يون</l><r>و<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>يون</l><r>و<s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+    <pardef n="نارنگي__adj">
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ون</l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ون</l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Adverbs -->
 
@@ -661,6 +682,7 @@
 
     <e lm="ڇوڪري"><i>ڇوڪري</i><par n="ڇوڪري__n_f"/></e>
 
+    <e lm="گلاب"><i>گلاب</i><par n="ڪتاب__n_m"/></e>
     <e lm="ڪتاب"><i>ڪتاب</i><par n="ڪتاب__n_m"/></e>
     <e lm="جهاز"><i>جهاز</i><par n="ڪتاب__n_m"/></e>
     <e lm="صوف"><i>صوف</i><par n="ڪتاب__n_m"/></e>
@@ -787,6 +809,30 @@
     <e lm="ڪراچي"><i>ڪراچي</i><par n="ڪراچي__np"/></e>
 
     <!-- SECTION: Adjectives -->
+    <e lm="سٺو"><i>سٺ</i><par n="سٺ/و__adj"/></e>
+    <e lm="وڏو"><i>وڏ</i><par n="سٺ/و__adj"/></e>
+    <e lm="ڪڙو"><i>ڪڙ</i><par n="سٺ/و__adj"/></e>
+    <e lm="مهانگو"><i>مهانگ</i><par n="سٺ/و__adj"/></e>
+    <e lm="ننڍڙو"><i>ننڍڙ</i><par n="سٺ/و__adj"/></e>
+    <e lm="ننڍو"><i>ننڍ</i><par n="سٺ/و__adj"/></e>
+    <e lm="سولو"><i>سول</i><par n="سٺ/و__adj"/></e>
+
+<!--colors-->
+    <e lm="ڪارو"><i>ڪار</i><par n="سٺ/و__adj"/></e>
+    <e lm="ڳاڙهو"><i>ڳاڙه</i><par n="سٺ/و__adj"/></e>
+    <e lm="پيلو"><i>پيل</i><par n="سٺ/و__adj"/></e>
+    <e lm="سائو"><i>سائ</i><par n="سٺ/و__adj"/></e>
+    <e lm="نيرو"><i>نير</i><par n="سٺ/و__adj"/></e>
+    <e lm="اَڇو"><i>اَڇ</i><par n="سٺ/و__adj"/></e>
+    <e lm="ڦڪو"><i>ڦڪ</i><par n="سٺ/و__adj"/></e>
+    <e lm="ڀورو"><i>ڀور</i><par n="سٺ/و__adj"/></e>
+
+    <e lm="سليٽي"><i>سليٽي</i><par n="نارنگي__adj"/></e>
+    <e lm="گلابي"><i>گلابي</i><par n="نارنگي__adj"/></e>
+    <e lm="واڱڻائي"><i>واڱڻائي</i><par n="نارنگي__adj"/></e>
+    <e lm="نارنگي"><i>نارنگي</i><par n="نارنگي__adj"/></e>
+    <e lm="ناسي"><i>ناسي</i><par n="نارنگي__adj"/></e>
+    <e lm="فيروزي"><i>فيروزي</i><par n="نارنگي__adj"/></e>
 
     <!-- SECTION: Adverbs -->
   
