@@ -339,7 +339,7 @@
       <e><p><l>ي</l><r>و<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ي</l><r>و<s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>يون</l><r>و<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>يون</l><r>و<s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ين</l><r>و<s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="نارنگي__adj">
@@ -821,6 +821,9 @@
 
     <!-- SECTION: Adjectives -->
     <e lm="سٺو"><i>سٺ</i><par n="سٺ/و__adj"/></e>
+    <e lm="مٺو"><i>مٺ</i><par n="سٺ/و__adj"/></e>
+    <e lm="مٺڙو"><i>مٺڙ</i><par n="سٺ/و__adj"/></e>
+    <e lm="سهڻو"><i>سهڻ</i><par n="سٺ/و__adj"/></e>
     <e lm="وڏو"><i>وڏ</i><par n="سٺ/و__adj"/></e>
     <e lm="ڪڙو"><i>ڪڙ</i><par n="سٺ/و__adj"/></e>
     <e lm="مهانگو"><i>مهانگ</i><par n="سٺ/و__adj"/></e>
