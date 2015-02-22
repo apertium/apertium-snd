@@ -414,10 +414,10 @@
       <e><p><l>‫پيا‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>‫پيو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
 
-      <e><p><l>هوندي</l><r>copula<s n="vblex"/><s n="pp"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>هوندو</l><r>copula<s n="vblex"/><s n="pp"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>هوندي</l><r>copula<s n="vblex"/><s n="pp"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>هوندا</l><r>copula<s n="vblex"/><s n="pp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>هوندي</l><r>copula<s n="vblex"/><s n="pp"/><s n="sg"/></r></p></e>
+      <e><p><l>هوندو</l><r>copula<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>هوندي</l><r>copula<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>هوندا</l><r>copula<s n="vblex"/><s n="pp"/><s n="pl"/></r></p></e>
 
 <!-- to be done
       <e><p><l>‫پيو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p1"/><s n="m"><s n="sg"/></r></p></e>
