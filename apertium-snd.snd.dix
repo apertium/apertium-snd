@@ -388,6 +388,27 @@
       <e><p><l>آهيون</l><r>copula<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>آهيو</l><r>copula<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>آهن</l><r>copula<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>‫هو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>‫هوي‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>هئا‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>هوا‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>‫پيو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>‫پيا‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>‫پيو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+
+      <e><p><l>هوندي</l><r>copula<s n="vblex"/><s n="pp"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>هوندو</l><r>copula<s n="vblex"/><s n="pp"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>هوندي</l><r>copula<s n="vblex"/><s n="pp"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>هوندا</l><r>copula<s n="vblex"/><s n="pp"/><s n="p3"/><s n="pl"/></r></p></e>
+
+<!-- to be done
+      <e><p><l>‫پيو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p1"/><s n="m"><s n="sg"/></r></p></e>
+      <e><p><l>‫ھو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+-->
+
+
+
     </pardef>
 
     <pardef n="سمھ/ڻ__vblex_iv">
@@ -409,14 +430,14 @@
 
 <!--  <e><p><l>د</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>يندي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>يندي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="f"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>يندي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>يندو</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="m"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>يندا</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ييو</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="f"/><s n="p2"/><s n="pl"/></r></p></e>
 
 
       <e><p><l>ي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>يندي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="f"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>يندي</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
 
 -->
     </pardef>
@@ -763,6 +784,7 @@
     <e lm="اصول"><i>اصول</i><par n="ڪتاب__n_m"/></e>
     <e lm="سوال"><i>سوال</i><par n="ڪتاب__n_m"/></e>
     <e lm="سبب"><i>سبب</i><par n="ڪتاب__n_m"/></e>
+    <e lm="ڪمپيوٽر"><i>ڪمپيوٽر</i><par n="ڪتاب__n_m"/></e>
 <!-- days & months-->
     <e lm="سومر"><i>سومر</i><par n="سج__n_m"/></e>
     <e lm="اڱارو"><i>اڱارو</i><par n="سج__n_m"/></e>
