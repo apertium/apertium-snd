@@ -329,6 +329,14 @@
 	<e r="LR"><p><l>ء</l><r><s n="np"/><s n="top"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="mascName__np">
+	<e><p><l></l><r><s n="np"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="femName__np">
+	<e><p><l></l><r><s n="np"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Adjectives -->
 
     <pardef n="سٺ/و__adj">
@@ -375,10 +383,19 @@
       <e><p><l>ٿا</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ٿيون</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="pl"/></r></p></e>
 
+      <e><p><l>ٿيو</l><r>ٿو<s n="vbcop"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿيا</l><r>ٿو<s n="vbcop"/><s n="past"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ٿئي</l><r>ٿو<s n="vbcop"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+<!--pp & past for Feminine-->
+      <e><p><l>ٿيندو</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿيندا</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+
       <e><p><l>ٿيندو</l><r>ٿو<s n="vbcop"/><s n="fut"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ٿيندي</l><r>ٿو<s n="vbcop"/><s n="fut"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ٿيندا</l><r>ٿو<s n="vbcop"/><s n="fut"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ٿينديون</l><r>ٿو<s n="vbcop"/><s n="fut"/><s n="f"/><s n="pl"/></r></p></e>
+
+
     </pardef>
 
     <pardef n="copula__vblex"> <!-- FIXME: Check the lemma -->
@@ -413,6 +430,10 @@
 
     <pardef n="سمھ/ڻ__vblex_iv">
       <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="inf"/></r></p></e>
+    </pardef>
+
+    <pardef n="ڪر/ڻ__vblex_tv">
+      <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
     </pardef>
 
     <pardef n="ڳالهائ/ڻ__vblex_tv">
@@ -477,6 +498,7 @@
     <e lm="۽"><i>۽</i><par n="مگر__cnjcoo"/></e>
     <e lm="یا"><i>یا</i><par n="مگر__cnjcoo"/></e>
     <e lm="پر"><i>پر</i><par n="مگر__cnjcoo"/></e>
+    <e lm="يا"><i>يا</i><par n="مگر__cnjcoo"/></e>
     <e lm="جيڪڏهن"><i>جيڪڏهن</i><par n="مگر__cnjcoo"/></e>
 
     <e lm="ت"><i>ت</i><par n="اگر__cnjsub"/></e>
@@ -495,6 +517,8 @@
     <e lm="مان"><i>مان</i><par n="کان__post"/></e>
 
     <e lm="کي"><i>کي</i><par n="کان__post"/></e>
+    <e lm="ته"><i>ته</i><par n="کان__post"/></e>
+    <e lm="ت"><i>ت</i><par n="کان__post"/></e>
     <!--<e lm="جو"><i>جو</i><par n="کان__post"/></e>-->
     <e lm="سان"><i>سان</i><par n="کان__post"/></e>
     <!--<e lm="جي"><i>جي</i><par n="کان__post"/></e>-->
@@ -510,6 +534,7 @@
     <e lm="وانگر"><i>وانگر</i><par n="کان__post"/></e>
     <e lm="جهڙو"><i>جهڙو</i><par n="کان__post"/></e>
     <e lm="وانگر"><i>وانگر</i><par n="کان__post"/></e>
+    <e lm="مطابق"><i>مطابق</i><par n="کان__post"/></e>
     
     
     <e lm="گڏ"><i>گڏ</i><par n="کان__post"/></e> <!-- it means "साथ" -->
@@ -560,6 +585,8 @@
     <e lm="انهي جو"><i>انهي ج</i><par n="منهنج/و__det"/></e>
     <e lm="اسانجو"><i>اسانج</i><par n="منهنج/و__det"/></e>
     <e lm="انهن جو"><i>انهن ج</i><par n="منهنج/و__det"/></e>
+    <e lm="جنهن جو"><i>جنهن ج</i><par n="منهنج/و__det"/></e>
+
     <e lm="پنهنجي"><i>پنهنج</i><par n="منهنج/و__det"/></e>
 
     <!-- SECTION: Numerals -->
@@ -855,6 +882,10 @@
     <e lm="انگلستان"><i>انگلستان</i><par n="پاڪستان__np"/></e>
 	<!-- cities -->
     <e lm="ڪراچي"><i>ڪراچي</i><par n="ڪراچي__np"/></e>
+    <e lm="سنڌ"><i>سنڌ</i><par n="ڪراچي__np"/></e>
+
+<!-- names -->
+    <e lm="محمد"><i>محمد</i><par n="mascName__np"/></e>
 
     <!-- SECTION: Adjectives -->
     <e lm="سٺو"><i>سٺ</i><par n="سٺ/و__adj"/></e>
@@ -914,17 +945,18 @@
     <e lm="سدائين"><i>سدائين</i><par n="هاڻي__adv"/></e>
     <e lm="ورلي"><i>ورلي</i><par n="هاڻي__adv"/></e>
     <e lm="وڌيڪ"><i>وڌيڪ</i><par n="هاڻي__adv"/></e>
+    <e lm="به"><i>به</i><par n="هاڻي__adv"/></e>
+    <e lm="نه"><i>نه</i><par n="هاڻي__adv"/></e>
 
- 
     <!-- SECTION: Verbs -->
 
     <e lm="ٿو"><i/><par n="/ٿو__vbcop"/></e>
     <e lm=""><i/><par n="copula__vblex"/></e>
+    <e lm="ڪرڻ"><i>ڏس</i><par n="ڪر/ڻ__vblex_tv"/></e>
 
     <e lm="سمھڻ"><i>سمھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="ڏسڻ"><i>ڏس</i><par n="ڏس/ڻ__vblex_tv"/></e>
     <e lm="ڳالهائڻ"><i>ڳالهائ</i><par n="ڳالهائ/ڻ__vblex_tv"/></e>
-
 
     <!-- SECTION: Interjections -->
 
