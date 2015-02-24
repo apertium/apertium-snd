@@ -378,6 +378,8 @@
     <!-- SECTION: Verbs -->
 
     <pardef n="/ٿو__vbcop"> <!-- FIXME: Check the lemma -->
+      <e><p><l>ٿيڻ</l><r>ٿو<s n="vbcop"/><s n="inf"/></r></p></e>
+
       <e><p><l>ٿو</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ٿي</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ٿا</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="pl"/></r></p></e>
@@ -526,6 +528,7 @@
     <e lm="لاءِ"><i>لاءِ</i><par n="کان__post"/></e> <!-- "about/concerning" -->
     <!--<e lm="جا"><i>جا</i><par n="کان__post"/></e>-->
 
+    <e lm="خلاف"><i>خلاف</i><par n="کان__post"/></e>
     <e lm="بابت"><i>بابت</i><par n="کان__post"/></e> <!-- "about/concerning" -->
     <e lm="پاران"><i>پاران</i><par n="کان__post"/></e>
     <e lm="طرفان"><i>طرفان</i><par n="کان__post"/></e>
@@ -593,6 +596,7 @@
 <!-- 1-10 -->
      <e lm="هڪ"><i>هڪ</i><par n="ست__num"/></e>
      <e lm="ٻ"><i>ٻ</i><par n="ست__num"/></e>
+     <e lm="ٻه"><i>ٻه</i><par n="ست__num"/></e>
      <e lm="ٽي"><i>ٽي</i><par n="ست__num"/></e>
      <e lm="چار"><i>چار</i><par n="ست__num"/></e>
      <e lm="پنج"><i>پنج</i><par n="ست__num"/></e>
@@ -852,6 +856,7 @@
     <e lm="پڇ"><i>پڇ</i><par n="سج__n_m"/></e>
 
 
+    <e lm="دنيا"><i>دنيا</i><par n="قلم__n_f"/></e>
     <e lm="پنير"><i>پنير</i><par n="قلم__n_f"/></e>
     <e lm="سنگيت"><i>سنگيت</i><par n="قلم__n_f"/></e>
     <e lm="سياست"><i>سياست</i><par n="قلم__n_f"/></e>
@@ -883,9 +888,14 @@
 	<!-- cities -->
     <e lm="ڪراچي"><i>ڪراچي</i><par n="ڪراچي__np"/></e>
     <e lm="سنڌ"><i>سنڌ</i><par n="ڪراچي__np"/></e>
-
+    <e lm="حيدرآباد"><i>حيدرآباد</i><par n="ڪراچي__np"/></e>
 <!-- names -->
     <e lm="محمد"><i>محمد</i><par n="mascName__np"/></e>
+    <e lm="الله"><i>الله</i><par n="mascName__np"/></e>
+    <e lm="شاهه"><i>شاهه</i><par n="mascName__np"/></e>
+    <e lm="شاه"><i>شاه</i><par n="mascName__np"/></e>
+    <e lm="حضرت"><i>حضرت</i><par n="mascName__np"/></e>
+
 
     <!-- SECTION: Adjectives -->
     <e lm="سٺو"><i>سٺ</i><par n="سٺ/و__adj"/></e>
@@ -933,7 +943,8 @@
 
 <!--non inflecting adjs-->
     <e lm="تمام"><i>تمام</i><par n="تمام__adj"/></e>
-
+    <e lm="حاصل"><i>حاصل</i><par n="تمام__adj"/></e>
+    <e lm="مشهور"><i>مشهور</i><par n="تمام__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -947,6 +958,7 @@
     <e lm="وڌيڪ"><i>وڌيڪ</i><par n="هاڻي__adv"/></e>
     <e lm="به"><i>به</i><par n="هاڻي__adv"/></e>
     <e lm="نه"><i>نه</i><par n="هاڻي__adv"/></e>
+    <e lm="حاصل"><i>حاصل</i><par n="هاڻي__adv"/></e>
 
     <!-- SECTION: Verbs -->
 
