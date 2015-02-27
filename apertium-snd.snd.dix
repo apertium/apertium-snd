@@ -548,6 +548,7 @@
     <e lm="پر"><i>پر</i><par n="مگر__cnjcoo"/></e>
     <e lm="يا"><i>يا</i><par n="مگر__cnjcoo"/></e>
     <e lm="جيڪڏهن"><i>جيڪڏهن</i><par n="مگر__cnjcoo"/></e>
+    <e lm="ان ڪري"><i>ان<b/>ڪري</i><par n="مگر__cnjcoo"/></e>
 
     <e lm="ت"><i>ت</i><par n="اگر__cnjsub"/></e>
     <e lm="جڏهين"><i>جڏهين</i><par n="اگر__cnjsub"/></e>
@@ -623,6 +624,7 @@
     <e lm="توهان"><i>توهان</i><par n="توهان__prn"/></e>
     <e lm="اوهان"><i>اوهان</i><par n="اوهان__prn"/></e>
     <e lm="اسان"><i>اسان</i><par n="اسان__prn"/></e>
+    <e lm="ان"><i>ان</i><par n="اسان__prn"/></e>
 
 
    <!-- SECTION: Determiners -->
@@ -631,6 +633,7 @@
     <e lm="منهنجو"><i>منهنج</i><par n="منهنج/و__det"/></e>
     <e lm="توهانجو"><i>توهانج </i><par n="منهنج/و__det"/></e>
     <e lm="هن جو"><i>هن ج</i><par n="منهنج/و__det"/></e>
+    <e lm="ان جو"><i>ان ج</i><par n="منهنج/و__det"/></e>
     <e lm="انهي جو"><i>انهي ج</i><par n="منهنج/و__det"/></e>
     <e lm="اسانجو"><i>اسانج</i><par n="منهنج/و__det"/></e>
     <e lm="انهن جو"><i>انهن ج</i><par n="منهنج/و__det"/></e>
@@ -707,9 +710,10 @@
 <!--    <e lm="شراب"><i>شراب</i><par n="ٻيڙي__n_f"/></e> --> 
     <e lm="گاھ"><i>گاھ</i><par n="ٻيڙي__n_f"/></e>
 <!--    <e lm="ڪنڌ"><i>ڪنڌ</i><par n="ٻيڙي__n_f"/></e> -->
+    <e lm="ماءُ"><i>ماءُ</i><par n="ٻيڙي__n_f"/></e>
+
 
     <e lm="زال"><i>زال</i><par n="زال__n_f"/></e>
-
     <e lm="ڇوڪري"><i>ڇوڪري</i><par n="زال__n_f"/></e>
     <e lm="ٻلي"><i>ٻلي</i><par n="زال__n_f"/></e>
     <e lm="ڪرسي"><i>ڪرسي</i><par n="زال__n_f"/></e>
@@ -871,7 +875,7 @@
     <e lm="ڇنڇر"><i>ڇنڇر</i><par n="سج__n_m"/></e>
     <e lm="آچر"><i>آچر</i><par n="سج__n_m"/></e>
 
-
+    <e lm="فتح"><i>فتح</i><par n="سج__n_m"/></e>
     <e lm="طور"><i>طور</i><par n="سج__n_m"/></e>
     <e lm="ڪم"><i>ڪم</i><par n="سج__n_m"/></e>
     <e lm="اڄ"><i>اڄ</i><par n="سج__n_m"/></e>
@@ -941,8 +945,16 @@
     <e lm="شاهه"><i>شاهه</i><par n="mascName__np"/></e>
     <e lm="شاه"><i>شاه</i><par n="mascName__np"/></e>
     <e lm="حضرت"><i>حضرت</i><par n="mascName__np"/></e>
+    <e lm="علي"><i>علي</i><par n="mascName__np"/></e>
+    <e lm="فتح"><i>فتح</i><par n="mascName__np"/></e>
+    <e lm="مير"><i>مير</i><par n="mascName__np"/></e>
+    <e lm="عمر"><i>عمر</i><par n="mascName__np"/></e>
+    <e lm="مارئي"><i>مارئي</i><par n="mascName__np"/></e>
+    <e lm="ڀٽائي"><i>ڀٽائي</i><par n="mascName__np"/></e>
+    <e lm="عبداللطيف"><i>عبداللطيف</i><par n="mascName__np"/></e>
+    <e lm="عبدا"><i>عبدا</i><par n="mascName__np"/></e>
 
-
+    <e lm="بينظير"><i>بينظير</i><par n="femName__np"/></e>
     <!-- SECTION: Adjectives -->
     <e lm="سٺو"><i>سٺ</i><par n="سٺ/و__adj"/></e>
     <e lm="مٺو"><i>مٺ</i><par n="سٺ/و__adj"/></e>
@@ -1017,6 +1029,59 @@
     <e lm="پيئڻ"><i>پيئ</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="رھڻ"><i>رھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="پوڻ"><i>پو</i><par n="سمھ/ڻ__vblex_iv"/></e>
+
+    <e lm="مرڻ"><i>مر</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڊڄڻ"><i>ڊڄ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="رهڻ"><i>ره</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڊوڙڻ"><i>ڊوڙ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="چوڻ"><i>چو</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="وڪڻڻ"><i>وڪڻ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="موڪلڻ"><i>موڪل</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="سمھڻ"><i>سمھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڳالهائڻ"><i>ڳالهائ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="سيکارڻ"><i>سيکار</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="سمجھڻ"><i>سمجھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ھلڻ"><i>ھل</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="کٽڻ"><i>کٽ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="لکڻ"><i>لک</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="رکڻ"><i>رک</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="بيهڻ"><i>بيه</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="وڄڻ"><i>وڄ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="سڙڻ"><i>سڙ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="کوٽڻ"><i>کوٽ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڪرڻ"><i>ڪر</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ترڻ"><i>تر</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="وھڻ"><i>وھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="اڏامڻ"><i>اڏام</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڄمڻ"><i>ڄم</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="کلڻ"><i>کل</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="کيڏڻ"><i>کيڏ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="سبڻ"><i>سب</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڳائڻ"><i>ڳائ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ويهڻ"><i>ويه</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="سنگهڻ"><i>سنگه</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ٿڪڻ"><i>ٿڪ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="بيھڻ"><i>بيھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="سبڻ"><i>سب</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ترڻ"><i>تر</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="سوچڻ"><i>سوچ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="مڙڻ"><i>مڙ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڳڻڻ"><i>ڳڻ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڪٽڻ"><i>ڪٽ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڊڄڻ"><i>ڊڄ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="وڙھڻ"><i>وڙھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="مارڻ"><i>مار</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="جھلڻ"><i>جھل</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڇڪڻ"><i>ڇڪ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڌڪڻ"><i>ڌڪ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="مھٽڻ"><i>مھٽ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="کرچڻ"><i>کرچ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ھارڻ"><i>ھار</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="چوسڻ"><i>چوس</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="اڇلڻ"><i>اڇل</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ٻڌڻ"><i>ٻڌ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ڌوئڻ"><i>ڌوئ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="اگھڻ"><i>اگھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
 
     <e lm="ڏسڻ"><i>ڏس</i><par n="ڏس/ڻ__vblex_tv"/></e>
     <e lm="ڳالهائڻ"><i>ڳالهائ</i><par n="ڳالهائ/ڻ__vblex_tv"/></e>
