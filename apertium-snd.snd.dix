@@ -875,6 +875,8 @@
     <e lm="ڇنڇر"><i>ڇنڇر</i><par n="سج__n_m"/></e>
     <e lm="آچر"><i>آچر</i><par n="سج__n_m"/></e>
 
+    <e lm="حضرت"><i>حضرت</i><par n="سج__n_m"/></e>  <!-- honorific, prefect for Senior respected males-->
+    <e lm="حاصل"><i>حاصل</i><par n="سج__n_m"/></e>
     <e lm="فتح"><i>فتح</i><par n="سج__n_m"/></e>
     <e lm="طور"><i>طور</i><par n="سج__n_m"/></e>
     <e lm="ڪم"><i>ڪم</i><par n="سج__n_m"/></e>
@@ -925,7 +927,8 @@
     <e lm="مينهن"><i>مينهن</i><par n="قلم__n_f"/></e>
     <e lm="لوڻ"><i>لوڻ</i><par n="قلم__n_f"/></e>
     <e lm="واري"><i>واري</i><par n="قلم__n_f"/></e>
-
+    <e lm="موجودگي"><i>موجودگي</i><par n="قلم__n_f"/></e>
+    <e lm="مشهوري"><i>مشهوري</i><par n="قلم__n_f"/></e>
 
     <!-- SECTION: Proper nouns -->
 	<!-- countries -->
@@ -940,11 +943,11 @@
     <e lm="سنڌ"><i>سنڌ</i><par n="ڪراچي__np"/></e>
     <e lm="حيدرآباد"><i>حيدرآباد</i><par n="ڪراچي__np"/></e>
 <!-- names -->
+    <e lm="خان"><i>خان</i><par n="mascName__np"/></e>
     <e lm="محمد"><i>محمد</i><par n="mascName__np"/></e>
     <e lm="الله"><i>الله</i><par n="mascName__np"/></e>
     <e lm="شاهه"><i>شاهه</i><par n="mascName__np"/></e>
     <e lm="شاه"><i>شاه</i><par n="mascName__np"/></e>
-    <e lm="حضرت"><i>حضرت</i><par n="mascName__np"/></e>
     <e lm="علي"><i>علي</i><par n="mascName__np"/></e>
     <e lm="فتح"><i>فتح</i><par n="mascName__np"/></e>
     <e lm="مير"><i>مير</i><par n="mascName__np"/></e>
@@ -1004,6 +1007,8 @@
     <e lm="حاصل"><i>حاصل</i><par n="تمام__adj"/></e>
     <e lm="مشهور"><i>مشهور</i><par n="تمام__adj"/></e>
     <e lm="سخت"><i>سخت</i><par n="تمام__adj"/></e>
+    <e lm="موجود"><i>موجود</i><par n="تمام__adj"/></e>
+
     <!-- SECTION: Adverbs -->
 
     <e lm="هاڻي"><i>هاڻي</i><par n="هاڻي__adv"/></e>
