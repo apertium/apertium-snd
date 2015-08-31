@@ -3,4 +3,6 @@
 /NOTES -text
 /apertium-snd.snd.acx -text
 /apertium-snd.snd.dix -text
+/clean_wiki.txt -text
 dev/history.log -text
+/wiki.txt -text
