@@ -232,11 +232,10 @@
 
     <pardef n="دوست__n_m" c="V">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ي</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>ن</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ن</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
-
 <!-- no token found, which'd fall into this paradigm
     <pardef n="__n_f" c="VI">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -260,6 +259,7 @@
     </pardef>
 
     <pardef n="زال__n_f" c="IX">
+      <e><p><l>ءَ</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>ون</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -404,6 +404,7 @@
       <e><p><l>آهيان</l><r>copula<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>آهين</l><r>copula<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>آهي</l><r>copula<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>آھي</l><r>copula<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>آهيون</l><r>copula<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>آهيو</l><r>copula<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>آهن</l><r>copula<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -700,6 +701,9 @@
     <e lm="استاد"><i>استاد</i><par n="دوست__n_m"/></e>
     <e lm="پر"><i>پر</i><par n="دوست__n_m"/></e>
     <e lm="حڪومت"><i>حڪومت</i><par n="دوست__n_m"/></e>
+    <e lm="ماڻهو"><i>ماڻهو</i><par n="دوست__n_m"/></e>
+    <e lm="ماڻه"><i>ماڻه</i><par n="دوست__n_m"/></e>
+
 
     <e lm="ڪارخانو"><i>ڪارخان</i><par n="ڪارخان/و__n_f"/></e>
 
@@ -744,6 +748,7 @@
     <e lm="ٻولي"><i>ٻولي</i><par n="زال__n_f"/></e>
     <e lm="تاريخ"><i>تاريخ</i><par n="زال__n_f"/></e>
     <e lm="نظر"><i>نظر</i><par n="زال__n_f"/></e>
+    <e lm="ٻولي"><i>ٻولي</i><par n="زال__n_f"/></e>
 
 
     <e lm="ڇوڪرو"><i>ڇوڪر</i><par n="ڇوڪر/و__n_m"/></e>
@@ -780,7 +785,8 @@
     <e lm="رستو"><i>رست</i><par n="ڇوڪر/و__n_m"/></e>
     <e lm="ڪينئونو"><i>ڪينئون</i><par n="ڇوڪر/و__n_m"/></e>
     <e lm="ڪوڙو"><i>ڪوڙ</i><par n="ڇوڪر/و__n_m"/></e>
-
+    <e lm="کيسو"><i>کيس</i><par n="ڇوڪر/و__n_m"/></e>
+    <e lm="جيبو"><i>جيب</i><par n="ڇوڪر/و__n_m"/></e>
 
     <e lm="پکي"><i>پکي</i><par n="ڇوڪري__n_f"/></e>
     <e lm="سنڌي"><i>سنڌي</i><par n="زال__n_f"/></e>
@@ -905,8 +911,15 @@
     <e lm="دونھو"><i>دونھو</i><par n="سج__n_m"/></e>
     <e lm="برف"><i>برف</i><par n="سج__n_m"/></e>
     <e lm="پڇ"><i>پڇ</i><par n="سج__n_m"/></e>
+    <e lm="استعمال"><i>استعمال</i><par n="سج__n_m"/></e>
+    <e lm="ادب"><i>ادب</i><par n="سج__n_m"/></e>
+    <e lm="شروع"><i>شروع</i><par n="سج__n_m"/></e>
+    <e lm="ڏکڻ"><i>ڏکڻ</i><par n="سج__n_m"/></e>
+    <e lm="علم"><i>علم</i><par n="سج__n_m"/></e>
+    <e lm="شامل"><i>شامل</i><par n="سج__n_m"/></e>
 
-
+    <e lm="شروعات"><i>شروعات</i><par n="قلم__n_f"/></e>
+    <e lm="آبادي"><i>آبادي</i><par n="قلم__n_f"/></e>
     <e lm="دنيا"><i>دنيا</i><par n="قلم__n_f"/></e>
     <e lm="پنير"><i>پنير</i><par n="قلم__n_f"/></e>
     <e lm="سنگيت"><i>سنگيت</i><par n="قلم__n_f"/></e>
@@ -942,6 +955,7 @@
     <e lm="ڪراچي"><i>ڪراچي</i><par n="ڪراچي__np"/></e>
     <e lm="سنڌ"><i>سنڌ</i><par n="ڪراچي__np"/></e>
     <e lm="حيدرآباد"><i>حيدرآباد</i><par n="ڪراچي__np"/></e>
+
 <!-- names -->
     <e lm="خان"><i>خان</i><par n="mascName__np"/></e>
     <e lm="محمد"><i>محمد</i><par n="mascName__np"/></e>
@@ -1008,9 +1022,21 @@
     <e lm="مشهور"><i>مشهور</i><par n="تمام__adj"/></e>
     <e lm="سخت"><i>سخت</i><par n="تمام__adj"/></e>
     <e lm="موجود"><i>موجود</i><par n="تمام__adj"/></e>
+    <e lm="ادبي"><i>ادبي</i><par n="تمام__adj"/></e>
+    <e lm="آباد"><i>آباد</i><par n="تمام__adj"/></e>
+    <e lm="شروع"><i>شروع</i><par n="تمام__adj"/></e>
+    <e lm="شروعاتي"><i>شروعاتي</i><par n="تمام__adj"/></e>
+    <e lm="مختلف"><i>مختلف</i><par n="تمام__adj"/></e>
+    <e lm="جيئن"><i>جيئن</i><par n="تمام__adj"/></e>
+    <e lm="خاص"><i>خاص</i><par n="تمام__adj"/></e>
+    <e lm="ڏکڻ"><i>ڏکڻ</i><par n="تمام__adj"/></e>
+    <e lm="پيدا"><i>پيدا</i><par n="تمام__adj"/></e>
+    <e lm="پيدائش"><i>پيدائش</i><par n="تمام__adj"/></e>
+    <e lm="شامل"><i>شامل</i><par n="تمام__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
+    <e lm="جيئن"><i>جيئن</i><par n="هاڻي__adv"/></e>
     <e lm="هاڻي"><i>هاڻي</i><par n="هاڻي__adv"/></e>
     <e lm="هاڻ"><i>هاڻ</i><par n="هاڻي__adv"/></e>
     <e lm="ستت"><i>ستت</i><par n="هاڻي__adv"/></e>
@@ -1022,6 +1048,10 @@
     <e lm="به"><i>به</i><par n="هاڻي__adv"/></e>
     <e lm="نه"><i>نه</i><par n="هاڻي__adv"/></e>
     <e lm="حاصل"><i>حاصل</i><par n="هاڻي__adv"/></e>
+    <e lm="جڏهن"><i>جڏهن</i><par n="هاڻي__adv"/></e>
+    <e lm="دور"><i>دور</i><par n="هاڻي__adv"/></e>
+    <e lm="پري"><i>پري</i><par n="هاڻي__adv"/></e>
+    <e lm="عني"><i>عني</i><par n="هاڻي__adv"/></e>
 
     <!-- SECTION: Verbs -->
 
