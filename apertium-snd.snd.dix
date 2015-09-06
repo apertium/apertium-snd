@@ -6,6 +6,7 @@
     <sdef n="n"       c="Noun"/>
     <sdef n="vblex"   c="Verb"/>
     <sdef n="vbcop"   c="Copula verb"/>
+    <sdef n="vbser"   c="Copula verb"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="prn"     c="Pronoun"/>
@@ -398,7 +399,7 @@
 
     </pardef>
 
-    <pardef n="copula__vblex"> <!-- FIXME: Check the lemma -->
+    <pardef n="copula__vbser"> <!-- FIXME: Check the lemma -->
 
 <e> <p><l>هوندس</l><r>copula<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
 <e> <p><l>هونداسي</l><r>copula<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
@@ -641,16 +642,16 @@
 
     <!-- SECTION: Pronouns -->
 <!--personal p1 -->
-    <e lm="مان"><i>مان</i><s n="nom"><par n="مان__prn"/></e>
-    <e lm="مون"><i>مون</i><s n="obl"><par n="مان__prn"/></e>
-    <e lm="اسان"><i>اسان</i><s n="obl"><par n="اسان__prn"/></e>
-    <e lm="اسين"><i>اسين</i><s n="nom"><par n="اسان__prn"/></e>
+    <e lm="مان"><i>مان</i><s n="nom"><par n="مان__prn"/></s></e>
+    <e lm="مون"><i>مون</i><s n="obl"><par n="مان__prn"/></s></e>
+    <e lm="اسان"><i>اسان</i><s n="obl"><par n="اسان__prn"/></s></e>
+    <e lm="اسين"><i>اسين</i><s n="nom"><par n="اسان__prn"/></s></e>
 
 <!--personal p2 -->
-    <e lm="تون"><i>تون</i><s n="nom"><par n="تون__prn"/></e>
-    <e lm="تو"><i>تو</i><s n="obl"><par n="تون__prn"/></e>
-    <e lm="توهين"><i>توهين</i><s n="nom"><par n="توهان__prn"/></e>
-    <e lm="توهان"><i>توهان</i><s n="obl"><par n="توهان__prn"/></e>
+    <e lm="تون"><i>تون</i><s n="nom"><par n="تون__prn"/></s></e>
+    <e lm="تو"><i>تو</i><s n="obl"><par n="تون__prn"/></s></e>
+    <e lm="توهين"><i>توهين</i><s n="nom"><par n="توهان__prn"/></s></e>
+    <e lm="توهان"><i>توهان</i><s n="obl"><par n="توهان__prn"/></s></e>
 
     <e lm="اوهان"><i>اوهان</i><par n="اوهان__prn"/></e>
 
