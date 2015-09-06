@@ -137,19 +137,23 @@
     <!-- SECTION: Pronouns -->
 
     <pardef n="مان__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ان</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ون</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="اسان__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ان</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="تون__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ن</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="توهان__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ان</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
 
     <pardef n="اوهان__prn">
@@ -642,16 +646,17 @@
 
     <!-- SECTION: Pronouns -->
 <!--personal p1 -->
-    <e lm="مان"><i>مان</i><s n="nom"><par n="مان__prn"/></s></e>
-    <e lm="مون"><i>مون</i><s n="obl"><par n="مان__prn"/></s></e>
-    <e lm="اسان"><i>اسان</i><s n="obl"><par n="اسان__prn"/></s></e>
-    <e lm="اسين"><i>اسين</i><s n="nom"><par n="اسان__prn"/></s></e>
+    <e lm="مان"><i>م</i><par n="مان__prn"/></e>
+    <e lm="مون"><i>م</i><par n="مان__prn"/></e>
+
+    <e lm="اسين"><i>اس</i><par n="اسان__prn"/></e>
+    <e lm="اسان"><i>اس</i><par n="اسان__prn"/></e>
 
 <!--personal p2 -->
-    <e lm="تون"><i>تون</i><s n="nom"><par n="تون__prn"/></s></e>
-    <e lm="تو"><i>تو</i><s n="obl"><par n="تون__prn"/></s></e>
-    <e lm="توهين"><i>توهين</i><s n="nom"><par n="توهان__prn"/></s></e>
-    <e lm="توهان"><i>توهان</i><s n="obl"><par n="توهان__prn"/></s></e>
+    <e lm="تون"><i>تو</i><par n="تون__prn"/></e>
+    <e lm="تو"><i>تو</i><par n="تون__prn"/></e>
+    <e lm="توهين"><i>توه</i><par n="توهان__prn"/></e>
+    <e lm="توهان"><i>توه</i><par n="توهان__prn"/></e>
 
     <e lm="اوهان"><i>اوهان</i><par n="اوهان__prn"/></e>
 
@@ -1090,7 +1095,7 @@
     <!-- SECTION: Verbs -->
 
     <e lm="ٿو"><i/><par n="/ٿو__vbcop"/></e>
-    <e lm=""><i/><par n="copula__vblex"/></e>
+    <e lm=""><i/><par n="copula__vbser"/></e>
     <e lm="ڪرڻ"><i>ڏس</i><par n="ڪر/ڻ__vblex_tv"/></e>
 
     <e lm="سمھڻ"><i>سمھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
