@@ -7,6 +7,7 @@
     <sdef n="vblex"   c="Verb"/>
     <sdef n="vbcop"   c="Copula verb"/>
     <sdef n="vbser"   c="Copula verb"/>
+    <sdef n="vaux"   c="auxiliary verb"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="prn"     c="Pronoun"/>
@@ -40,7 +41,14 @@
     <sdef n="top"     c="Toponym"/>
 
     <sdef n="pers"    c="Personal"/>
+    <sdef n="ind"    c="Indefinite"/>
+    <sdef n="intr"    c="Interrogative"/>
+    <sdef n="refl"    c="Reflective"/>
+    <sdef n="rel"    c="Relative"/>
+    <sdef n="dem"    c="Demonstrative"/>
+    <sdef n="co-rel"    c="Co-Relative"/>
     <sdef n="pos"     c="Possessive"/>
+    <sdef n="in-ani"     c="In-Animate"/>
 
     <sdef n="inf"     c="Infinitive"/> <!-- FIXME: Check this -->
     <sdef n="pprs"    c="Present participle"/>
@@ -161,18 +169,138 @@
       <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pol"/><s n="sg"/><s n="obl"/></r></p></e>
     </pardef>
 
-<!-- all below TO BE corrected, FIXME : http://www.ciil-lisindia.net/Sindhi/sindhi_struct.html & http://www.languagesgulper.com/eng/Sindhi.html 
+<!--: http://www.ciil-lisindia.net/Sindhi/sindhi_struct.html & http://www.languagesgulper.com/eng/Sindhi.html 
 & https://archive.org/stream/grammarofsindhil00trum#page/n17/mode/2up -->
+
+<!--FIXME : lt-expand *dix | grep pers | grep p3-->
+<!--also, doesn't cover some other "dem" mentioned on CIIL site-->
     <pardef n="ه/وُ__prn">
-      <e r="LR"><p><l>وُ</l><r>وُ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>و</l><r>وُ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>نکي</l><r>وُ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>وُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>و</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>وُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>و</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>ون</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>ونن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>نن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+
+
+      <e r="LR"><p><l>وُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>و</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>وُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>و</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>ن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>نن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>ون</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>ونن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+
     </pardef>
 
-    <pardef n="ا/هي__prn">
-      <e><p><l>هي</l><r>هي<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>نهن<b/>کي</l><r>هي<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="obl"/></r></p></e>
+    <pardef n="/ڪ__prn">
+
+      <e><p><l>و</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>يهن</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>ي</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+
+      <e><p><l>ا</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>يهن</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>ي</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+
     </pardef>
+
+
+    <pardef n="/پ__prn">
+
+      <e><p><l>اڻ</l><r><s n="prn"/><s n="refl"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>يهنجو</l><r><s n="prn"/><s n="refl"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>اڻ</l><r><s n="prn"/><s n="refl"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>يهنجي</l><r><s n="prn"/><s n="refl"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+
+      <e><p><l>اڻ</l><r><s n="prn"/><s n="refl"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>يهنجو</l><r><s n="prn"/><s n="refl"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>اڻ</l><r><s n="prn"/><s n="refl"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>يهنجي</l><r><s n="prn"/><s n="refl"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+
+    </pardef>
+
+
+    <pardef n="/ج__prn">
+
+      <e><p><l>و</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>يهن</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>ي</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+
+      <e><p><l>ا</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>يهن</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>ي</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+
+    </pardef>
+
+
+    <pardef n="/ڪي__prn">
+
+      <e><p><l>ير</l><r><s n="prn"/><s n="intr"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>يهن</l><r><s n="prn"/><s n="intr"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>ير</l><r><s n="prn"/><s n="intr"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="intr"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+
+      <e><p><l>ير</l><r><s n="prn"/><s n="intr"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>يهن</l><r><s n="prn"/><s n="intr"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>ير</l><r><s n="prn"/><s n="intr"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="intr"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+
+    </pardef>
+
+    <pardef n="ڇا__prn">
+      <e><p><l></l><r><s n="prn"/><s n="intr"/><s n="in-ani"/></r></p></e>
+    </pardef>
+
+
+<!--FIXME : lt-expand *dix | grep dem ; extra ا -->
+
+    <pardef n="اهو__prn">
+<!--masc--> 
+     <e><p><l>هو</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>اِهو</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+        <e r="LR"><p><l>اُهو</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>هي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>اِهي</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>اُهي</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+
+      <e><p><l>نهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>نهيءَ</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهي</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهيءَ</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+
+      <e r="LR"><p><l>اِنهن</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>نهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهن</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>نهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+
+<!--fem-->
+     <e><p><l>ها</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>اِها</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+       <e r="LR"><p><l>اُها</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>هي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>اِهي</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>اُهي</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+
+      <e><p><l>نهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>نهيءَ</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهي</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهيءَ</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+
+      <e r="LR"><p><l>اِنهن</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>نهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهن</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>نهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+
+    </pardef>
+
 
     <!-- SECTION: Determiners -->
 
@@ -380,7 +508,7 @@
 
     <!-- SECTION: Verbs -->
 
-    <pardef n="/ٿو__vbcop"> <!-- FIXME: Check the lemma -->
+    <pardef n="/ٿو__vbcop"> <!-- FIXME: not a copula!! verb "to happen" ||  -->
       <e><p><l>ٿيڻ</l><r>ٿو<s n="vbcop"/><s n="inf"/></r></p></e>
 
       <e><p><l>ٿو</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
@@ -403,11 +531,33 @@
 
     </pardef>
 
-    <pardef n="copula__vbser"> <!-- FIXME: Check the lemma -->
+    <pardef n="سگهن__vaux">
+
+<e> <p><l>ندس</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+<e> <p><l>نداسي</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+<e> <p><l>ندين</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+<e> <p><l>ندي</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+<e> <p><l>ندا</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+<e> <p><l>ندو</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e> <p><l>ندا</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+
+<e> <p><l>ندس</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+<e> <p><l>نديون</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e> <!--check-->
+<e> <p><l>ندي</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+<e> <p><l>نديون</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+<e> <p><l>ندي</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+<e> <p><l>نديون</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+
+
+    </pardef>
+
+
+    <pardef n="copula__vbser">
 
 <e> <p><l>هوندس</l><r>copula<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
 <e> <p><l>هونداسي</l><r>copula<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-<e> <p><l>هوندي</l><r>copula<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e> <!-- check from Dada-->
+<e> <p><l>هوندي</l><r>copula<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+<e> <p><l>هوندين</l><r>copula<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
 <e> <p><l>هوندا</l><r>copula<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
 <e> <p><l>هوندو</l><r>copula<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 <e> <p><l>هوندا</l><r>copula<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
@@ -456,8 +606,6 @@
       <e><p><l>‫پيو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p1"/><s n="m"><s n="sg"/></r></p></e>
       <e><p><l>‫ھو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
 -->
-
-
 
     </pardef>
 
@@ -646,23 +794,38 @@
 
     <!-- SECTION: Pronouns -->
 <!--personal p1 -->
-    <e lm="مان"><i>م</i><par n="مان__prn"/></e>
-    <e lm="مون"><i>م</i><par n="مان__prn"/></e>
+    <e lm="م"><i>م</i><par n="مان__prn"/></e>
+    <e lm="اس"><i>اس</i><par n="اسان__prn"/></e>
 
-    <e lm="اسين"><i>اس</i><par n="اسان__prn"/></e>
-    <e lm="اسان"><i>اس</i><par n="اسان__prn"/></e>
 
 <!--personal p2 -->
-    <e lm="تون"><i>تو</i><par n="تون__prn"/></e>
     <e lm="تو"><i>تو</i><par n="تون__prn"/></e>
-    <e lm="توهين"><i>توه</i><par n="توهان__prn"/></e>
-    <e lm="توهان"><i>توه</i><par n="توهان__prn"/></e>
+    <e lm="توه"><i>توه</i><par n="توهان__prn"/></e>
 
     <e lm="اوهان"><i>اوهان</i><par n="اوهان__prn"/></e>
 
-<!--FIXME : below. see paradigms-->
-    <e lm="هوُ"><i>ه</i><par n="ه/وُ__prn"/></e>
-    <e lm="اهي"><i>ا</i><par n="ا/هي__prn"/></e>
+<!--personal p3 -->
+    <e lm="ه"><i>ه</i><par n="ه/وُ__prn"/></e>
+
+<!-- indefinite -->
+    <e lm="ڪ"><i>ڪ</i><par n="/ڪ__prn"/></e>
+
+<!-- relative -->
+    <e lm="ج"><i>ج</i><par n="/ج__prn"/></e>
+
+<!-- reflective -->
+    <e lm="پ"><i>پ</i><par n="/پ__prn"/></e>
+
+<!-- interrogative -->
+    <e lm="ڪ"><i>ڪ</i><par n="/ڪي__prn"/></e>
+    <e lm="ڇا"><i>ڇا</i><par n="ڇا__prn"/></e>
+
+<!-- demonstrative (specific) -->
+    <e lm="ا"><i>ا</i><par n="اهو__prn"/></e>
+
+
+
+
 
 
 
@@ -1094,10 +1257,12 @@
 
     <!-- SECTION: Verbs -->
 
-    <e lm="ٿو"><i/><par n="/ٿو__vbcop"/></e>
-    <e lm=""><i/><par n="copula__vbser"/></e>
-    <e lm="ڪرڻ"><i>ڏس</i><par n="ڪر/ڻ__vblex_tv"/></e>
+    <e lm="ٿو"><i></i><par n="/ٿو__vbcop"/></e>
+    <e lm=""><i></i><par n="copula__vbser"/></e>
+    <e lm="سگ"><i>سگ</i><par n="سگهن__vaux"/></e>
 
+
+    <e lm="ڪرڻ"><i>ڏس</i><par n="ڪر/ڻ__vblex_tv"/></e>
     <e lm="سمھڻ"><i>سمھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="ھلڻ"><i>ھل</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="پيئڻ"><i>پيئ</i><par n="سمھ/ڻ__vblex_iv"/></e>
