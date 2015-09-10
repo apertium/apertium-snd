@@ -264,40 +264,40 @@
 
     <pardef n="اهو__prn">
 <!--masc--> 
-     <e><p><l>هو</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
-      <e r="LR"><p><l>اِهو</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
-        <e r="LR"><p><l>اُهو</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
-      <e><p><l>هي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
-      <e><p><l>اِهي</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
-      <e r="LR"><p><l>اُهي</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+     <e><p><l>اهو</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>اِهو</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+        <e r="LR"><p><l>اُهو</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>اهي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>اِهي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>اُهي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
 
-      <e><p><l>نهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
-      <e r="LR"><p><l>نهيءَ</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
-      <e r="LR"><p><l>اُنهي</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
-      <e r="LR"><p><l>اُنهيءَ</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>انهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>انهيءَ</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهيءَ</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
 
-      <e r="LR"><p><l>اِنهن</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
-      <e><p><l>نهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
-      <e r="LR"><p><l>اُنهن</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
-      <e><p><l>نهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اِنهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>انهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>انهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
 
 <!--fem-->
-     <e><p><l>ها</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
-      <e r="LR"><p><l>اِها</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
-       <e r="LR"><p><l>اُها</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><p><l>هي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><p><l>اِهي</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
-      <e r="LR"><p><l>اُهي</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+     <e><p><l>اها</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>اِها</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+       <e r="LR"><p><l>اُها</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>اهي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>اِهي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>اُهي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
 
-      <e><p><l>نهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
-      <e r="LR"><p><l>نهيءَ</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
-      <e r="LR"><p><l>اُنهي</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
-      <e r="LR"><p><l>اُنهيءَ</l><r>ا<s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>انهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>انهيءَ</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهيءَ</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
 
-      <e r="LR"><p><l>اِنهن</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
-      <e><p><l>نهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
-      <e r="LR"><p><l>اُنهن</l><r>ا<s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
-      <e><p><l>نهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اِنهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>انهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>اُنهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>انهن</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
 
     </pardef>
 
@@ -821,7 +821,7 @@
     <e lm="ڇا"><i>ڇا</i><par n="ڇا__prn"/></e>
 
 <!-- demonstrative (specific) -->
-    <e lm="ا"><i>ا</i><par n="اهو__prn"/></e>
+    <e lm="اه"><i></i><par n="اهو__prn"/></e>
 
 
 
