@@ -468,6 +468,10 @@
 	<e><p><l></l><r><s n="np"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="قرآن__np">
+	<e><p><l></l><r><s n="np"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Adjectives -->
 
     <pardef n="سٺ/و__adj">
@@ -577,8 +581,10 @@
 <e> <p><l>آهيان</l><r>copula<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
 <e> <p><l>آهيون</l><r>copula<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
 <e> <p><l>آهي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+<e> <p><l>آھي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
 <e> <p><l>آهيو</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
 <e> <p><l>آهي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+<e> <p><l>آھي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
 <e> <p><l>آهن</l><r>copula<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
 <e> <p><l>‬هوس</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
@@ -847,6 +853,7 @@
     <!-- SECTION: Numerals -->
 <!-- 1-10 -->
      <e lm="هڪ"><i>هڪ</i><par n="ست__num"/></e>
+     <e lm="ھڪ"><i>ھڪ</i><par n="ست__num"/></e>
      <e lm="ٻ"><i>ٻ</i><par n="ست__num"/></e>
      <e lm="ٻه"><i>ٻه</i><par n="ست__num"/></e>
      <e lm="ٽي"><i>ٽي</i><par n="ست__num"/></e>
@@ -920,6 +927,7 @@
 
 
     <e lm="زال"><i>زال</i><par n="زال__n_f"/></e>
+    <e lm="شاعري"><i>شاعري</i><par n="زال__n_f"/></e>
     <e lm="ڇوڪري"><i>ڇوڪري</i><par n="زال__n_f"/></e>
     <e lm="ٻلي"><i>ٻلي</i><par n="زال__n_f"/></e>
     <e lm="ڪرسي"><i>ڪرسي</i><par n="زال__n_f"/></e>
@@ -1016,6 +1024,9 @@
 
     <e lm="ڇوڪري"><i>ڇوڪري</i><par n="ڇوڪري__n_f"/></e>
 
+    <e lm="لفظ"><i>لفظ</i><par n="ڪتاب__n_m"/></e>
+    <e lm="شاعر"><i>شاعر</i><par n="ڪتاب__n_m"/></e>
+    <e lm="فقير"><i>فقير</i><par n="ڪتاب__n_m"/></e>
     <e lm="گلاب"><i>گلاب</i><par n="ڪتاب__n_m"/></e>
     <e lm="ڪتاب"><i>ڪتاب</i><par n="ڪتاب__n_m"/></e>
     <e lm="جهاز"><i>جهاز</i><par n="ڪتاب__n_m"/></e>
@@ -1119,9 +1130,12 @@
     <e lm="ڏکڻ"><i>ڏکڻ</i><par n="سج__n_m"/></e>
     <e lm="علم"><i>علم</i><par n="سج__n_m"/></e>
     <e lm="شامل"><i>شامل</i><par n="سج__n_m"/></e>
+    <e lm="سفر"><i>سفر</i><par n="سج__n_m"/></e>
+    <e lm="انسان"><i>انسان</i><par n="سج__n_m"/></e>
 
     <e lm="شروعات"><i>شروعات</i><par n="قلم__n_f"/></e>
     <e lm="آبادي"><i>آبادي</i><par n="قلم__n_f"/></e>
+    <e lm="انسانيت"><i>انسانيت</i><par n="قلم__n_f"/></e>
     <e lm="دنيا"><i>دنيا</i><par n="قلم__n_f"/></e>
     <e lm="پنير"><i>پنير</i><par n="قلم__n_f"/></e>
     <e lm="سنگيت"><i>سنگيت</i><par n="قلم__n_f"/></e>
@@ -1153,12 +1167,13 @@
     <e lm="افغانستان"><i>افغانستان</i><par n="پاڪستان__np"/></e>
     <e lm="انگلستان"><i>انگلستان</i><par n="پاڪستان__np"/></e>
     <e lm="پنجاب"><i>پنجاب</i><par n="پاڪستان__np"/></e>
-	<!-- cities -->
+	<!-- cities , rivers , places-->
     <e lm="ڪراچي"><i>ڪراچي</i><par n="ڪراچي__np"/></e>
     <e lm="سنڌ"><i>سنڌ</i><par n="ڪراچي__np"/></e>
     <e lm="حيدرآباد"><i>حيدرآباد</i><par n="ڪراچي__np"/></e>
+    <e lm="سنڌو"><i>سنڌو</i><par n="ڪراچي__np"/></e>
 
-<!-- names -->
+<!--person names -->
     <e lm="خان"><i>خان</i><par n="mascName__np"/></e>
     <e lm="محمد"><i>محمد</i><par n="mascName__np"/></e>
     <e lm="الله"><i>الله</i><par n="mascName__np"/></e>
@@ -1174,6 +1189,10 @@
     <e lm="عبدا"><i>عبدا</i><par n="mascName__np"/></e>
 
     <e lm="بينظير"><i>بينظير</i><par n="femName__np"/></e>
+
+<!--particular things-->
+    <e lm="قرآن"><i>قرآن</i><par n="قرآن__np"/></e>
+
     <!-- SECTION: Adjectives -->
     <e lm="سٺو"><i>سٺ</i><par n="سٺ/و__adj"/></e>
     <e lm="مٺو"><i>مٺ</i><par n="سٺ/و__adj"/></e>
@@ -1197,6 +1216,7 @@
     <e lm="ليٽر"><i>ليٽر</i><par n="تمام__adj"/></e>
     <e lm="گرام"><i>گرام</i><par n="تمام__adj"/></e>
     <e lm="گهٽ"><i>گهٽ</i><par n="تمام__adj"/></e>
+    <e lm="ڪجهه"><i>ڪجهه</i><par n="تمام__adj"/></e>
     <e lm="سڄو"><i>سڄ</i><par n="سٺ/و__adj"/></e>
 
 <!--colors-->
