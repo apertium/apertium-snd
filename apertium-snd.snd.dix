@@ -16,6 +16,7 @@
     <sdef n="adj"     c="Adjective"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="ord"     c="Ordinal"/>
+    <sdef n="crd"     c="Cardinal"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
     <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
 
@@ -136,11 +137,14 @@
       <e><p><l>ي</l><r>ي<s n="gen"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>ا</l><r>ي<s n="gen"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ن</l><r>ي<s n="gen"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ون</l><r>ي<s n="gen"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
       <e><p><l>ي</l><r>ي<s n="gen"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ي</l><r>ي<s n="gen"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>وُن</l><r>ي<s n="gen"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ون</l><r>ي<s n="gen"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ن</l><r>ي<s n="gen"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
+
 
     <!-- SECTION: Pronouns -->
 
@@ -313,21 +317,30 @@
 
 
     <!-- SECTION: Numerals -->
+<!-- A cardinal number tells "how many." Cardinal numbers are also known as "counting numbers," because they show quantity. -->
+<!-- Ordinal numbers tell the order of things in a set—first, second, third, etc. They only show rank or position. -->
 
     <pardef n="ست__num">
-      <e><p><l>ون</l><r>ن<s n="num"/><s n="ord"/><s n ="m"/></r></p></e>  <!-- FIXME : Discuss the case -->
       <e><p><l>ون</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
+      <e><p><l>و</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
+      <e><p><l>يون</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
+      <e><p><l>يو</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
+
       <e><p><l>ي</l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
 
-      <e><p><l></l><r><s n="num"/></r></p></e>
+      <e><p><l></l><r><s n="num"/></r></p></e>		<!--cardinal-->
       <e r="LR"><p><l>ه</l><r><s n="num"/></r></p></e>
     </pardef>
-
+<!--
     <pardef n="پهريون__ord">
 	<e><p><l>ون</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
 	<e><p><l>ي</l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
     </pardef>
 
+    <pardef n="num__crd">
+	<e><p><l></l><r><s n="num"/><s n="crd"/><s n ="m"/></r></p></e>
+    </pardef>
+-->
 
     <!-- SECTION: Nouns -->
 
@@ -473,6 +486,9 @@
     </pardef>
 
     <!-- SECTION: Adjectives -->
+
+<!--declinable-->
+<!-- All the /-o/ ending adjectives are declinable. They inflect according to the gender and case of the followed noun. -->
 
     <pardef n="سٺ/و__adj">
       <e><p><l>و</l><r>و<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -757,6 +773,7 @@
     <!--<e lm="جي"><i>جي</i><par n="کان__post"/></e>-->
     <e lm="تي"><i>تي</i><par n="کان__post"/></e>
     <e lm="لاءِ"><i>لاءِ</i><par n="کان__post"/></e> <!-- "about/concerning" -->
+    <e lm="لاء"><i>لاء</i><par n="کان__post"/></e>
     <!--<e lm="جا"><i>جا</i><par n="کان__post"/></e>-->
 
     <e lm="خلاف"><i>خلاف</i><par n="کان__post"/></e>
@@ -851,6 +868,21 @@
     <e lm="پنهنجي"><i>پنهنج</i><par n="منهنج/و__det"/></e>
 
     <!-- SECTION: Numerals -->
+<!-- fractions -->
+	<e lm="پا"><i>پا</i><par n="ست__num"/></e>
+	<e lm="پاءُ"><i>پاءُ</i><par n="ست__num"/></e>
+	<e lm="پاء"><i>پاء</i><par n="ست__num"/></e>
+	
+	<e lm="اڌ"><i>اڌ</i><par n="ست__num"/></e>
+	<e lm="ساڍا"><i>ساڍا</i><par n="ست__num"/></e>
+	<e lm="منو"><i>منو</i><par n="ست__num"/></e>
+	<e lm="مُنو"><i>مُنو</i><par n="ست__num"/></e>
+	<e lm="سوا"><i>سوا</i><par n="ست__num"/></e>
+
+	<e lm="ڏيڍ"><i>ڏيڍ</i><par n="ست__num"/></e>
+	<e lm="اڍائي"><i>اڍائي</i><par n="ست__num"/></e>
+	<e lm="اڍاي"><i>اڍاي</i><par n="ست__num"/></e>
+
 <!-- 1-10 -->
      <e lm="هڪ"><i>هڪ</i><par n="ست__num"/></e>
      <e lm="ھڪ"><i>ھڪ</i><par n="ست__num"/></e>
@@ -890,11 +922,12 @@
 
      <e lm="سو"><i>سو</i><par n="ست__num"/></e>
      <e lm="سئو"><i>سئو</i><par n="ست__num"/></e>
+
 <!-- ordinals -->
-     <e lm="پهريون"><i>پهري</i><par n="پهريون__ord"/></e>
-     <e lm="چوٿون"><i>چوٿ</i><par n="پهريون__ord"/></e>
-     <e lm="ٻيون"><i>ٻي</i><par n="پهريون__ord"/></e>
-     <e lm="نائون"><i>نائ</i><par n="پهريون__ord"/></e>
+     <e lm="پهريون"><i>پهري</i><par n="ست__num"/></e>
+     <e lm="چوٿون"><i>چوٿ</i><par n="ست__num"/></e>
+     <e lm="ٻيون"><i>ٻي</i><par n="ست__num"/></e>
+     <e lm="نائون"><i>نائ</i><par n="ست__num"/></e>
 
     <!-- SECTION: Nouns -->
 
@@ -962,6 +995,8 @@
 
 
     <e lm="ڇوڪرو"><i>ڇوڪر</i><par n="ڇوڪر/و__n_m"/></e>
+    <e lm="ضلعو"><i>ضلع</i><par n="ڇوڪر/و__n_m"/></e>
+    <e lm="تعلقو"><i>ضلع</i><par n="ڇوڪر/و__n_m"/></e>
     <e lm="پکيو"><i>پکي</i><par n="ڇوڪر/و__n_m"/></e>
     <e lm="جوتو"><i>جوت</i><par n="ڇوڪر/و__n_m"/></e>
     <e lm="ڇوڪرو"><i>ڇوڪر</i><par n="ڇوڪر/و__n_m"/></e>
@@ -1084,6 +1119,10 @@
     <e lm="سوال"><i>سوال</i><par n="ڪتاب__n_m"/></e>
     <e lm="سبب"><i>سبب</i><par n="ڪتاب__n_m"/></e>
     <e lm="ڪمپيوٽر"><i>ڪمپيوٽر</i><par n="ڪتاب__n_m"/></e>
+    <e lm="قِسِم"><i>قِسِم</i><par n="ڪتاب__n_m"/></e>	<!--kism / type -->
+    <e lm="قَسَم"><i>قَسَم</i><par n="ڪتاب__n_m"/></e>	<!--kasam / promise -->
+    <e lm="قسم"><i>قسم</i><par n="ڪتاب__n_m"/></e>
+
 <!-- days & months-->
     <e lm="سومر"><i>سومر</i><par n="سج__n_m"/></e>
     <e lm="اڱارو"><i>اڱارو</i><par n="سج__n_m"/></e>
@@ -1132,7 +1171,22 @@
     <e lm="شامل"><i>شامل</i><par n="سج__n_m"/></e>
     <e lm="سفر"><i>سفر</i><par n="سج__n_m"/></e>
     <e lm="انسان"><i>انسان</i><par n="سج__n_m"/></e>
+    <e lm="اسلام"><i>اسلام</i><par n="سج__n_m"/></e>
+    <e lm="گهر"><i>گهر</i><par n="سج__n_m"/></e>
+    <e lm="هجي"><i>هجي</i><par n="سج__n_m"/></e>
+    <e lm="اردو"><i>اردو</i><par n="سج__n_m"/></e>
+    <e lm="مطلب"><i>مطلب</i><par n="سج__n_m"/></e>
 
+<!--educational qualifications-->
+    <e lm="ايل ايل بي"><i>ايل<b/>ايل<b/>بي</i><par n="سج__n_m"/></e>
+    <e lm="ايم ايڊ"><i>ايم<b/>ايڊ</i><par n="سج__n_m"/></e>
+    <e lm="ايم اي"><i>ايم<b/>اي</i><par n="سج__n_m"/></e>
+
+
+
+
+    <e lm="اعوام"><i>اعوام</i><par n="قلم__n_f"/></e>
+    <e lm="عوام"><i>عوام</i><par n="قلم__n_f"/></e>
     <e lm="شروعات"><i>شروعات</i><par n="قلم__n_f"/></e>
     <e lm="آبادي"><i>آبادي</i><par n="قلم__n_f"/></e>
     <e lm="انسانيت"><i>انسانيت</i><par n="قلم__n_f"/></e>
@@ -1172,6 +1226,18 @@
     <e lm="سنڌ"><i>سنڌ</i><par n="ڪراچي__np"/></e>
     <e lm="حيدرآباد"><i>حيدرآباد</i><par n="ڪراچي__np"/></e>
     <e lm="سنڌو"><i>سنڌو</i><par n="ڪراچي__np"/></e>
+    <e lm="اسلام آباد"><i>اسلام<b/>آباد</i><par n="ڪراچي__np"/></e>
+    <e lm="جيڪب آباد"><i>جيڪب<b/>آباد</i><par n="ڪراچي__np"/></e>
+    <e lm="جيڪب آباد"><i>جيڪب<b/>آباد</i><par n="ڪراچي__np"/></e>
+    <e lm="آسمان آباد"><i>آسمان<b/>آباد</i><par n="ڪراچي__np"/></e>
+    <e lm="شجاع آباد"><i>شجاع<b/>آباد</i><par n="ڪراچي__np"/></e>
+    <e lm="قاسم آباد"><i>قاسم<b/>آباد</i><par n="ڪراچي__np"/></e>
+    <e lm="لطيف آباد"><i>لطيف<b/>آباد</i><par n="ڪراچي__np"/></e>
+    <e lm="فيصل آباد"><i>فيصل<b/>آباد</i><par n="ڪراچي__np"/></e>
+    <e lm="لياقت آباد"><i>لياقت<b/>آباد</i><par n="ڪراچي__np"/></e>
+    <e lm="ناظم آباد"><i>ناظم<b/>آباد</i><par n="ڪراچي__np"/></e>
+
+
 
 <!--person names -->
     <e lm="خان"><i>خان</i><par n="mascName__np"/></e>
@@ -1187,6 +1253,10 @@
     <e lm="ڀٽائي"><i>ڀٽائي</i><par n="mascName__np"/></e>
     <e lm="عبداللطيف"><i>عبداللطيف</i><par n="mascName__np"/></e>
     <e lm="عبدا"><i>عبدا</i><par n="mascName__np"/></e>
+    <e lm="احمد"><i>احمد</i><par n="mascName__np"/></e>
+    <e lm="جي ايم سيد"><i>جي<b/>ايم<b/>سيد</i><par n="mascName__np"/></e>
+    <e lm="سيد"><i>سيد</i><par n="mascName__np"/></e>
+
 
     <e lm="بينظير"><i>بينظير</i><par n="femName__np"/></e>
 
@@ -1255,6 +1325,13 @@
     <e lm="پيدا"><i>پيدا</i><par n="تمام__adj"/></e>
     <e lm="پيدائش"><i>پيدائش</i><par n="تمام__adj"/></e>
     <e lm="شامل"><i>شامل</i><par n="تمام__adj"/></e>
+    <e lm="اڳتي"><i>اڳتي</i><par n="تمام__adj"/></e>
+    <e lm="اڳُتي"><i>اڳُتي</i><par n="تمام__adj"/></e>
+    <e lm="اڳُ"><i>اڳُ</i><par n="تمام__adj"/></e>
+    <e lm="اڳ"><i>اڳ</i><par n="تمام__adj"/></e>
+    <e lm="عوامي"><i>عوامي</i><par n="تمام__adj"/></e>
+
+
 
     <!-- SECTION: Adverbs -->
 
@@ -1274,6 +1351,45 @@
     <e lm="دور"><i>دور</i><par n="هاڻي__adv"/></e>
     <e lm="پري"><i>پري</i><par n="هاڻي__adv"/></e>
     <e lm="عني"><i>عني</i><par n="هاڻي__adv"/></e>
+    <e lm="يعني"><i>يعني</i><par n="هاڻي__adv"/></e>
+    <e lm="اڳُ"><i>اڳُ</i><par n="هاڻي__adv"/></e>
+    <e lm="اڳ"><i>اڳ</i><par n="هاڻي__adv"/></e>
+    <e lm="جتي"><i>جتي</i><par n="هاڻي__adv"/></e>
+
+<!-- temporal -->
+    <e lm="اڄَ"><i>اڄَ</i><par n="هاڻي__adv"/></e>
+    <e lm="اڄ"><i>اڄ</i><par n="هاڻي__adv"/></e>
+    <e lm="ڪڏهن"><i>ڪڏهن</i><par n="هاڻي__adv"/></e>
+    <e lm="هاڻي"><i>هاڻي</i><par n="هاڻي__adv"/></e>
+    <e lm="روز"><i>روز</i><par n="هاڻي__adv"/></e>
+<!-- Locational -->
+    <e lm="ڪٿي"><i>ڪٿي</i><par n="هاڻي__adv"/></e>
+    <e lm="هتي"><i>هتي</i><par n="هاڻي__adv"/></e>
+    <e lm="ويجهو"><i>ويجهو</i><par n="هاڻي__adv"/></e>
+    <e lm="پري"><i>پري</i><par n="هاڻي__adv"/></e>
+<!-- directional -->
+    <e lm="ڪيڏانهن"><i>ڪيڏانهن</i><par n="هاڻي__adv"/></e>
+    <e lm="هيڏانهن"><i>هيڏانهن</i><par n="هاڻي__adv"/></e>
+    <e lm="هوڏانهن"><i>هوڏانهن</i><par n="هاڻي__adv"/></e>
+<!-- manner -->
+    <e lm="ڪيئن"><i>ڪيئن</i><par n="هاڻي__adv"/></e>
+    <e lm="هيئن"><i>هيئن</i><par n="هاڻي__adv"/></e>
+    <e lm="هونئن"><i>هونئن</i><par n="هاڻي__adv"/></e>
+<!-- degree -->
+    <e lm="گهڻو"><i>گهڻو</i><par n="هاڻي__adv"/></e>
+    <e lm="ڏاڍيان"><i>ڏاڍيان</i><par n="هاڻي__adv"/></e>
+    <e lm="هوريان"><i>هوريان</i><par n="هاڻي__adv"/></e>
+    <e lm="تڪڙو"><i>تڪڙو</i><par n="هاڻي__adv"/></e>
+<!-- other -->
+    <e lm="هيٺ"><i>هيٺ</i><par n="هاڻي__adv"/></e>
+    <e lm="مٿي"><i>مٿي</i><par n="هاڻي__adv"/></e>
+    <e lm="ڪالهه"><i>ڪالهه</i><par n="هاڻي__adv"/></e>
+    <e lm="ڪلهه"><i>ڪلهه</i><par n="هاڻي__adv"/></e>
+    <e lm="اڃان"><i>اڃان</i><par n="هاڻي__adv"/></e>
+    <e lm="اڃا"><i>اڃا</i><par n="هاڻي__adv"/></e>
+
+
+
 
     <!-- SECTION: Verbs -->
 
