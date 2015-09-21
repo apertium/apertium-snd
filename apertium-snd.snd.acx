@@ -8,8 +8,204 @@
   </char>
 
   <!-- Common orthographical errors -->
-  <char value="ڪ">
-    <equiv-char value="ک"/>
-  </char>
+
+
+   <char value="ش">
+	<equiv-char value="ﺵ"/>
+	<equiv-char value="ﺶ"/>
+	<equiv-char value="ﺷ"/>
+	<equiv-char value="ﺸ"/>
+   </char>
+
+   <char value="س">
+	<equiv-char value="ﺱ"/>
+	<equiv-char value="ﺴ"/>
+	<equiv-char value="ﺳ"/>
+	<equiv-char value="ﺲ"/>
+   </char>
+
+   <char value="ص">
+	<equiv-char value="ﺹ"/>
+	<equiv-char value="ﺼ"/>
+	<equiv-char value="ﺻ"/>
+	<equiv-char value="ﺺ"/>
+   </char>
+
+   <char value="ل">
+	<equiv-char value="ﻝ"/>
+	<equiv-char value="ﻞ"/>
+	<equiv-char value="ﻟ"/>
+	<equiv-char value="ﻠ"/>
+   </char>
+
+   <char value="ع">
+	<equiv-char value="ﻉ"/>
+	<equiv-char value="ﻋ"/>
+	<equiv-char value="ﻌ"/>
+	<equiv-char value="ﻊ"/>
+   </char>
+
+   <char value="ف">
+	<equiv-char value="ﻑ"/>
+	<equiv-char value="ﻓ"/>
+	<equiv-char value="ﻔ"/>
+	<equiv-char value="ﻒ"/>
+   </char>
+
+   <char value="ق">
+	<equiv-char value="ﻕ"/>
+	<equiv-char value="ﻗ"/>
+	<equiv-char value="ﻘ"/>
+	<equiv-char value="ﻖ"/>
+   </char>
+
+   <char value="گ">
+	<equiv-char value="ﮒ"/>
+	<equiv-char value="ﮔ"/>
+	<equiv-char value="ﮕ"/>
+	<equiv-char value="ﮓ"/>
+   </char>
+
+   <char value="ڳ">
+	<equiv-char value="ﮖ"/>
+	<equiv-char value="ﮘ"/>
+	<equiv-char value="ﮙ"/>
+	<equiv-char value="ﮗ"/>
+   </char>
+
+   <char value="ن">
+	<equiv-char value="ﻥ"/>
+	<equiv-char value="ﻧ"/>
+	<equiv-char value="ﻨ"/>
+	<equiv-char value="ﻦ"/>
+   </char>
+
+   <char value="ه">
+	<equiv-char value="ﻩ"/>
+	<equiv-char value="ﻫ"/>
+	<equiv-char value="ﻬ"/>
+	<equiv-char value="ﻪ"/>
+   </char>
+
+   <char value="ئ">
+	<equiv-char value="ﺉ"/>
+	<equiv-char value="ﺋ"/>
+	<equiv-char value="ﺌ"/>
+	<equiv-char value="ﺊ"/>
+   </char>
+
+
+   <char value="لا">
+	<equiv-char value="ﻻ"/>
+	<equiv-char value="ﻼ"/>
+   </char>
+
+   <char value="آ">
+	<equiv-char value="ﺁ"/>
+	<equiv-char value="ﺂ"/>
+   </char>
+
+   <char value="ا">
+	<equiv-char value="ﺍ"/>
+	<equiv-char value="ﺎ"/>
+   </char>
+
+   <char value="م">
+	<equiv-char value="ﻡ"/>
+	<equiv-char value="ﻣ"/>
+	<equiv-char value="ﻤ"/>
+	<equiv-char value="ﻢ"/>
+   </char>
+
+   <char value="ب">
+	<equiv-char value="ﺑ"/>
+	<equiv-char value="ﺒ"/>
+	<equiv-char value="ﺐ"/>
+   </char>
+
+   <char value="ت">
+	<equiv-char value="ﺕ"/>
+	<equiv-char value="ﺗ"/>
+	<equiv-char value="ﺘ"/>
+	<equiv-char value="ﺖ"/>
+   </char>
+
+
+   <char value="ث">
+	<equiv-char value="ﺙ"/>
+	<equiv-char value="ﺛ"/>
+	<equiv-char value="ﺜ"/>
+	<equiv-char value="ﺚ"/>
+   </char>
+
+   <char value="ج">
+	<equiv-char value="ﺝ"/>
+	<equiv-char value="ﺟ"/>
+	<equiv-char value="ﺠ"/>
+	<equiv-char value="ﺞ"/>
+   </char>
+
+   <char value="چ">
+	<equiv-char value="ﭺ"/>
+	<equiv-char value="ﭼ"/>
+	<equiv-char value="ﭽ"/>
+	<equiv-char value="ﭻ"/>
+   </char>
+
+   <char value="ح">
+	<equiv-char value="ﺡ"/>
+	<equiv-char value="ﺣ"/>
+	<equiv-char value="ﺤ"/>
+	<equiv-char value="ﺢ"/>
+   </char>
+
+   <char value="خ">
+	<equiv-char value="ﺥ"/>
+	<equiv-char value="ﺧ"/>
+	<equiv-char value="ﺨ"/>
+	<equiv-char value="ﺦ"/>
+   </char>
+
+<!-- to be edited with original form. right now only "isolated form" is added -->
+   <char value="ڇ">
+   </char>
+
+   <char value="ر">
+	<equiv-char value="ﺭ"/>
+	<equiv-char value="ﺮ"/>
+   </char>
+
+
+   <char value="د">
+	<equiv-char value="ﺩ"/>
+	<equiv-char value="ﺪ"/>
+   </char>
+
+   <char value="پ">
+	<equiv-char value="ﭘ"/>
+	<equiv-char value="ﭙ"/>
+	<equiv-char value="ﭗ"/>
+   </char>
+
+   <char value="ﭒ">
+	<equiv-char value="ﭔ"/>
+	<equiv-char value="ﭕ"/>
+	<equiv-char value="ﭓ"/>
+   </char>
+
+   <char value="ﭢ">
+	<equiv-char value="ﭤ"/>
+	<equiv-char value="ﭥ"/>
+	<equiv-char value="ﭣ"/>
+   </char>
+
+
+   <char value="ﺇ">
+	<equiv-char value="ﺈ"/>
+   </char>
+
+   <char value="ﺃ">
+	<equiv-char value="ﺄ"/>
+   </char>
 
 </analysis-chars>
