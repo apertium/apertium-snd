@@ -1,5 +1,5 @@
 <dictionary>
-  <alphabet>ُڪ–٠۱۴٨٩۰ـ۾ﺘﺠﺩﺪﺼﻋﻦﻨﻮﻱﻲﻴﻰ۽‌١٢۲٣۳٤٥۵٦۸٧۹ءﺀﺁآأإﺍةٹﺡڈﺭﺮڑژصضطظعغفقكﻢﻤںؤﻭىئےابٻڀپتٿٽٺثجڄجھڃچڇحخدڌڏڊڍذٗرڙڙّھزًسشکگڳگھڱلمَنڻوِهُيہٴ</alphabet>
+  <alphabet>ُڪءِ–٠۱۴٨٩۰ـ۾ﺘﺠﺩﺪﺼﻋﻦﻨﻮﻱﻲﻴﻰ۽‌١٢۲٣۳٤٥۵٦۸٧۹ءﺀﺁآأإﺍةٹﺡڈﺭﺮڑژصضطظعغفقكﻢﻤںؤﻭىئےابٻڀپتٿٽٺثجڄجھڃچڇحخدڌڏڊڍذٗرڙڙّھزًسشکگڳگھڱلمَنڻوِهُيہٴ</alphabet>
 
 
   <sdefs>
@@ -47,7 +47,7 @@
     <sdef n="refl"    c="Reflective"/>
     <sdef n="rel"    c="Relative"/>
     <sdef n="dem"    c="Demonstrative"/>
-    <sdef n="co-rel"    c="Co-Relative"/>
+    <sdef n="corel"    c="Co-Relative"/>
     <sdef n="pos"     c="Possessive"/>
     <sdef n="in-ani"     c="In-Animate"/>
 
@@ -203,14 +203,18 @@
     <pardef n="/ڪ__prn">
 
       <e><p><l>و</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
-      <e><p><l>يهن</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>يهن</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e> <!--spell doubt-->
+      <e><p><l>نهن</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
       <e><p><l>ي</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
-      <e><p><l>ين</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e> <!--spell doubt-->
+      <e><p><l>ن</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
 
       <e><p><l>ا</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><p><l>يهن</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>يهن</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e> <!--spell doubt-->
+      <e><p><l>نهن</l><r><s n="prn"/><s n="ind"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
       <e><p><l>ي</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><p><l>ين</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e> <!--spell doubt-->
+      <e><p><l>ن</l><r><s n="prn"/><s n="ind"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
 
     </pardef>
 
@@ -233,14 +237,36 @@
     <pardef n="/ج__prn">
 
       <e><p><l>و</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
-      <e><p><l>يهن</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>يهن</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e> <!--spelling doubt-->
+      <e><p><l>نهن</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
       <e><p><l>ي</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
-      <e><p><l>ين</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e> <!--spelling doubt-->
 
       <e><p><l>ا</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><p><l>يهن</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>يهن</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e> <!--spelling doubt-->
+      <e><p><l>نهن</l><r><s n="prn"/><s n="rel"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
       <e><p><l>ي</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><p><l>ين</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e> <!--spelling doubt-->
+      <e><p><l>ن</l><r><s n="prn"/><s n="rel"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
+
+    </pardef>
+
+    <pardef n="/ت__prn">
+
+      <e><p><l>و</l><r>س<s n="prn"/><s n="corel"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>يهن</l><r>ت<s n="prn"/><s n="corel"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e> <!--spelling doubt-->
+      <e><p><l>نهن</l><r>ت<s n="prn"/><s n="corel"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>ي</l><r>س<s n="prn"/><s n="corel"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>ن</l><r>ت<s n="prn"/><s n="corel"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>ين</l><r>ت<s n="prn"/><s n="corel"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e> <!--spelling doubt-->
+
+      <e><p><l>ا</l><r>س<s n="prn"/><s n="corel"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>يهن</l><r>ت<s n="prn"/><s n="corel"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e> <!--spelling doubt-->
+      <e><p><l>نهن</l><r>ت<s n="prn"/><s n="corel"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
+      <e><p><l>ي</l><r>س<s n="prn"/><s n="corel"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>ين</l><r>ت<s n="prn"/><s n="corel"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e> <!--spelling doubt-->
+      <e><p><l>ن</l><r>ت<s n="prn"/><s n="corel"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
 
     </pardef>
 
@@ -275,6 +301,7 @@
       <e><p><l>اِهي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
       <e r="LR"><p><l>اُهي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
 
+      <e><p><l>ان</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
       <e><p><l>انهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
       <e r="LR"><p><l>انهيءَ</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
       <e r="LR"><p><l>اُنهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
@@ -293,6 +320,7 @@
       <e><p><l>اِهي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
       <e r="LR"><p><l>اُهي</l><r><s n="prn"/><s n="dem"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
 
+      <e><p><l>ان</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
       <e><p><l>انهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
       <e r="LR"><p><l>انهيءَ</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
       <e r="LR"><p><l>اُنهي</l><r><s n="prn"/><s n="dem"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
@@ -843,6 +871,8 @@
 
 <!-- relative -->
     <e lm="ج"><i>ج</i><par n="/ج__prn"/></e>
+<!-- relative -->
+    <e lm="ت"><i></i><par n="/ت__prn"/></e>
 
 <!-- reflective -->
     <e lm="پ"><i>پ</i><par n="/پ__prn"/></e>
