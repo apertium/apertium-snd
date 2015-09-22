@@ -178,9 +178,11 @@
 
 <!--FIXME : lt-expand *dix | grep pers | grep p3-->
 <!--also, doesn't cover some other "dem" mentioned on CIIL site-->
+
     <pardef n="ه/وُ__prn">
       <e r="LR"><p><l>وُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
       <e><p><l>و</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e><p><l>ي</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
       <e r="LR"><p><l>وُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
       <e><p><l>و</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
       <e><p><l>ون</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
@@ -639,20 +641,25 @@
 <e> <p><l>آهي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 <e> <p><l>آھي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
 <e> <p><l>آهن</l><r>copula<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+<!--past-->
+	<e> <p><l>هئس</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>هئاس</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هوي</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>ها</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هئا</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هو‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>هوا‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هُئا</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هئا</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 
-<e> <p><l>‬هوس</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>هواسي</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-<e> <p><l>هوي</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>هوا</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-<e> <p><l>هو‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>هوا‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-
-<e> <p><l>‬هوسي</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
-<e> <p><l>هويون‬سي</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-<e> <p><l>هوي‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-<e> <p><l>هويون‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
-<e> <p><l>هوي‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-<e> <p><l>هويون‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+	<e> <p><l>‬هيس</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>هياسين</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+	<e> <p><l>هوي‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>هيو‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+	<e> <p><l>هوي‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>هُئي</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>هئي</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>هيون‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
 
 <!-- FIXME ::
