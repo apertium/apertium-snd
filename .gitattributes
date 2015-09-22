@@ -5,4 +5,5 @@
 /apertium-snd.snd.dix -text
 /clean_wiki.txt -text
 dev/history.log -text
+/script2.py -text
 /wiki.txt -text
