@@ -8,7 +8,9 @@
   </char>
 
   <!-- Common orthographical errors -->
-
+   <char value="ه">
+	<equiv-char value="ھ"/>
+   </char>
 
    <char value="ش">
 	<equiv-char value="ﺵ"/>
