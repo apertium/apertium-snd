@@ -575,9 +575,11 @@
       <e><p><l>ٿا</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ٿيون</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="pl"/></r></p></e>
 
-      <e><p><l>ٿيو</l><r>ٿو<s n="vbcop"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿيا</l><r>ٿو<s n="vbcop"/><s n="past"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ٿئي</l><r>ٿو<s n="vbcop"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿي</l><r>ٿو<s n="vbcop"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿي</l><r>ٿو<s n="vbcop"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿي</l><r>ٿو<s n="vbcop"/><s n="past"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ٿي</l><r>ٿو<s n="vbcop"/><s n="past"/><s n="f"/><s n="pl"/></r></p></e>
+
 <!--pp & past for Feminine-->
       <e><p><l>ٿيندو</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ٿيندا</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
@@ -592,20 +594,59 @@
 
     <pardef n="سگهن__vaux">
 
-<e> <p><l>ندس</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>نداسي</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-<e> <p><l>ندين</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>ندي</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>ندا</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-<e> <p><l>ندو</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>ندا</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهان</l><r><s n="vaux"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهان</l><r><s n="vaux"/><s n="pres"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهون</l><r><s n="vaux"/><s n="pres"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهون</l><r><s n="vaux"/><s n="pres"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
 
-<e> <p><l>ندس</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
-<e> <p><l>نديون</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e> <!--check-->
-<e> <p><l>ندي</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-<e> <p><l>نديون</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
-<e> <p><l>ندي</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-<e> <p><l>نديون</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهين</l><r><s n="vaux"/><s n="pres"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهين</l><r><s n="vaux"/><s n="pres"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهو</l><r><s n="vaux"/><s n="pres"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهو</l><r><s n="vaux"/><s n="pres"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>سگهي</l><r><s n="vaux"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهي</l><r><s n="vaux"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهن</l><r><s n="vaux"/><s n="pres"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهن</l><r><s n="vaux"/><s n="pres"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+
+<!--past-->
+      <e><p><l>سگهيُس</l><r><s n="vaux"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهيس</l><r><s n="vaux"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهيِس </l><r><s n="vaux"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهيس </l><r><s n="vaux"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهياسون</l><r><s n="vaux"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهيونسون</l><r><s n="vaux"/><s n="past"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>سگهئين</l><r><s n="vaux"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهيِنءَ</l><r><s n="vaux"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهيوَ</l><r><s n="vaux"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهيو</l><r><s n="vaux"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهيئو</l><r><s n="vaux"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهيون</l><r><s n="vaux"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهيئو</l><r><s n="vaux"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>سگهيو</l><r><s n="vaux"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>سگِهي</l><r><s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهي</l><r><s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>سگهيا</l><r><s n="vaux"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>سگهيون</l><r><s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+
+<!--future-->
+	<e> <p><l>سگهندُس</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>سگهندس</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>سگهنداسون</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>ندين</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>ندي</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>ندا</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>ندو</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>ندا</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+
+	<e> <p><l>ندس</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>نديون</l><r><s n="vaux"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e> <!--check-->
+	<e> <p><l>ندي</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>نديون</l><r><s n="vaux"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+	<e> <p><l>ندي</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>نديون</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
 
     </pardef>
@@ -693,16 +734,19 @@
       <e><p><l>نديون</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pprs"/><s n="m"/><s n="pl"/></r></p></e>
 
 <!-- past/future tense : check examples in corpus or more examples on web -->
-      <e><p><l>يس</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ئين</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ين</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>يو</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ي</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ياسين</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>يو</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>يون</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>يا</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>يون</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>يس</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>يم</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ياسين</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ئين</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>يا</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ئينءَ</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>يون</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>يو</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>يا</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ئي</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>يون</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
 
       <e><p><l>يو</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
@@ -723,7 +767,22 @@
     </pardef>
 
     <pardef n="ڪر/ڻ__vblex_tv">
-      <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
+
+      <e><p><l>يس</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>يم</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ياسين</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ئين</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>يا</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ئينءَ</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>يون</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>يو</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>يا</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ئي</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>يون</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+
+
     </pardef>
 
     <pardef n="ڳالهائ/ڻ__vblex_tv">
@@ -1482,11 +1541,18 @@
 
     <e lm="ٿو"><i></i><par n="/ٿو__vbcop"/></e>
     <e lm=""><i></i><par n="copula__vbser"/></e>
-    <e lm="سگ"><i>سگ</i><par n="سگهن__vaux"/></e>
+    <e lm="سگ"><i></i><par n="سگهن__vaux"/></e>
 
 
-    <e lm="ڪرڻ"><i>ڏس</i><par n="ڪر/ڻ__vblex_tv"/></e>
+    <e lm="ڪرڻ"><i>ڪر</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to do-->
+    <e lm="اچڻ"><i>آ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to come-->
+    <e lm="ڊﻭڙڻ"><i>ڊﻭڙ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to run -->
+
     <e lm="سمھڻ"><i>سمھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="وڃڻ"><i>وڃ</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to go-->
+    <e lm="وڃڻ"><i>وي</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to go-->
+    <e lm="وڃڻ"><i>و</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to go-->
+
     <e lm="ھلڻ"><i>ھل</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="پيئڻ"><i>پيئ</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="رھڻ"><i>رھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
