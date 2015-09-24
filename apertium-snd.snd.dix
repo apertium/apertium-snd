@@ -343,6 +343,12 @@
       <e><p><l>ا</l><r><s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
 
+    <pardef n="سند__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+    </pardef>
 
 
     <!-- SECTION: Determiners -->
@@ -1003,8 +1009,11 @@
     <e lm="توهانجو"><i>توهانج </i><par n="منهنج/و__prn"/></e>
     <e lm="اسانجو"><i>اسانج</i><par n="منهنج/و__prn"/></e>
 
+    <e lm="هن جو"><i>هن ج</i><par n="منهنج/و__prn"/></e>
+    <e lm="ان جو"><i>ان ج</i><par n="منهنج/و__prn"/></e>
 
-
+    <e lm="سندن"><i>سندن</i><par n="سند__prn"/></e>
+    <e lm="سندس"><i>سندس</i><par n="سند__prn"/></e>
 
 
    <!-- SECTION: Determiners -->
