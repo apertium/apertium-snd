@@ -5,6 +5,8 @@
 /apertium-snd.snd.dix -text
 /clean_wiki.txt -text
 dev/history.log -text
+/labelled -text
 /script2.py -text
 /unks -text
+/unks-tmp-sort -text svneol=unset#application/octet-stream
 /wiki.txt -text
