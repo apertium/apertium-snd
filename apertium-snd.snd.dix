@@ -920,6 +920,7 @@
     <e lm="جي"><i>ج</i><par n="ج/ي__gen"/></e>
 
     <e lm="کان"><i>کان</i><par n="کان__post"/></e>
+    <e lm="تحت"><i>تحت</i><par n="کان__post"/></e>
     <e lm="کون"><i>کون</i><par n="کان__post"/></e>
     <e lm="۾"><i>۾</i><par n="کان__post"/></e>
     <e lm="مان"><i>مان</i><par n="کان__post"/></e>
@@ -1227,6 +1228,7 @@
     <e lm="زمين"><i>زمين</i><par n="ھوا__n_m"/></e>
     <e lm="زبان"><i>زبان</i><par n="ھوا__n_m"/></e>
     <e lm="قوم"><i>قوم</i><par n="ھوا__n_m"/></e>
+    <e lm="تحريڪ"><i>تحريڪ</i><par n="ھوا__n_m"/></e>
 
     <e lm="ڀيڻ"><i>ڀي</i><par n="ڀي/ڻ__n_f"/></e>
 
@@ -1360,6 +1362,17 @@
     <e lm="زندگي"><i>زندگي</i><par n="سج__n_m"/></e>
     <e lm="مدد"><i>مدد</i><par n="سج__n_m"/></e>
     <e lm="زماني"><i>زماني</i><par n="سج__n_m"/></e>
+     <e lm="اثر"><i>اثر</i><par n="سج__n_m"/></e>
+    <e lm="ڪاليج"><i>ڪاليج</i><par n="سج__n_m"/></e>
+    <e lm="آواز"><i>آواز</i><par n="سج__n_m"/></e>
+    <e lm="اختيار"><i>اختيار</i><par n="سج__n_m"/></e>
+    <e lm="ڄام"><i>ڄام</i><par n="سج__n_m"/></e>
+    <e lm="پاسو"><i>پاسو</i><par n="سج__n_m"/></e>
+    <e lm="چڪو"><i>چڪو</i><par n="سج__n_m"/></e>
+    <e lm="چين"><i>چين</i><par n="سج__n_m"/></e>
+    <e lm="ادو"><i>ادو</i><par n="سج__n_m"/></e>
+    <e lm="ادا"><i>ادا</i><par n="سج__n_m"/></e>
+
 
 <!--educational qualifications-->
     <e lm="ايل ايل بي"><i>ايل<b/>ايل<b/>بي</i><par n="سج__n_m"/></e>
@@ -1370,6 +1383,9 @@
 
 
     <e lm="اعوام"><i>اعوام</i><par n="قلم__n_f"/></e>
+    <e lm="آزاديءَ"><i>آزاديءَ</i><par n="قلم__n_f"/></e>
+    <e lm="آزادي"><i>آزادي</i><par n="قلم__n_f"/></e>
+    <e lm="ادي"><i>ادي</i><par n="قلم__n_f"/></e>
     <e lm="عوام"><i>عوام</i><par n="قلم__n_f"/></e>
     <e lm="تعليم"><i>تعليم</i><par n="قلم__n_f"/></e>
     <e lm="غلاميءَ"><i>غلاميءَ</i><par n="قلم__n_f"/></e>
@@ -1443,15 +1459,19 @@
     <e lm="احمد"><i>احمد</i><par n="mascName__np"/></e>
     <e lm="جي ايم سيد"><i>جي<b/>ايم<b/>سيد</i><par n="mascName__np"/></e>
     <e lm="سيد"><i>سيد</i><par n="mascName__np"/></e>
+    <e lm="اياز"><i>اياز</i><par n="mascName__np"/></e>
 
 
     <e lm="بينظير"><i>بينظير</i><par n="femName__np"/></e>
+    <e lm="ايشيا"><i>ايشيا</i><par n="femName__np"/></e>
 
 <!--particular things-->
     <e lm="قرآن"><i>قرآن</i><par n="قرآن__np"/></e>
 
     <!-- SECTION: Adjectives -->
+
     <e lm="سٺو"><i>سٺ</i><par n="سٺ/و__adj"/></e>
+    <e lm="پورو"><i>پور</i><par n="سٺ/و__adj"/></e>
     <e lm="مٺو"><i>مٺ</i><par n="سٺ/و__adj"/></e>
     <e lm="مٺڙو"><i>مٺڙ</i><par n="سٺ/و__adj"/></e>
     <e lm="سهڻو"><i>سهڻ</i><par n="سٺ/و__adj"/></e>
@@ -1475,6 +1495,7 @@
     <e lm="گهٽ"><i>گهٽ</i><par n="تمام__adj"/></e>
     <e lm="ڪجهه"><i>ڪجهه</i><par n="تمام__adj"/></e>
     <e lm="سڄو"><i>سڄ</i><par n="سٺ/و__adj"/></e>
+    <e lm="جنم"><i>جنم</i><par n="تمام__adj"/></e>
 
 <!--colors-->
     <e lm="ڪارو"><i>ڪار</i><par n="سٺ/و__adj"/></e>
@@ -1497,6 +1518,10 @@
 
 <!--non inflecting adjs-->
     <e lm="تمام"><i>تمام</i><par n="تمام__adj"/></e>
+    <e lm="جاري"><i>جاري</i><par n="تمام__adj"/></e>
+    <e lm="پيش"><i>پيش</i><par n="تمام__adj"/></e>
+    <e lm="اسلامي"><i>اسلامي</i><par n="تمام__adj"/></e>
+    <e lm="ڪافي"><i>ڪافي</i><par n="تمام__adj"/></e>
     <e lm="حاصل"><i>حاصل</i><par n="تمام__adj"/></e>
     <e lm="قانوني"><i>قانوني</i><par n="تمام__adj"/></e>
     <e lm="مشهور"><i>مشهور</i><par n="تمام__adj"/></e>
@@ -2049,6 +2074,8 @@
 
     <!-- SECTION: Adverbs -->
 
+    <e lm="پاسيرو"><i>پاسيرو</i><par n="هاڻي__adv"/></e>
+    <e lm="اڪثر"><i>اڪثر</i><par n="هاڻي__adv"/></e>
     <e lm="جيئن"><i>جيئن</i><par n="هاڻي__adv"/></e>
     <e lm="هاڻي"><i>هاڻي</i><par n="هاڻي__adv"/></e>
     <e lm="قانونن"><i>قانونن</i><par n="هاڻي__adv"/></e>
@@ -2300,6 +2327,10 @@
     <!-- SECTION: Interjections -->
 	<e lm="السلام عليكم"><i>السلام<b/>عليكم</i><par n="hello__ij"/></e>
 	<e lm="السلام"><i>السلام</i><par n="hello__ij"/></e>
+	<e lm="ادي"><i>ادي</i><par n="hello__ij"/></e>
+	<e lm="ادا"><i>ادا</i><par n="hello__ij"/></e>
+
+
 <!--<e lm="good morning">    <i>good<b/>morning</i><par n="hello__ij"/></e>-->
     <!-- SECTION: Miscellaneous -->
  
