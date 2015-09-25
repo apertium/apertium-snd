@@ -921,6 +921,9 @@
 
     <e lm="کان"><i>کان</i><par n="کان__post"/></e>
     <e lm="تحت"><i>تحت</i><par n="کان__post"/></e>
+    <e lm="بطور"><i>بطور</i><par n="کان__post"/></e>
+    <e lm="کيس"><i>کيس</i><par n="کان__post"/></e>
+
     <e lm="کون"><i>کون</i><par n="کان__post"/></e>
     <e lm="۾"><i>۾</i><par n="کان__post"/></e>
     <e lm="مان"><i>مان</i><par n="کان__post"/></e>
@@ -936,6 +939,7 @@
     <e lm="لاء"><i>لاء</i><par n="کان__post"/></e>
     <!--<e lm="جا"><i>جا</i><par n="کان__post"/></e>-->
 
+    <e lm="دوران"><i>دوران</i><par n="کان__post"/></e>
     <e lm="خلاف"><i>خلاف</i><par n="کان__post"/></e>
     <e lm="بابت"><i>بابت</i><par n="کان__post"/></e> <!-- "about/concerning" -->
     <e lm="پاران"><i>پاران</i><par n="کان__post"/></e>
@@ -952,6 +956,7 @@
     <e lm="ساڻ"><i>ساڻ</i><par n="کان__post"/></e> <!-- it means "साथ" -->
     <e lm="تائين"><i>تائين</i><par n="کان__post"/></e> <!-- means "upto" -->
     <e lm="وٽ"><i>وٽ</i><par n="کان__post"/></e>
+    <e lm="باري"><i>باري</i><par n="کان__post"/></e>
 
     <e lm="مٿان"><i>مٿان</i><par n="کان__post"/></e>
     <e lm="هيٺان"><i>هيٺان</i><par n="کان__post"/></e>
@@ -967,6 +972,8 @@
     <e lm="وچ ۾"><i>وچ ۾</i><par n="کان__post"/></e>
     <e lm="پر"><i>پر</i><par n="کان__post"/></e>
     <e lm="ڏانهن"><i>ڏانهن</i><par n="کان__post"/></e>
+    <e lm="بشمول"><i>بشمول</i><par n="کان__post"/></e>
+    <e lm="زريعي"><i>زريعي</i><par n="کان__post"/></e>
 
     <e lm="بنا"><i>بنا</i><par n="کان__post"/></e><!-- means "without" -->
     <e lm="بغير"><i>بغير</i><par n="کان__post"/></e><!-- means "without" -->
@@ -1020,6 +1027,7 @@
 
     <e lm="سندن"><i>سندن</i><par n="سند__prn"/></e>
     <e lm="سندس"><i>سندس</i><par n="سند__prn"/></e>
+    <e lm="کيس"><i>کيس</i><par n="سند__prn"/></e>
 
 
    <!-- SECTION: Determiners -->
@@ -2070,11 +2078,15 @@
     <e lm="خاردار"><i>خاردار</i><par n="تمام__adj"/></e>
     <e lm="پهريدار"><i>پهريدار</i><par n="تمام__adj"/></e>
     <e lm="قراداد"><i>قراداد</i><par n="تمام__adj"/></e>
+    <e lm="سڀ"><i>سڀ</i><par n="تمام__adj"/></e>
+    <e lm="هر"><i>هر</i><par n="تمام__adj"/></e>
+    <e lm="ٻيو"><i>ٻيو</i><par n="تمام__adj"/></e>
 
 
     <!-- SECTION: Adverbs -->
 
     <e lm="پاسيرو"><i>پاسيرو</i><par n="هاڻي__adv"/></e>
+    <e lm="کيس"><i>کيس</i><par n="هاڻي__adv"/></e>
     <e lm="اڪثر"><i>اڪثر</i><par n="هاڻي__adv"/></e>
     <e lm="جيئن"><i>جيئن</i><par n="هاڻي__adv"/></e>
     <e lm="هاڻي"><i>هاڻي</i><par n="هاڻي__adv"/></e>
