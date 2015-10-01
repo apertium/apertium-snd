@@ -11,6 +11,7 @@
     <sdef n="post"    c="Postposition"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="prn"     c="Pronoun"/>
+    <sdef n="part"     c="Particle"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="adv"     c="Adverb"/>
     <sdef n="adj"     c="Adjective"/>
@@ -29,6 +30,7 @@
     <sdef n="p3"      c="Third person"/>
     <sdef n="frm"     c="Formal"/>
     <sdef n="pol"     c="Polite"/>
+    <sdef n="prx"     c="Proximate"/>
 
     <sdef n="m"       c="Masculine"/>
     <sdef n="f"       c="Feminine"/>
@@ -182,26 +184,52 @@
 <!--also, doesn't cover some other "dem" mentioned on CIIL site-->
 
     <pardef n="ه/وُ__prn">
-      <e r="LR"><p><l>وُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
-      <e><p><l>و</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
-      <e><p><l>ي</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
-      <e r="LR"><p><l>وُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
-      <e><p><l>و</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/><s n="nom"/></r></p></e>
-      <e><p><l>ون</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
-      <e><p><l>ونن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
-      <e><p><l>ن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/><s n="obl"/></r></p></e>
-      <e><p><l>نن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/><s n="obl"/></r></p></e>
+      <e><p><l>هوُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+      <e><p><l>هو</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+      <e><p><l>هُو</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+      <e><p><l>اُو</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+      <e><p><l>او</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+      <e><p><l>اُهو</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+      <e><p><l>اهو</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
 
+      <e><p><l>هُوءَ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>اُوءَ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>اُها</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>هوءَ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>اوءَ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e><p><l>اها</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
 
-      <e r="LR"><p><l>وُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><p><l>و</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
-      <e r="LR"><p><l>وُ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><p><l>و</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/><s n="nom"/></r></p></e>
+<!--plural is same for M and F-->
+      <e><p><l>هو</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>او</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>اُهي</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>اهي</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+
+<!--Now for Close ones : -->
+	<e><p><l>هِيءُ</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+	<e><p><l>اِي</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+	<e><p><l>اهو</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>	
+	<e><p><l>هيء</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+	<e><p><l>اي</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+
+	<e><p><l>هِيءَ</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
+	<e><p><l>اِيءَ</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
+	<e><p><l>اِها</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>	
+	<e><p><l>هيءَ</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
+	<e><p><l>ايءَ</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
+	<e><p><l>اها</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>	
+
+      <e><p><l>هي</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>اي</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>اِهي</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>اهي</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="pl"/></r></p></e>
+
+<!--
       <e><p><l>ن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
       <e><p><l>نن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
       <e><p><l>ون</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/><s n="obl"/></r></p></e>
       <e><p><l>ونن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/><s n="obl"/></r></p></e>
-
+-->
     </pardef>
 
     <pardef n="/ڪ__prn">
@@ -574,7 +602,17 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Adverbs -->
+
+    <pardef n="ها__part">
+      <e><p><l></l><r><s n="part"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Verbs -->
+
+    <pardef n="__vblex_inf">	<!--generic-->
+      <e><p><l></l><r><s n="vblex"/><s n="inf"/></r></p></e>
+    </pardef>
 
     <pardef n="/ٿو__vbcop"> <!-- FIXME: not a copula!! verb "to happen" ||  -->
       <e><p><l>ٿيڻ</l><r>ٿو<s n="vbcop"/><s n="inf"/></r></p></e>
@@ -1004,7 +1042,7 @@
     <e lm="اوهان"><i>اوهان</i><par n="اوهان__prn"/></e>
 
 <!--personal p3 -->
-    <e lm="ه"><i>ه</i><par n="ه/وُ__prn"/></e>
+    <e lm="ه"><i></i><par n="ه/وُ__prn"/></e>
 
 <!-- indefinite -->
     <e lm="ڪ"><i>ڪ</i><par n="/ڪ__prn"/></e>
@@ -2483,6 +2521,35 @@
     <e lm="غير"><i>غير</i><par n="تمام__adj"/></e>
     <e lm="اولاهون"><i>اولاهون</i><par n="تمام__adj"/></e>
     <e lm="عربي"><i>عربي</i><par n="تمام__adj"/></e>
+
+
+    <!-- SECTION: Particles -->
+    <e lm="ناهي"><i>ناهي</i><par n="ها__part"/></e>
+    <e lm="ڪونه"><i>ڪونه</i><par n="ها__part"/></e>
+    <e lm="ڪونهي"><i>ڪونهي</i><par n="ها__part"/></e>
+    <e lm="ها"><i>ها</i><par n="ها__part"/></e>
+    <e lm="پڪ"><i>پڪ</i><par n="ها__part"/></e>
+    <e lm="ضرور"><i>ضرور</i><par n="ها__part"/></e>
+    <e lm="نه"><i>نه</i><par n="ها__part"/></e>
+    <e lm="ڪانه"><i>ڪانه</i><par n="ها__part"/></e>
+    <e lm="ڪين"><i>ڪين</i><par n="ها__part"/></e>
+    <e lm="نڪو"><i>نڪو</i><par n="ها__part"/></e>
+    <e lm="ته"><i>ته</i><par n="ها__part"/></e>
+    <e lm="صِرف"><i>صِرف</i><par n="ها__part"/></e>
+    <e lm="صرف"><i>صرف</i><par n="ها__part"/></e>
+    <e lm="رڳو"><i>رڳو</i><par n="ها__part"/></e>
+    <e lm="فَقَت"><i>فَقَت</i><par n="ها__part"/></e>
+    <e lm="فقت"><i>فقت</i><par n="ها__part"/></e>
+    <e lm="ئي"><i>ئي</i><par n="ها__part"/></e>
+    <e lm="به"><i>به</i><par n="ها__part"/></e>
+    <e lm="صحيح"><i>صحيح</i><par n="ها__part"/></e>
+    <e lm="پڻ"><i>پڻ</i><par n="ها__part"/></e>
+    <e lm="ڇو نه"><i>ڇو<b/>نه</i><par n="ها__part"/></e>
+    <e lm="نه ته"><i>نه<b/>ته</i><par n="ها__part"/></e>
+    <e lm="ڪجهه به"><i>ڪجهه<b/>به</i><par n="ها__part"/></e>
+    <e lm="ڪو به"><i>ڪو<b/>به</i><par n="ها__part"/></e>
+    <e lm="ڪڏهن به"><i>ڪڏهن<b/>به</i><par n="ها__part"/></e>
+    <e lm="ڪيئن به"><i>ڪيئن<b/>به</i><par n="ها__part"/></e>
 
     <!-- SECTION: Adverbs -->
 
