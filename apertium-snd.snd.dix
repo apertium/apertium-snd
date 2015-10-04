@@ -2002,6 +2002,24 @@
 
 <!--person names -->
     <e lm="خان"><i>خان</i><par n="mascName__np"/></e>
+    <e lm="سرمست"><i>سرمست</i><par n="mascName__np"/></e>
+    <e lm="ٻڍل"><i>ٻڍل</i><par n="mascName__np"/></e>
+    <e lm="صالح"><i>صالح</i><par n="mascName__np"/></e>
+    <e lm="جرير"><i>جرير</i><par n="mascName__np"/></e>
+    <e lm="اقبال"><i>اقبال</i><par n="mascName__np"/></e>
+    <e lm="فيض"><i>فيض</i><par n="mascName__np"/></e>
+    <e lm="سڪندر"><i>سڪندر</i><par n="mascName__np"/></e>
+    <e lm="نواز"><i>نواز</i><par n="mascName__np"/></e>
+    <e lm="حاجي"><i>حاجي</i><par n="mascName__np"/></e>
+    <e lm="وسلم"><i>وسلم</i><par n="mascName__np"/></e>
+    <e lm="ڀٽي"><i>ڀٽي</i><par n="mascName__np"/></e>
+    <e lm="مغل"><i>مغل</i><par n="mascName__np"/></e>
+    <e lm="رند"><i>رند</i><par n="mascName__np"/></e>
+    <e lm="آدم"><i>آدم</i><par n="mascName__np"/></e>
+    <e lm="اڪبر"><i>اڪبر</i><par n="mascName__np"/></e>
+    <e lm="ايوب"><i>ايوب</i><par n="mascName__np"/></e>
+    <e lm="لياقت"><i>لياقت</i><par n="mascName__np"/></e>
+    <e lm="قاسم"><i>قاسم</i><par n="mascName__np"/></e>
     <e lm="ابراهيم"><i>ابراهيم</i><par n="mascName__np"/></e>
     <e lm="ميمڻ"><i>ميمڻ</i><par n="mascName__np"/></e>
     <e lm="ڪمار"><i>ڪمار</i><par n="mascName__np"/></e>
