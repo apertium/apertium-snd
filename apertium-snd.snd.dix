@@ -1641,6 +1641,7 @@
     <e lm="مئي"><i>مئي</i><par n="سج__n_m"/></e>
     <e lm="جون"><i>جون</i><par n="سج__n_m"/></e>
     <e lm="جولاء"><i>جولاء</i><par n="سج__n_m"/></e>
+    <e lm="جولاءِ"><i>جولاءِ</i><par n="سج__n_m"/></e>
     <e lm="آگسٽ"><i>آگسٽ</i><par n="سج__n_m"/></e>
     <e lm="سيپٽمبر"><i>سيپٽمبر</i><par n="سج__n_m"/></e>
     <e lm="آڪٽوبر"><i>آڪٽوبر</i><par n="سج__n_m"/></e>
@@ -2282,6 +2283,24 @@
     <e lm="ٺٽو"><i>ٺٽو</i><par n="ڪراچي__np"/></e>
     <e lm="ملير"><i>ملير</i><par n="ڪراچي__np"/></e>
     <e lm="لاهور"><i>لاهور</i><par n="ڪراچي__np"/></e>
+    <e lm="ڪنڊيارو"><i>ڪنڊيارو</i><par n="ڪراچي__np"/></e>
+    <e lm="شهدادڪوٽ"><i>شهدادڪوٽ</i><par n="ڪراچي__np"/></e>
+    <e lm="ٿرپارڪر"><i>ٿرپارڪر</i><par n="ڪراچي__np"/></e>
+    <e lm="گھوٽڪي"><i>گھوٽڪي</i><par n="ڪراچي__np"/></e>
+    <e lm="ممبئي"><i>ممبئي</i><par n="ڪراچي__np"/></e>
+    <e lm="ڀنڀور"><i>ڀنڀور</i><par n="ڪراچي__np"/></e>
+    <e lm="گهوٽڪي"><i>گهوٽڪي</i><par n="ڪراچي__np"/></e>
+    <e lm="ڪشمير"><i>ڪشمير</i><par n="ڪراچي__np"/></e>
+    <e lm="نوابشاهه"><i>نوابشاهه</i><par n="ڪراچي__np"/></e>
+    <e lm="روهڙي"><i>روهڙي</i><par n="ڪراچي__np"/></e>
+    <e lm="روهڙيءَ"><i>روهڙيءَ</i><par n="ڪراچي__np"/></e>
+    <e lm="مردان"><i>مردان</i><par n="ڪراچي__np"/></e>
+    <e lm="مٽياري"><i>مٽياري</i><par n="ڪراچي__np"/></e>
+    <e lm="ننگر"><i>ننگر</i><par n="ڪراچي__np"/></e>
+    <e lm="ميرپورخاص"><i>ميرپورخاص</i><par n="ڪراچي__np"/></e>
+    <e lm="ديبل"><i>ديبل</i><par n="ڪراچي__np"/></e>
+    <e lm="ملائيشيا"><i>ملائيشيا</i><par n="ڪراچي__np"/></e>
+    <e lm="بهاولپور"><i>بهاولپور</i><par n="ڪراچي__np"/></e>
 
 
 <!--person names -->
@@ -2395,6 +2414,49 @@
     <e lm="عباسي"><i>عباسي</i><par n="mascName__np"/></e>
     <e lm="زرداري"><i>زرداري</i><par n="mascName__np"/></e>
     <e lm="يوسف"><i>يوسف</i><par n="mascName__np"/></e>
+    <e lm="السيّد"><i>السيّد</i><par n="mascName__np"/></e>
+    <e lm="الشّيخ"><i>الشّيخ</i><par n="mascName__np"/></e>
+    <e lm="بيدل"><i>بيدل</i><par n="mascName__np"/></e>
+    <e lm="الف"><i>الف</i><par n="mascName__np"/></e>
+    <e lm="لنڊن"><i>لنڊن</i><par n="mascName__np"/></e>
+    <e lm="غوث"><i>غوث</i><par n="mascName__np"/></e>
+    <e lm="قمر"><i>قمر</i><par n="mascName__np"/></e>
+    <e lm="انڙ"><i>انڙ</i><par n="mascName__np"/></e>
+    <e lm="جناح"><i>جناح</i><par n="mascName__np"/></e>
+    <e lm="غازي"><i>غازي</i><par n="mascName__np"/></e>
+    <e lm="رضا"><i>رضا</i><par n="mascName__np"/></e>
+    <e lm="سرمد"><i>سرمد</i><par n="mascName__np"/></e>
+    <e lm="غالب"><i>غالب</i><par n="mascName__np"/></e>
+    <e lm="عبدالقادر"><i>عبدالقادر</i><par n="mascName__np"/></e>
+    <e lm="لقادر"><i>لقادر</i><par n="mascName__np"/></e>
+    <e lm="ملڪاڻي"><i>ملڪاڻي</i><par n="mascName__np"/></e>
+    <e lm="انصاري"><i>انصاري</i><par n="mascName__np"/></e>
+    <e lm="سرمست"><i>سرمست</i><par n="mascName__np"/></e>
+    <e lm="جمال"><i>جمال</i><par n="mascName__np"/></e>
+    <e lm="راڄڙ"><i>راڄڙ</i><par n="mascName__np"/></e>
+    <e lm="اسحاق"><i>اسحاق</i><par n="mascName__np"/></e>
+    <e lm="مشرف"><i>مشرف</i><par n="mascName__np"/></e>
+    <e lm="راشديه"><i>راشديه</i><par n="mascName__np"/></e>
+    <e lm="قريشي"><i>قريشي</i><par n="mascName__np"/></e>
+    <e lm="مجيب"><i>مجيب</i><par n="mascName__np"/></e>
+    <e lm="هاشم"><i>هاشم</i><par n="mascName__np"/></e>
+    <e lm="نقشبندي"><i>نقشبندي</i><par n="mascName__np"/></e>
+    <e lm="صدرالدين"><i>صدرالدين</i><par n="mascName__np"/></e>
+    <e lm="عارف"><i>عارف</i><par n="mascName__np"/></e>
+    <e lm="مجيب"><i>مجيب</i><par n="mascName__np"/></e>
+    <e lm="ڏاهر"><i>ڏاهر</i><par n="mascName__np"/></e>
+    <e lm="چوڌري"><i>چوڌري</i><par n="mascName__np"/></e>
+    <e lm="خادم"><i>خادم</i><par n="mascName__np"/></e>
+    <e lm="گانڌي"><i>گانڌي</i><par n="mascName__np"/></e>
+    <e lm="ڀرڳڙي"><i>ڀرڳڙي</i><par n="mascName__np"/></e>
+    <e lm="جلال"><i>جلال</i><par n="mascName__np"/></e>
+    <e lm="عمران"><i>عمران</i><par n="mascName__np"/></e>
+    <e lm="ديوان"><i>ديوان</i><par n="mascName__np"/></e>
+    <e lm="احسان"><i>احسان</i><par n="mascName__np"/></e>
+    <e lm="عبدالحسين"><i>عبدالحسين</i><par n="mascName__np"/></e>
+    <e lm="لاکو"><i>لاکو</i><par n="mascName__np"/></e>
+    <e lm="انيس"><i>انيس</i><par n="mascName__np"/></e>
+
 
     <e lm="ممتاز"><i>ممتاز</i><par n="femName__np"/></e>
     <e lm="بينظير"><i>بينظير</i><par n="femName__np"/></e>
