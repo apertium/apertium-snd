@@ -4,6 +4,11 @@
 /apertium-snd.snd.acx -text
 /apertium-snd.snd.dix -text
 /clean_wiki.txt -text
+data/CLEAN_WIKI_TEXT_v2_Final.txt -text
+data/NON-SINDHITEXT.docx.txt -text
+data/blog -text svneol=unset#application/octet-stream
+data/clean_wiki.txt -text
+data/wiki.txt -text
 dev/history.log -text
 /labelled -text
 /script2.py -text
