@@ -2070,6 +2070,7 @@
     <e lm="آغاز"><i>آغاز</i><par n="سج__n_m"/></e>
     <e lm="ملازم"><i>ملازم</i><par n="سج__n_m"/></e>
     <e lm="مخالفت"><i>مخالفت</i><par n="سج__n_m"/></e>
+    <e lm="ڪارڻ"><i>ڪارڻ</i><par n="سج__n_m"/></e>
     <e lm="ديش"><i>ديش</i><par n="سج__n_m"/></e>
     <e lm="ڀٽ"><i>ڀٽ</i><par n="سج__n_m"/></e>
     <e lm="وصال"><i>وصال</i><par n="سج__n_m"/></e>
@@ -2169,6 +2170,8 @@
     <e lm="معشوقه"><i>معشوقه</i><par n="قلم__n_f"/></e>
     <e lm="ڊگهائي"><i>ڊگهائي</i><par n="قلم__n_f"/></e>
     <e lm="بهار"><i>بهار</i><par n="قلم__n_f"/></e>
+    <e lm="امڙ"><i>امڙ</i><par n="قلم__n_f"/></e>
+    <e lm="خوراڪ"><i>خوراڪ</i><par n="قلم__n_f"/></e>
     <e lm="غلطي"><i>غلطي</i><par n="قلم__n_f"/></e>
     <e lm="سرحد"><i>سرحد</i><par n="قلم__n_f"/></e>
     <e lm="حمايت"><i>حمايت</i><par n="قلم__n_f"/></e>
@@ -3854,6 +3857,20 @@
     <e lm="تنهنڪري"><i>تنهنڪري</i><par n="هاڻي__adv"/></e>
 
     <!-- SECTION: Verbs -->
+<!--
+
+Transitive verbs require an object. For example, filled is a transitive verb and the cup is the object in the sentence She filled the cup. It doesn't make much sense to have filled without an object. She filled is incomplete.
+
+The tip for remembering the name is to think of transitive verbs as transferring their action to the object. Transitive and transfer both start with the prefix trans-.
+============================
+
+Intransitive verbs don't take an object.
+
+============================
+
+Some verbs can be both!
+
+-->
 
 <!--generic-->
 
@@ -3866,7 +3883,7 @@
     <e lm="بنائڻ"><i>بنائڻ</i><par n="__vblex_inf"/></e>
     <e lm="کائڻ"><i>کائڻ</i><par n="__vblex_inf"/></e>
     <e lm="پهچڻ"><i>پهچڻ</i><par n="__vblex_inf"/></e>
-
+    <e lm="وٺڻ"><i>وٺڻ</i><par n="__vblex_inf"/></e>
 
 
     <e lm="ٿو"><i></i><par n="/ٿو__vbcop"/></e>
@@ -3878,6 +3895,9 @@
     <e lm="ڪرڻ"><i>ڪ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to do-->
     <e lm="اچڻ"><i>آ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to come-->
     <e lm="ڊﻭڙڻ"><i>ڊﻭڙ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to run -->
+
+    <e lm="وٺڻ"><i>وٺ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to take -->
+    <e lm="وٺڻ"><i>وٺ</i><par n="ڏس/ڻ__vblex_tv"/></e> <!--to take -->
 
     <e lm="سمھڻ"><i>سمھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="وڃڻ"><i>وڃ</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to go-->
