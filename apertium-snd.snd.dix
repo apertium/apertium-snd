@@ -629,16 +629,15 @@
       <e><p><l>ٿا</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ٿيون</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="pl"/></r></p></e>
 
-      <e><p><l>ٿي</l><r><s n="vbcop"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿي</l><r><s n="vbcop"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿئي</l><r><s n="vbcop"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿي</l><r><s n="vbcop"/><s n="past"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ٿي</l><r><s n="vbcop"/><s n="past"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>ٿئي</l><r><s n="vbcop"/><s n="past"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>پيو</l><r><s n="vbcop"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>پيا</l><r><s n="vbcop"/><s n="past"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>پئي</l><r><s n="vbcop"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>پئيون</l><r><s n="vbcop"/><s n="past"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>پيون</l><r><s n="vbcop"/><s n="past"/><s n="f"/><s n="pl"/></r></p></e>
 
-<!--pp & past for Feminine-->
-      <e><p><l>ٿيندو</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿيندا</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+<!--pp & past -->
+      <e><p><l>ٿيو</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿيا</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 
       <e><p><l>ٿيندو</l><r>ٿو<s n="vbcop"/><s n="fut"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ٿيندي</l><r>ٿو<s n="vbcop"/><s n="fut"/><s n="f"/><s n="sg"/></r></p></e>
