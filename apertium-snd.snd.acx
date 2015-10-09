@@ -15,7 +15,7 @@
 	<equiv-char value="ﻬ"/>
 	<equiv-char value="ﻪ"/>
    </char>
-
+<!--
    <char value="ھ">
 	<equiv-char value="ه"/>
 	<equiv-char value="ﻩ"/>
@@ -23,7 +23,7 @@
 	<equiv-char value="ﻬ"/>
 	<equiv-char value="ﻪ"/>
    </char>
-
+-->
 
    <char value="َ">
 	<equiv-char value="ﹶ"/>
