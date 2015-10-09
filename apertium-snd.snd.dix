@@ -83,7 +83,7 @@
     <!-- SECTION: Punctuation -->
 
     <pardef n="sent">
-      <e><re>[.!\?:؟;؛]+</re><p><l></l><r><s n="sent"/></r></p></e>
+      <e><re>[.ـ!\?:؟;؛]+</re><p><l></l><r><s n="sent"/></r></p></e>
     </pardef>
 
     <pardef n="coma">
@@ -180,8 +180,8 @@
     </pardef>
 
     <pardef n="اوهان__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pol"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pol"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ين</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pol"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ان</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pol"/><s n="sg"/><s n="obl"/></r></p></e>
     </pardef>
 
 <!--: http://www.ciil-lisindia.net/Sindhi/sindhi_struct.html & http://www.languagesgulper.com/eng/Sindhi.html 
@@ -211,6 +211,8 @@
       <e><p><l>او</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>اُهي</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>اهي</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>هنن</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
 
 <!--Now for Close ones : -->
 	<e><p><l>هِيءُ</l><r><s n="prn"/><s n="pers"/><s n="prx"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
@@ -738,12 +740,13 @@
 
 <e> <p><l>آهيان</l><r>copula<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
 <e> <p><l>آهيون</l><r>copula<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-<e> <p><l>آهي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-<e> <p><l>آھي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+
+<e> <p><l>آهين</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
 <e> <p><l>آهيو</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+
 <e> <p><l>آهي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-<e> <p><l>آھي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
 <e> <p><l>آهن</l><r>copula<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
 <e> <p><l>اٿس</l><r>copula<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
 <!--past-->
@@ -784,13 +787,15 @@
       <e><p><l>ڻ</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="inf"/></r></p></e>
 
       <e><p><l>ان</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ين</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ي</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ي</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ون</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ين</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>و</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ن</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ن</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ي</l><r><s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ي</l><r><s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ن</l><r><s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
       <e><p><l>ندو</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pprs"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ندا</l><r>ڻ<s n="vblex"/><s n="iv"/><s n="pprs"/><s n="m"/><s n="pl"/></r></p></e>
@@ -845,8 +850,8 @@
 
       <e><p><l>ي</l><r><s n="vblex"/><s n="tv"/><s n="pres"/><s n="ind"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ن</l><r><s n="vblex"/><s n="tv"/><s n="pres"/><s n="ind"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ي</l><r><s n="vblex"/><s n="tv"/><s n="pres"/><s n="ind"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ن</l><r><s n="vblex"/><s n="tv"/><s n="pres"/><s n="ind"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ي</l><r>ئ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="ind"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ن</l><r>ئ<s n="vblex"/><s n="tv"/><s n="pres"/><s n="ind"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
 <!--present habitual FIXME -->
 <!-- p1-p2-p3 have same forms but distinct auxilliary verbs aahyun-aahyo-aahe -->
@@ -969,6 +974,7 @@
     <e lm="جي"><i>ج</i><par n="ج/ي__gen"/></e>
 
     <e lm="کان"><i>کان</i><par n="کان__post"/></e>
+    <e lm="تان"><i>تان</i><par n="کان__post"/></e>
     <e lm="تحت"><i>تحت</i><par n="کان__post"/></e>
     <e lm="بطور"><i>بطور</i><par n="کان__post"/></e>
     <e lm="کيس"><i>کيس</i><par n="کان__post"/></e>
@@ -1056,7 +1062,7 @@
     <e lm="تو"><i>تو</i><par n="تون__prn"/></e>
     <e lm="توه"><i>توه</i><par n="توهان__prn"/></e>
 
-    <e lm="اوهان"><i>اوهان</i><par n="اوهان__prn"/></e>
+    <e lm="اوهان"><i>اوه</i><par n="اوهان__prn"/></e>
 
 <!--personal p3 -->
     <e lm="ه"><i></i><par n="ه/وُ__prn"/></e>
@@ -1231,6 +1237,8 @@
 
     <e lm="زال"><i>زال</i><par n="زال__n_f"/></e>
     <e lm="تهذيب"><i>تهذيب</i><par n="زال__n_f"/></e>
+    <e lm="شخصيت"><i>شخصيت</i><par n="زال__n_f"/></e>
+    <e lm="بيماري"><i>بيماري</i><par n="زال__n_f"/></e>
     <e lm="رڪعت"><i>رڪعت</i><par n="زال__n_f"/></e>
     <e lm="سموري"><i>سموري</i><par n="زال__n_f"/></e>
     <e lm="نشاني"><i>نشاني</i><par n="زال__n_f"/></e>
@@ -1394,6 +1402,9 @@
     <e lm="مطالبو"><i>مطالب</i><par n="ڇوڪر/و__n_m"/></e>
     <e lm="ٽڪرو"><i>ٽڪر</i><par n="ڇوڪر/و__n_m"/></e>
     <e lm="پکي"><i>پکي</i><par n="ڇوڪري__n_f"/></e>
+    <e lm="ٻوٽو"><i>ٻوٽ</i><par n="ڇوڪري__n_f"/></e>
+    <e lm="سلسلو"><i>سلسل</i><par n="ڇوڪري__n_f"/></e>
+
     <e lm="سنڌي"><i>سنڌي</i><par n="زال__n_f"/></e>
 
     <e lm="ھفتو"><i>ھفت</i><par n="ھفت/و__n_m"/></e>
@@ -1538,6 +1549,10 @@
     <e lm="اٿارٽي"><i>اٿارٽي</i><par n="سج__n_m"/></e>
     <e lm="ڪمپني"><i>ڪمپني</i><par n="سج__n_m"/></e>
     <e lm="آرٽ"><i>آرٽ</i><par n="سج__n_m"/></e>
+    <e lm="ايپليڪيشن"><i>ايپليڪيشن</i><par n="سج__n_m"/></e>
+    <e lm="فانٽ"><i>فانٽ</i><par n="سج__n_m"/></e>
+    <e lm="سروي"><i>سروي</i><par n="سج__n_m"/></e>
+    <e lm="سوسائٽي"><i>سوسائٽي</i><par n="سج__n_m"/></e>
     <e lm="ڊائريڪٽر"><i>ڊائريڪٽر</i><par n="سج__n_m"/></e>
     <e lm="چانسلر"><i>چانسلر</i><par n="سج__n_m"/></e>
     <e lm="سينئر"><i>سينئر</i><par n="سج__n_m"/></e>
@@ -1843,6 +1858,7 @@
     <e lm="گيت"><i>گيت</i><par n="سج__n_m"/></e>
     <e lm="عالم"><i>عالم</i><par n="سج__n_m"/></e>
     <e lm="رسول"><i>رسول</i><par n="سج__n_m"/></e>
+    <e lm="عليہ"><i>عليہ</i><par n="سج__n_m"/></e>
     <e lm="شايع"><i>شايع</i><par n="سج__n_m"/></e>
     <e lm="هنڌ"><i>هنڌ</i><par n="سج__n_m"/></e>
     <e lm="ڪل"><i>ڪل</i><par n="سج__n_m"/></e>
@@ -2160,10 +2176,15 @@
     <e lm="سخي"><i>سخي</i><par n="سج__n_m"/></e>
     <e lm="مسڪين"><i>مسڪين</i><par n="سج__n_m"/></e>
     <e lm="ڪڪر"><i>ڪڪر</i><par n="سج__n_m"/></e>
+    <e lm="وزن"><i>وزن</i><par n="سج__n_m"/></e>
+    <e lm="قاتل"><i>قاتل</i><par n="سج__n_m"/></e>
+
 
 
     <e lm="حفاظت"><i>حفاظت</i><par n="قلم__n_f"/></e>
     <e lm="سنسڪرت"><i>سنسڪرت</i><par n="قلم__n_f"/></e>
+    <e lm="ضد"><i>ضد</i><par n="قلم__n_f"/></e>
+    <e lm="ساڙي"><i>ساڙي</i><par n="قلم__n_f"/></e>
     <e lm="ڏياري"><i>ڏياري</i><par n="قلم__n_f"/></e>
     <e lm="مفاصلي"><i>مفاصلي</i><par n="قلم__n_f"/></e>
     <e lm="معيشت"><i>معيشت</i><par n="قلم__n_f"/></e>
@@ -2769,6 +2790,7 @@
     <e lm="سجاد"><i>سجاد</i><par n="mascName__np"/></e>
     <e lm="آريسر"><i>آريسر</i><par n="mascName__np"/></e>
     <e lm="مگسي"><i>مگسي</i><par n="mascName__np"/></e>
+    <e lm="الياس"><i>الياس</i><par n="mascName__np"/></e>
 
 
     <e lm="شريعت"><i>شريعت</i><par n="femName__np"/></e>
@@ -2841,6 +2863,7 @@
 
 <!--non inflecting adjs-->
     <e lm="تمام"><i>تمام</i><par n="تمام__adj"/></e>
+    <e lm="وغيره"><i>وغيره</i><par n="تمام__adj"/></e>
     <e lm="جاري"><i>جاري</i><par n="تمام__adj"/></e>
     <e lm="مشڪل"><i>مشڪل</i><par n="تمام__adj"/></e>
     <e lm="زنده"><i>زنده</i><par n="تمام__adj"/></e>
@@ -2863,6 +2886,7 @@
     <e lm="مشهور"><i>مشهور</i><par n="تمام__adj"/></e>
     <e lm="سخت"><i>سخت</i><par n="تمام__adj"/></e>
     <e lm="موجود"><i>موجود</i><par n="تمام__adj"/></e>
+    <e lm="موجوده"><i>موجوده</i><par n="تمام__adj"/></e>
     <e lm="ادبي"><i>ادبي</i><par n="تمام__adj"/></e>
     <e lm="آباد"><i>آباد</i><par n="تمام__adj"/></e>
     <e lm="شروع"><i>شروع</i><par n="تمام__adj"/></e>
@@ -3765,12 +3789,14 @@
     <e lm="يعني"><i>يعني</i><par n="هاڻي__adv"/></e>
     <e lm="يعني"><i>يعني</i><par n="هاڻي__adv"/></e>
     <e lm="ڇو"><i>ڇو</i><par n="هاڻي__adv"/></e>
+    <e lm="نہ"><i>نہ</i><par n="هاڻي__adv"/></e>
     <e lm="هاڻي"><i>هاڻي</i><par n="هاڻي__adv"/></e>
     <e lm="ڪڏهن"><i>ڪڏهن</i><par n="هاڻي__adv"/></e>
     <e lm="تڏهن"><i>تڏهن</i><par n="هاڻي__adv"/></e>
     <e lm="تڏهن"><i>تڏهن</i><par n="هاڻي__adv"/></e>
     <e lm="ڪو"><i>ڪو</i><par n="هاڻي__adv"/></e>
     <e lm="ها"><i>ها</i><par n="هاڻي__adv"/></e>
+    <e lm="ايندا"><i>ايندا</i><par n="هاڻي__adv"/></e>
     <e lm="ڪيڏاهن"><i>ڪيڏاهن</i><par n="هاڻي__adv"/></e>
     <e lm="هِتي"><i>هِتي</i><par n="هاڻي__adv"/></e>
     <e lm="اُتي"><i>اُتي</i><par n="هاڻي__adv"/></e>
@@ -3893,25 +3919,35 @@ Some verbs can be both!
 
     <e lm="ڪرڻ"><i>ڪر</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to do-->
     <e lm="ڪرڻ"><i>ڪ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to do-->
-    <e lm="اچڻ"><i>آ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to come-->
+    <e lm="اچڻ"><i>آ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to come? -->
     <e lm="ڊﻭڙڻ"><i>ڊﻭڙ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to run -->
 
     <e lm="وٺڻ"><i>وٺ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to take -->
     <e lm="وٺڻ"><i>وٺ</i><par n="ڏس/ڻ__vblex_tv"/></e> <!--to take -->
 
+    <e lm="ٿيڻ"><i>ٿ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to become -->
+    <e lm="رهڻ"><i>ره</i><par n="ڪر/ڻ__vblex_tv"/></e>
+
     <e lm="سمھڻ"><i>سمھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="اچڻ"><i>اچ</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to come-->
+    <e lm="چوڻ"><i>چ</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to say-->
+
     <e lm="وڃڻ"><i>وڃ</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to go-->
     <e lm="وڃڻ"><i>وي</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to go-->
     <e lm="وڃڻ"><i>و</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to go-->
 
+    <e lm="هڻڻ"><i>ه</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to hit-->
+    <e lm="ڇڏڻ"><i>ڇڏ</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to leave -->
+
+    <e lm="توڙڻ"><i>توڙ</i><par n="سمھ/ڻ__vblex_iv"/></e> <!--to break -->
     <e lm="ھلڻ"><i>ھل</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="پيئڻ"><i>پيئ</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="رھڻ"><i>رھ</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="پوڻ"><i>پو</i><par n="سمھ/ڻ__vblex_iv"/></e>
+    <e lm="ملڻ"><i>مل</i><par n="سمھ/ڻ__vblex_iv"/></e>  <!--to get/recieve -->
 
     <e lm="مرڻ"><i>مر</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="ڊڄڻ"><i>ڊڄ</i><par n="سمھ/ڻ__vblex_iv"/></e>
-    <e lm="رهڻ"><i>ره</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="ڊوڙڻ"><i>ڊوڙ</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="چوڻ"><i>چو</i><par n="سمھ/ڻ__vblex_iv"/></e>
     <e lm="وڪڻڻ"><i>وڪڻ</i><par n="سمھ/ڻ__vblex_iv"/></e>
@@ -3980,6 +4016,7 @@ Some verbs can be both!
     <!-- SECTION: Abbreviations -->
 	<e lm="ق م"><i>ق<b/>م</i><par n="abbr"/></e>
 	<e lm="ق.م"><i>ق.م</i><par n="abbr"/></e>
+	<e lm="پ"><i>پ</i><par n="abbr"/></e>
 	<e lm="ع"><i>ع</i><par n="abbr"/></e>
 	<e lm="ء"><i>ء</i><par n="abbr"/></e>
 	<e lm="واپڊا"><i>واپڊا</i><par n="abbr"/></e>
