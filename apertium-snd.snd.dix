@@ -4617,6 +4617,7 @@ Some verbs can be both!
 
     <!-- SECTION: Interjections -->
 	<e lm="السلام عليكم"><i>السلام<b/>عليكم</i><par n="hello__ij"/></e>
+	<e lm="ڀلي ڪري آيا"><i>ڀلي ڪري آيا</i><par n="hello__ij"/></e> <!-- welcome -->
 	<e lm="السلام"><i>السلام</i><par n="hello__ij"/></e>
 	<e lm="ادي"><i>ادي</i><par n="hello__ij"/></e>
 	<e lm="ادا"><i>ادا</i><par n="hello__ij"/></e>
