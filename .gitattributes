@@ -3,6 +3,7 @@
 /NOTES -text
 /apertium-snd.snd.acx -text
 /apertium-snd.snd.dix -text
+/apertium-snd.snd.rlx -text
 data/CLEAN_WIKI_TEXT_v2_Final.txt -text
 data/NON-SINDHITEXT.docx.txt -text
 data/blog -text svneol=unset#application/octet-stream
@@ -11,5 +12,6 @@ data/wiki.txt -text
 dev/history.log -text
 /labelled -text
 /script2.py -text
+/snd.prob -text svneol=unset#unset
 /unks -text
 /unks-tmp-sort -text svneol=unset#application/octet-stream
