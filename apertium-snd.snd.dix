@@ -4536,7 +4536,7 @@ Some verbs can be both!
     <e lm="ڪرڻ"><i>ڪ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to do-->
     <e lm="اچڻ"><i>آ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to come? -->
     <e lm="ڊﻭڙڻ"><i>ڊﻭڙ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to run -->
-
+    <e lm="ملڻ"><i>مل</i><par n="ڪر/ڻ__vblex_tv"/></e>  <!--to get/recieve -->
     <e lm="وٺڻ"><i>وٺ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to take -->
     <e lm="وٺڻ"><i>وٺ</i><par n="ڏس/ڻ__vblex_tv"/></e> <!--to take -->
 
@@ -4559,7 +4559,6 @@ Some verbs can be both!
     <e lm="پيئڻ"><i>پيئ</i><par n="سمه/ڻ__vblex_iv"/></e>
     <e lm="رهڻ"><i>ره</i><par n="سمه/ڻ__vblex_iv"/></e>
     <e lm="پوڻ"><i>پو</i><par n="سمه/ڻ__vblex_iv"/></e>
-    <e lm="ملڻ"><i>مل</i><par n="سمه/ڻ__vblex_iv"/></e>  <!--to get/recieve -->
 
     <e lm="مرڻ"><i>مر</i><par n="سمه/ڻ__vblex_iv"/></e>
     <e lm="ڊڄڻ"><i>ڊڄ</i><par n="سمه/ڻ__vblex_iv"/></e>
