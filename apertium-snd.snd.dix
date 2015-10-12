@@ -996,6 +996,8 @@
     <e lm="جيڪا"><i>جيڪا</i><par n="اگر__cnjsub"/></e>
     <e lm="جيڪي"><i>جيڪي</i><par n="اگر__cnjsub"/></e>
     <e lm="ليڪن"><i>ليڪن</i><par n="اگر__cnjsub"/></e>
+    <e lm="تائين"><i>تائين</i><par n="اگر__cnjsub"/></e> <!-- means "upto/till" -->
+    <e lm="کانپوءِ"><i>کانپوءِ</i><par n="اگر__cnjsub"/></e>
 
     <!-- SECTION: Postpositions -->
 
@@ -1051,7 +1053,6 @@
     
     <e lm="گڏ"><i>گڏ</i><par n="کان__post"/></e> <!-- it means "साथ" -->
     <e lm="ساڻ"><i>ساڻ</i><par n="کان__post"/></e> <!-- it means "साथ" -->
-    <e lm="تائين"><i>تائين</i><par n="کان__post"/></e> <!-- means "upto" -->
     <e lm="وٽ"><i>وٽ</i><par n="کان__post"/></e>
     <e lm="باري"><i>باري</i><par n="کان__post"/></e>
 
@@ -1059,7 +1060,6 @@
     <e lm="هيٺان"><i>هيٺان</i><par n="کان__post"/></e>
     <e lm="پهرين"><i>پهرين</i><par n="کان__post"/></e>
     <e lm="پوءِ"><i>پوءِ</i><par n="کان__post"/></e>
-    <e lm="کانپوءِ"><i>کانپوءِ</i><par n="کان__post"/></e>
     <e lm="جي سامهون"><i>جي<b/>سامهون</i><par n="کان__post"/></e>
     <e lm="پٺيان"><i>پٺيان</i><par n="کان__post"/></e>
     <e lm="ڏورانهون"><i>ڏورانهون</i><par n="کان__post"/></e>
