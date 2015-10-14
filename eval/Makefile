@@ -1,4 +1,4 @@
-LANG=tat
+LANG=snd
 STAMP=$(shell date)
 DATE=$(shell date +%Y-%m-%d.%H:%M)
 LOG=history.log
