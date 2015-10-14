@@ -10,6 +10,7 @@ data/blog -text svneol=unset#application/octet-stream
 data/clean_wiki.txt -text
 data/wiki.txt -text
 dev/history.log -text
+eval/ref.1000.txt -text
 /labelled -text
 /script2.py -text
 /snd.prob -text svneol=unset#unset
