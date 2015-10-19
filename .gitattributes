@@ -11,9 +11,12 @@ data/clean_wiki.txt -text
 data/wiki.txt -text
 dev/history.log -text
 eval/Makefile -text
+eval/diac -text
 eval/evaluate-morph.py -text
+eval/foreign -text
 eval/ref.1000.txt -text
 eval/src.1000.txt -text svneol=unset#application/octet-stream
+eval/unknown -text
 /labelled -text
 /script2.py -text
 /snd.prob -text svneol=unset#unset
