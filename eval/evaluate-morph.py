@@ -30,8 +30,8 @@ reading = True;
 
 def parse_line(s): #{
 	entry = ('', []); # e.g. ('акысынын', ['акы<n><px3pl><gen>', 'акы<n><px3sg><gen>'])
-
-	line = ''.join(s[1:-1]); # strip ^ and $
+	line = s.strip('^$');
+#	line = ''.join(s[1:-1]); # strip ^ and $
 	row = line.split('/');
 	entry = (row[0], row[1:]);
 	
