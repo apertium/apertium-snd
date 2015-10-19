@@ -87,7 +87,7 @@
     <!-- SECTION: Punctuation -->
 
     <pardef n="sent">
-      <e><re>[.ـ!\?:؟;؛]+</re><p><l></l><r><s n="sent"/></r></p></e>
+      <e><re>[.ـ!\?:؟;؛۔]+</re><p><l></l><r><s n="sent"/></r></p></e>
     </pardef>
 
     <pardef n="coma">
