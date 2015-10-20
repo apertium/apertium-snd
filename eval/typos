@@ -1,0 +1,21 @@
+Misspelled Words
+-----------------
+^wrong word (word is ثقافت which means culture)/*ٿقافت$	typo
+^responsibilities(fem.) (Actual word is ذميواريون)/*ذميوارين$	typo
+^these are two different words گهربل means required and ۾ means in/*۾گهربل$	typo
+Wrong spelling of ڪميٽي which means committee(fem.)َ/*ڪميتيءَ$	typo
+^I think this is weong spelling of تلاءُ which means pond(masc.)ِ/*تلاءِ$	typo
+^eucliptus(wrong spelling)/*لونگ$	typo
+^wrong spelling of توجهه which means attention (fem.)/*توجه$	typo
+^wrong spelling of تنهنجو which means your/*تهنهجو$	typo
+^wrong spelling of متاثر which means affected/*متاٿر$	typo
+^wrong spelling of ڊپارٽمينٽ which means department)/*ڊپارتمينٽ$	typo
+^wrong spelling of انجنيئرنگ which means engineering/*انجنيئرڱ$	typo
+^wrong spelling of پنهنجي which means own/your, its masc. is پنهنجو/*پنهجي$	typo
+Wrong spelling of ڪمپيوٽرwhich means computer/*ڪمپوٽر$	typo
+^these are two separate word پاڪستان mean 'Pakistan'(masc.) and ۽ mean 'and'/*پاڪستان۽$	typo
+Separate words(ظلم mean 'cruelty'(masc.) and ۽=and/*ظلم۽$	typo
+^separate words(دفعو=times(masc.), and زبان=tongue(fem.)) /*دفعوزبان$	typo
+^software(correct spelling is سافٽويئر)/*سوفٽوير$	typo
+^wrong spelling of انٽرنيٽwhich mean internet/*انترنيٽ$	typo
+^wrong spelling of مضبوط which mean strong/*مصبوط$	typo
