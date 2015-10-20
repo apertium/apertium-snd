@@ -1,4 +1,6 @@
 <spectei> later we will say "we took 1500 words at random and excluded the urdu words, of which there were N"
+Urdu, Arabic, Persian and English translations :
+
 ^Arabic/*لاالله$
 ^praise(pronounced: Manqabat)(wirte its pronunciation because it Persian or Arabic word)/*منقبت$
 ^I think this is Arabic word/*يُولَد$
@@ -15,3 +17,9 @@
 ^Urdu word /*اچها$
 ^Urdu word/*ظاہر$
 ^white/*سفید$
+^long/*طويل$
+^without Allah/*بالله$
+
+--------
+
+^mobile (it is also written as موبائل)/*موبائيل$	tr
