@@ -1,5 +1,5 @@
 LANG=snd
-LOK=ca_AD.utf8
+LOK=en_IN.utf8
 STAMP=$(shell date)
 DATE=$(shell date +%Y-%m-%d.%H:%M)
 LOG=history.log
