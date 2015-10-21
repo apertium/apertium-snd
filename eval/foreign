@@ -10,6 +10,7 @@ Urdu, Arabic, Persian and English translations :
 ^Arabic word/*جلالہٗ$
 ^Al-Fitr(Arabic word)/*الفطر$
 ^I think this is Arabic word/*يُولَد$
+^گاہ/*گاہ$
 ^Urdu word/*وجہ$
 ^Urdu word /*توانا$
 ^Urdu word /*تبادلہ$
@@ -32,6 +33,9 @@ Linguistical(fem.)/*لسانياتي$
 ^utsaw (Hindi word) /*اُتسَو$
 --------
 ^C/*سي$
+^H/*ايچ$
+^M/*ايم$
+^MATLAB/*ميٽليب$
 ^app/*ایپ$	tr
 ^Whats/*واٽس$	tr
 ^stations/*اسٽیشنس$
