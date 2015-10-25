@@ -5,7 +5,6 @@
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="vblex"   c="Verb"/>
-    <sdef n="vbcop"   c="Copula verb"/>
     <sdef n="vbser"   c="Copula verb"/>
     <sdef n="vaux"   c="auxiliary verb"/>
     <sdef n="post"    c="Postposition"/>
@@ -656,30 +655,30 @@
       <e><p><l></l><r><s n="vblex"/><s n="inf"/></r></p></e>
     </pardef>
 
-    <pardef n="/ٿو__vbcop"> <!-- FIXME: not a copula!! verb "to happen" ||  -->
-      <e><p><l>ٿيڻ</l><r>ٿو<s n="vbcop"/><s n="inf"/></r></p></e>
+    <pardef n="/ٿو__vblex"> <!-- FIXME: not a copula!! verb "to happen" ||  -->
+      <e><p><l>ٿيڻ</l><r>ٿو<s n="vblex"/><s n="inf"/></r></p></e>
 
-      <e><p><l>ٿو</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿي</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿا</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ٿيون</l><r>ٿو<s n="vbcop"/><s n="pres"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ٿو</l><r>ٿو<s n="vblex"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿي</l><r>ٿو<s n="vblex"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿا</l><r>ٿو<s n="vblex"/><s n="pres"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ٿيون</l><r>ٿو<s n="vblex"/><s n="pres"/><s n="f"/><s n="pl"/></r></p></e>
 
-      <e><p><l>پيو</l><r><s n="vbcop"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>پيا</l><r><s n="vbcop"/><s n="past"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>پئي</l><r><s n="vbcop"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>پئيون</l><r><s n="vbcop"/><s n="past"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>پيون</l><r><s n="vbcop"/><s n="past"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>پيو</l><r><s n="vblex"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>پيا</l><r><s n="vblex"/><s n="past"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>پئي</l><r><s n="vblex"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>پئيون</l><r><s n="vblex"/><s n="past"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>پيون</l><r><s n="vblex"/><s n="past"/><s n="f"/><s n="pl"/></r></p></e>
 
 <!--pp & past -->
-      <e><p><l>ٿيو</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿيا</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ٿي</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿيون</l><r>ٿو<s n="vbcop"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ٿيو</l><r>ٿو<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿيا</l><r>ٿو<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ٿي</l><r>ٿو<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿيون</l><r>ٿو<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
-      <e><p><l>ٿيندو</l><r>ٿو<s n="vbcop"/><s n="fut"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿيندي</l><r>ٿو<s n="vbcop"/><s n="fut"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ٿيندا</l><r>ٿو<s n="vbcop"/><s n="fut"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ٿينديون</l><r>ٿو<s n="vbcop"/><s n="fut"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ٿيندو</l><r>ٿو<s n="vblex"/><s n="fut"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿيندي</l><r>ٿو<s n="vblex"/><s n="fut"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ٿيندا</l><r>ٿو<s n="vblex"/><s n="fut"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ٿينديون</l><r>ٿو<s n="vblex"/><s n="fut"/><s n="f"/><s n="pl"/></r></p></e>
 
 
     </pardef>
@@ -751,69 +750,69 @@
     </pardef>
 
 
-    <pardef n="copula__vbser">
+    <pardef n="هو__copula__vbser">
 
-<e> <p><l>هوندس</l><r>copula<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>هونداسي</l><r>copula<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-<e> <p><l>هوندي</l><r>copula<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>هوندين</l><r>copula<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>هوندا</l><r>copula<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-<e> <p><l>هوندو</l><r>copula<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e> <p><l>هوندا</l><r>copula<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+<e> <p><l>هوندس</l><r>هو<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+<e> <p><l>هونداسي</l><r>هو<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+<e> <p><l>هوندي</l><r>هو<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+<e> <p><l>هوندين</l><r>هو<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+<e> <p><l>هوندا</l><r>هو<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+<e> <p><l>هوندو</l><r>هو<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e> <p><l>هوندا</l><r>هو<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 
-<e> <p><l>هوندس</l><r>copula<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
-<e> <p><l>هونديون</l><r>copula<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e> <!--check-->
-<e> <p><l>هوندي</l><r>copula<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-<e> <p><l>هونديون</l><r>copula<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
-<e> <p><l>هوندي</l><r>copula<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-<e> <p><l>هونديون</l><r>copula<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+<e> <p><l>هوندس</l><r>هو<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+<e> <p><l>هونديون</l><r>هو<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e> <!--check-->
+<e> <p><l>هوندي</l><r>هو<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+<e> <p><l>هونديون</l><r>هو<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+<e> <p><l>هوندي</l><r>هو<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+<e> <p><l>هونديون</l><r>هو<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
 
-<e> <p><l>ٿيڻ</l><r>copula<s n="vbser"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
-<e> <p><l>ٿيڻ</l><r>copula<s n="vbser"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
-<e> <p><l>ٿيڻ</l><r>copula<s n="vbser"/><s n="inf"/><s n="obl"/></r></p></e>   <!--check-->
+<e> <p><l>ٿيڻ</l><r>هو<s n="vbser"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
+<e> <p><l>ٿيڻ</l><r>هو<s n="vbser"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
+<e> <p><l>ٿيڻ</l><r>هو<s n="vbser"/><s n="inf"/><s n="obl"/></r></p></e>   <!--check-->
 
-<e> <p><l>آهيان</l><r>copula<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-<e> <p><l>آهيون</l><r>copula<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+<e> <p><l>آهيان</l><r>هو<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+<e> <p><l>آهيون</l><r>هو<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
 
-<e> <p><l>آهين</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-<e> <p><l>آهيو</l><r>copula<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+<e> <p><l>آهين</l><r>هو<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+<e> <p><l>آهيو</l><r>هو<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
 
-<e> <p><l>آهي</l><r>copula<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-<e> <p><l>آهن</l><r>copula<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+<e> <p><l>آهي</l><r>هو<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+<e> <p><l>آهن</l><r>هو<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
-<e> <p><l>اٿس</l><r>copula<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+<e> <p><l>اٿس</l><r>هو<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
 <!--past-->
-	<e> <p><l>هئس</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-	<e> <p><l>هئاس</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-	<e> <p><l>هوي</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-	<e> <p><l>ها</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-	<e> <p><l>هئا</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-	<e> <p><l>هو‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-	<e> <p><l>هوا‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-	<e> <p><l>هُئا</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-	<e> <p><l>هئا</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هئس</l><r>هو<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>هئاس</l><r>هو<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هوي</l><r>هو<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>ها</l><r>هو<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هئا</l><r>هو<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هو‬</l><r>هو<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+	<e> <p><l>هوا‬</l><r>هو<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هُئا</l><r>هو<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+	<e> <p><l>هئا</l><r>هو<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 
-	<e> <p><l>‬هيس</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
-	<e> <p><l>هياسين</l><r>copula<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-	<e> <p><l>هوي‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-	<e> <p><l>هيو‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
-	<e> <p><l>هوي‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-	<e> <p><l>هُئي</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-	<e> <p><l>هئي</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-	<e> <p><l>هيون‬</l><r>copula<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+	<e> <p><l>‬هيس</l><r>هو<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>هياسين</l><r>هو<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+	<e> <p><l>هوي‬</l><r>هو<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>هيو‬</l><r>هو<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+	<e> <p><l>هوي‬</l><r>هو<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>هُئي</l><r>هو<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>هئي</l><r>هو<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+	<e> <p><l>هيون‬</l><r>هو<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
 
 <!-- FIXME ::
-      <e><p><l>هوندي</l><r>copula<s n="vblex"/><s n="pp"/><s n="sg"/></r></p></e>
-      <e><p><l>هوندو</l><r>copula<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>هوندي</l><r>copula<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>هوندا</l><r>copula<s n="vblex"/><s n="pp"/><s n="pl"/></r></p></e>
+      <e><p><l>هوندي</l><r>هو<s n="vblex"/><s n="pp"/><s n="sg"/></r></p></e>
+      <e><p><l>هوندو</l><r>هو<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>هوندي</l><r>هو<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>هوندا</l><r>هو<s n="vblex"/><s n="pp"/><s n="pl"/></r></p></e>
 
 
-      <e><p><l>‫پيو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p1"/><s n="m"><s n="sg"/></r></p></e>
-      <e><p><l>‫هو‬</l><r>copula<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>‫پيو‬</l><r>هو<s n="vblex"/><s n="past"/><s n="p1"/><s n="m"><s n="sg"/></r></p></e>
+      <e><p><l>‫هو‬</l><r>هو<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
 -->
 
     </pardef>
@@ -1455,6 +1454,7 @@
     <e lm="ماڳ"><i>ماڳ</i><par n="ڪتاب__n_m"/></e>
     <e lm="فيصلا"><i>فيصلا</i><par n="ڪتاب__n_m"/></e>
     <e lm="مقصد"><i>مقصد</i><par n="ڪتاب__n_m"/></e>
+    <e lm="دڪان"><i>دڪان</i><par n="ڪتاب__n_m"/></e>
 <!--prolly incorrect paradigm
     <e lm="بندر"><i>بندر</i><par n="هوا__n_m"/></e> 
     <e lm="ٽڪري"><i>ٽڪري</i><par n="هوا__n_m"/></e> -->
@@ -4536,8 +4536,8 @@ Some verbs can be both!
     <e lm="وٺڻ"><i>وٺڻ</i><par n="__vblex_inf"/></e>
 
 
-    <e lm="ٿو"><i></i><par n="/ٿو__vbcop"/></e>
-    <e lm=""><i></i><par n="copula__vbser"/></e>
+    <e lm="ٿو"><i></i><par n="/ٿو__vblex"/></e>
+    <e lm="هو"><i></i><par n="هو__copula__vbser"/></e>
     <e lm="سگ"><i></i><par n="سگهن__vaux"/></e>
 
 
