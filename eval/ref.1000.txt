@@ -1,12 +1,12 @@
 ^ڏيهي/ڏيهي<adj><m><sg><nom>/ڏيهي<adj><m><sg><obl>/ڏيهي<adj><m><pl><nom>/ڏيهي<adj><m><pl><obl>/ڏيهي<adj><f><sg><nom>/ڏيهي<adj><f><sg><obl>/ڏيهي<adj><f><pl><nom>/ڏيهي<adj><f><pl><obl>$
-^مهمن/*مهمن$
-^سرشتي/*سرشتي$
+^مهمن/مهم<n><m><pl><obl>$
+^سرشتو/سرشتي<n><m><sg><obl>$
 ^يرغمال/يرغمال<adj><m><sg><nom>/يرغمال<adj><m><sg><obl>/يرغمال<adj><m><pl><nom>/يرغمال<adj><m><pl><obl>/يرغمال<adj><f><sg><nom>/يرغمال<adj><f><sg><obl>/يرغمال<adj><f><pl><nom>/يرغمال<adj><f><pl><obl>$
 ^رُڪُنِيتَ/رُڪُنِيتَ<n><m><sg><nom>/رُڪُنِيتَ<n><m><sg><obl>/رُڪُنِيتَ<n><m><pl><nom>/رُڪُنِيتَ<n><m><pl><obl>$
 ^اديُون/ادي<n><f><pl><obl>$
 ^اعلي/اعلي<adj><m><sg><nom>/اعلي<adj><m><sg><obl>/اعلي<adj><m><pl><nom>/اعلي<adj><m><pl><obl>/اعلي<adj><f><sg><nom>/اعلي<adj><f><sg><obl>/اعلي<adj><f><pl><nom>/اعلي<adj><f><pl><obl>$
 ^لوري/لوري<n><f><sg><nom>/لوري<n><f><sg><obl>/لوري<n><f><pl><nom>/لوري<n><f><pl><obl>$
-^نانگي/*نانگي$
+^نانگو/نانگي<n><m><sg><obl>$
 ^اعظم/اعظم<adj><m><sg><nom>/اعظم<adj><m><sg><obl>/اعظم<adj><m><pl><nom>/اعظم<adj><m><pl><obl>/اعظم<adj><f><sg><nom>/اعظم<adj><f><sg><obl>/اعظم<adj><f><pl><nom>/اعظم<adj><f><pl><obl>$
 ^اٺون/اٺ<num><ord><m>$
 ^هڪڙو/هڪڙ<n><m><sg><nom>$
@@ -32,7 +32,7 @@
 ^سماع/سماع<n><m><sg><nom>/سماع<n><m><sg><obl>/سماع<n><m><pl><nom>/سماع<n><m><pl><obl>$
 ^بعد/بعد<adv>$
 ^وهيءَ/وهيءَ<n><f><sg><nom>/وهيءَ<n><f><sg><obl>/وهيءَ<n><f><pl><nom>/وهيءَ<n><f><pl><obl>$
-^تفرقي/*تفرقي$
+^تفرقو/تفرقي<n><m><sg><obl>$
 ^جھڙن/جهڙ<n><m><pl><obl>$
 ^ساوڪ/*ساوڪ$
 ^ضرورتن/ضرورت<n><f><pl><obl>$

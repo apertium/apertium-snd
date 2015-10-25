@@ -416,6 +416,7 @@
       <e><p><l>يو</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
 
       <e><p><l>ي</l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
+      <e><p><l>ءَ</l><r><s n="num"/><s n="ord"/></r></p></e>
 
       <e><p><l></l><r><s n="num"/></r></p></e>		<!--cardinal-->
       <e r="LR"><p><l>ه</l><r><s n="num"/></r></p></e>
@@ -435,18 +436,16 @@
 
     <pardef n="ڇوڪر/و__n_m" c="I">
       <e><p><l>و</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-<!--      <e><p><l>ی</l><r>و<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e> -->
       <e><p><l>ي</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>ا</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ن</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="ڪارخان/و__n_f" c="II">
-      <e><p><l>و</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-<!--      <e><p><l>ى</l><r>و<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>-->
-      <e><p><l>ي</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>ا</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ن</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>و</l><r>و<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ي</l><r>و<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ا</l><r>و<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ن</l><r>و<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="ڪتاب__n_m" c="III">
@@ -518,6 +517,8 @@
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ون</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e> <!--for eng transliterations-->
+      <e><p><l>ن</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e> <!--for eng transliterations-->
     </pardef>
 
     <pardef n="قلم__n_f" c="XIV">
@@ -577,6 +578,8 @@
     <pardef n="پاڪستان__np">
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ي</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>يءَ</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/></r></p></e> <!--from CIIL grammar -->
+      <e><p><l>ءَ</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/></r></p></e> <!--from CIIL grammar -->
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ين</l><r><s n="np"/><s n="top"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
@@ -587,11 +590,13 @@
     </pardef>
 
     <pardef n="mascName__np">
-	<e><p><l></l><r><s n="np"/><s n="m"/><s n="sg"/></r></p></e>
+	<e><p><l></l><r><s n="np"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>ءَ</l><r><s n="np"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e> <!--from CIIL grammar -->
     </pardef>
 
     <pardef n="femName__np">
-	<e><p><l></l><r><s n="np"/><s n="f"/><s n="sg"/></r></p></e>
+	<e><p><l></l><r><s n="np"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>ءَ</l><r><s n="np"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e> <!--from CIIL grammar -->
     </pardef>
 
     <pardef n="قرآن__np">
@@ -1270,7 +1275,7 @@
     <e lm="تهذيب"><i>تهذيب</i><par n="زال__n_f"/></e>
     <e lm="شخصيت"><i>شخصيت</i><par n="زال__n_f"/></e>
     <e lm="بيماري"><i>بيماري</i><par n="زال__n_f"/></e>
-    <e lm="هدايت"><i>هدايت</i><par n="زال__n_m"/></e>
+    <e lm="هدايت"><i>هدايت</i><par n="زال__n_f"/></e>
     <e lm="رڪعت"><i>رڪعت</i><par n="زال__n_f"/></e>
     <e lm="سموري"><i>سموري</i><par n="زال__n_f"/></e>
     <e lm="نشاني"><i>نشاني</i><par n="زال__n_f"/></e>
@@ -3532,6 +3537,7 @@
 
     <e lm="ڪامل"><i>ڪامل</i><par n="تمام__adj"/></e>
     <e lm="فرار"><i>فرار</i><par n="تمام__adj"/></e>
+    <e lm="صفائي"><i>صفائي</i><par n="تمام__adj"/></e>
     <e lm="ماهرَ"><i>ماهرَ</i><par n="تمام__adj"/></e>
     <e lm="ماهر"><i>ماهر</i><par n="تمام__adj"/></e>
     <e lm="گرمي"><i>گرمي</i><par n="تمام__adj"/></e>
