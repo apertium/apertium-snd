@@ -146,17 +146,18 @@
       <e><p><l></l><r><s n="post"/></r></p></e>
     </pardef>
 
-    <pardef n="ج/ي__gen">
-      <e><p><l>و</l><r>ي<s n="gen"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ي</l><r>ي<s n="gen"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>ا</l><r>ي<s n="gen"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ن</l><r>ي<s n="gen"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e><p><l>ون</l><r>ي<s n="gen"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e><p><l>ي</l><r>ي<s n="gen"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ي</l><r>ي<s n="gen"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>وُن</l><r>ي<s n="gen"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ون</l><r>ي<s n="gen"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ن</l><r>ي<s n="gen"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    <pardef n="ج/ي__post">
+      <e><p><l>و</l><r>ي<s n="post"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ي</l><r>ي<s n="post"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ا</l><r>ي<s n="post"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ن</l><r>ي<s n="post"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ون</l><r>ي<s n="post"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+
+      <e><p><l>ي</l><r>ي<s n="post"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ي</l><r>ي<s n="post"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>وُن</l><r>ي<s n="post"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ون</l><r>ي<s n="post"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ن</l><r>ي<s n="post"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
 
@@ -1007,7 +1008,7 @@
 
     <!-- SECTION: Postpositions -->
 
-    <e lm="جي"><i>ج</i><par n="ج/ي__gen"/></e>
+    <e lm="جي"><i>ج</i><par n="ج/ي__post"/></e>
 
     <e lm="کان"><i>کان</i><par n="کان__post"/></e>
     <e lm="تان"><i>تان</i><par n="کان__post"/></e>
@@ -4548,6 +4549,7 @@ Some verbs can be both!
     <e lm="ملڻ"><i>مل</i><par n="ڪر/ڻ__vblex_tv"/></e>  <!--to get/recieve -->
     <e lm="وٺڻ"><i>وٺ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to take -->
     <e lm="وٺڻ"><i>وٺ</i><par n="ڏس/ڻ__vblex_tv"/></e> <!--to take -->
+    <e lm="لکڻ"><i>لک</i><par n="ڏس/ڻ__vblex_tv"/></e> <!--to write-->
 
     <e lm="ٿيڻ"><i>ٿ</i><par n="ڪر/ڻ__vblex_tv"/></e> <!--to become -->
     <e lm="رهڻ"><i>ره</i><par n="ڪر/ڻ__vblex_tv"/></e>
@@ -4581,7 +4583,6 @@ Some verbs can be both!
     <e lm="سمجهڻ"><i>سمجه</i><par n="سمه/ڻ__vblex_iv"/></e>
     <e lm="هلڻ"><i>هل</i><par n="سمه/ڻ__vblex_iv"/></e>
     <e lm="کٽڻ"><i>کٽ</i><par n="سمه/ڻ__vblex_iv"/></e>
-    <e lm="لکڻ"><i>لک</i><par n="سمه/ڻ__vblex_iv"/></e>
     <e lm="رکڻ"><i>رک</i><par n="سمه/ڻ__vblex_iv"/></e>
     <e lm="بيهڻ"><i>بيه</i><par n="سمه/ڻ__vblex_iv"/></e>
     <e lm="وڄڻ"><i>وڄ</i><par n="سمه/ڻ__vblex_iv"/></e>
