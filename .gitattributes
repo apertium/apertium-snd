@@ -1,6 +1,7 @@
 * text=auto !eol
 /Makefile -text
 /NOTES -text
+/URLs.txt -text
 /apertium-snd.snd.acx -text
 /apertium-snd.snd.dix -text
 /apertium-snd.snd.rlx -text
