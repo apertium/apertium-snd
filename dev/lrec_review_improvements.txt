@@ -1,0 +1,223 @@
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+In other places, facts are listed without pointing out their relevance to your
+work and drawing conclusions.
+
+There are repeated formatting errors and figures are hard to read and miss
+explanations/references.
+
+Abstract:
+"which helps in other NLP applications" => "is used"
+
+1: "These words a constructed by combining smaller meaning-bearing units,
+called morphemes. A morphological
+analysis of a word involves describing one or more of its properties such as:
+gender, number, person, case, lexical
+category, etc. The properties are captured by the morpheme(s) that a word is
+composed of."
+=> if you want to cite a general definition of morphology/morphemes it should
+be exact, there are free morphemes that do not describe the properties
+mentioned by you to which bound morphemes are attached etc. This should be
+shortened in favor of a to give a morphological description of Sindhi more
+space.
+
+"fairly inflectional morphology" => what does "fairly inclectional" mean? Which
+parts of the morphology are less inflectional and does it mean they are  e.g.
+agglutinative or something else in other parts?
+
+"The paper is organised in the following manner. We give
+an overview of the language in Section 2. and discuss the
+work done previously on it in Section 3.. We describe our
+developmental process in Section 4., followed by our evaluation
+in Section 5., future work in Section 6. and concluding
+remarks in Section 7.."
+ => The paper is organised in the following manner. We give
+an overview of the language in Section 2 and discuss the
+work done previously on it in Section 3. We describe our
+developmental process in Section 4, followed by our evaluation
+in Section 5, future work in Section 6 and concluding
+remarks in Section 7.
+
+2: the headline could give more information about the content, e.g.
+morphological properties of Sindhi, linguistic features of Sindhi etc.
+
+if you give so much background on the conditions and history of Sindhi you
+should draw conclusions from it i.e. the demand for language technological
+tools etc.
+
+"the vocabulary is contains many loan words from Persian, Arabic,
+Hindi and Urdu."
+=> the vocabulary contains many ...
+
+2.1: "Currently, both Devanagari and Perso-Arabic are official
+forms of writing Sindhi in India, while in Pakistan the only
+official form is Perso-Arabic. In our work we use only the
+Perso-Arabic script." => Is that to reach more people with your tools? What are
+the reasons for this choice?
+
+"The Sindhi alphabet in Perso-Arabic is a variant of Persian
+alphabet."
+=> ... of the Persian...
+
+2.2: "As mentioned earlier, Sindhi has a very rich morphology." => where have
+you mentioned that earlier?
+
+2.3.: I am missing a paradigm here to show the morpheme structure. You
+mentioned the paradigm-based approach in the abstract, still you haven't shown
+any paradigm in your paper.
+
+"Adjectives have three degrees for comparison, positive,
+comparative which are expressed analytically. "
+=> should be: Adjectives have three degrees for comparison, analytical positive
+and
+comparative (e.g. ...) and superlative (e.g. ...) which are expressed
+analytically.
+
+2.3.1:
+"We have not completely added all the forms in our
+lexicon. Some such uncovered forms are various moods,
+some forms of tenses (conditional, perfect, participles , habitual,
+indefinite), causative forms, etc. We have covered
+some verbs form of auxiliaries, transitive and intransitive
+verbs."
+=> here you suddenly mix the description of the language and structure of your
+analyser, stay consistent! Also if you mention that not all forms are covered,
+what is the percentage of covered verbs, how many entries are there etc.? A
+reference to table 2?
+=> "verb forms"
+
+"Transitive verbs are ones that require an object. It can also
+be seen as they ( verbs ) are transferring their action to an
+object. ... Intransitive verbs, on the contrary, do not need an object."
+=> again this is an (unnecessary) definition while you it is relevant which
+kind of verbs Sindhi includes. Are there just transitive and intransitive verbs
+or also e.g. ditransitive verbs? How is that distinction relevant to your
+morphological analyser?
+
+2.4:
+"Adjuncts amplify part of a sentence. They generally do not
+inflect. Its five main types are: adverbs, particles, postposition,
+conjunction and interjections."
+=> adjuncts refer to a syntactic category, not a PoS category.. Again it is a
+general definition ..
+
+3:
+"Some of these are: Tamil by Parameswari
+(2010), Assamese by Rahman and Sarma (2015), Oriya by
+Jena et al. (2011), Malayalam by Rinju et al. (2013) and
+Vinod et al. (2012)."
+ => Those developed for other Indo-Aryan languages are: Tamil by Parameswari
+(2010), Assamese by Rahman and Sarma (2015), Oriya by
+Jena et al. (2011), Malayalam by Rinju et al. (2013) and
+Vinod et al. (2012).
+
+"Grammatical Framework Ranta (2009)" => Grammatical Framework (Ranta 2009)
+
+"We had referred this library during initial
+stages of our work and we had also found and reported
+some mistakes in it. For instance, some feminine nouns
+were assigned to a paradigm for masculine nouns." => this belongs into a
+technical report, not in your individual research
+The section should be cut down focusing on the work you are going to use for
+your own research
+
+4: sounds like a technical report describing the steps and progress of your
+work rather than relevant information to the reader, e.g. how many twolc rules
+does your analyzer include, what was the quality of the Wikipedia texts
+(coverage of forms etc.), which version of Wikipedia has been used
+what is relevant: "it was a manual process,
+grammar books 45 => the footnote looks like 45, put the websites into one
+footnote "url1 and url2"
+
+Figure 2: you do not refer to the figure in the text. The subtext should be
+included in running text rather than being below the figure to improve
+readability.
+
+Figure 1: Why is figure 1 placed after figure 2, the functionality of the
+lexicon entry in figure 1 should either be described to the reader or left out.
+
+Figure 3: is not referred to in the text, the subline of the figure should be
+part of the text for better readability. Also an explanation of it is missing,
+i.e. what do you want to illustrate with it? Since you disambiguated it
+manually, it does not show the morphological analyser's ability to give various
+analyses, so what do you want to illustrate?
+
+5.1: punctuation:
+There are a lot of websites, books, blogs, etc. on the internet
+, =>
+There are a lot of websites, books, blogs, etc. on the internet,
+
+footnote 6 and 7 could be summarized, also they should include information
+about the version, i.e. date (not just "recent")
+steps 1-4 should be summarized to give the result as they sound like a
+technical report
+
+5.1.1.
+footnote 6 and 7: leave out footnote 6 as it is almost the same as 7
+
+"We
+downloaded a recent Sindhi Wikipedia dump7 and created
+our corpus in the following manner". => which version did you download, date?
+
+1-4 is a technical report style which it should not, instead of a temporal
+structure of the work process, the results, challenges, should be ordered by
+linguistic/technical criteria
+
+xml.bz2 file => if you refer to a specific file, make sure it is available to
+the reader
+
+5.2. "more recent version of the analyser" => which version number or date?
+reproducability of results
+
+"The list is publicaly available for each
+language in Apertium’s SVN repository"
+=> link or name of the list
+=> "publicly"
+
+which of the previously mentioned corpora did you use to calculate precision
+and recall? "a Wikipedia corpus", is that the corpus mentioned in 5.1.1? Did
+you use the corpus in 5.1.2 at all?
+
+How is that reflected in table 4??
+
+5.3 "Qualitative" => "Qualitative evaluation"
+"There are quite a few reason that we think why our analyser
+make the mistakes that it did."
+=> what is the evidence for you thinking that?
+=> analyser made the mistakes
+
+"for example the suffix ءَ [ə] comes
+with some nouns and proper nouns in oblique cases it was
+not there in the paradigms."
+=> for example the suffix ءَ [ə] that is attached to
+ some nouns and proper nouns in oblique cases was missing in the paradigms.
+
+6:
+"Another plan that we have is to develop rule-based machine
+translation systems in Apertium for Sindhi. We already
+have a Urdu-Hindi MT system in Apertium and since
+these languages are closely related and share common linguistic
+properties, we can use them to develop MT systems
+for Urdu–Sindhi and Sindhi–Hindi language pairs."
+=> an Urdu-Hindi MT ...
+=> you should relate that to the morphological analyser and the work you have
+done
+
+7:
+"The lexicon is entirely encoded in Unicode and has
+reasonable coverage with few lexical entries."
+=>  "The lexicon is entirely encoded in Unicode and has
+reasonable coverage for few lexical entries."
+
+References:
+you should be consistent with capitalisation of proper names within the titles:
+while they are capitalized in "Rule based part of
+speech tagging of Sindhi language." they are not in e.g "An improvized
+morphological analyzer
+cum generator for tamil: A case of implementing
+the open source platform apertium." (tamil => Tamil) and "Morphological
+analyzer for malayalam: Probabilistic method vs rule
+based method." (malayalam => Malayalam)

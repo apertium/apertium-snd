@@ -11,6 +11,7 @@ data/blog -text svneol=unset#application/octet-stream
 data/clean_wiki.txt -text
 data/wiki.txt -text
 dev/history.log -text
+dev/lrec_review_improvements.txt -text
 eval/Makefile -text
 eval/diac -text
 eval/evaluate-morph.py -text
