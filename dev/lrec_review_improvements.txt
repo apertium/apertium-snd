@@ -1,3 +1,7 @@
+Me :
+
+add about multi-lingual dictionary creation of urdu sindhi hindi
+- reaosn being authors not an absolute expert of sindhi, so dictionary helped in inducing some morph features while creating morph-analyser.. features such as lexical category and gender.
 
 ============================================================================
                             REVIEWER #3
