@@ -28,22 +28,12 @@ mentioned by you to which bound morphemes are attached etc. This should be
 shortened in favor of a to give a morphological description of Sindhi more
 space.
 
-"fairly inflectional morphology" => what does "fairly inclectional" mean? Which
-parts of the morphology are less inflectional and does it mean they are  e.g.
-agglutinative or something else in other parts?
-
 
 if you give so much background on the conditions and history of Sindhi you
 should draw conclusions from it i.e. the demand for language technological
 tools etc.
 
-
-2.1: "Currently, both Devanagari and Perso-Arabic are official
-forms of writing Sindhi in India, while in Pakistan the only
-official form is Perso-Arabic. In our work we use only the
-Perso-Arabic script." => Is that to reach more people with your tools? What are
-the reasons for this choice?
-
+<spectei> this is a good idea
 
 "Adjectives have three degrees for comparison, positive,
 comparative which are expressed analytically. "
@@ -65,6 +55,9 @@ what is the percentage of covered verbs, how many entries are there etc.? A
 reference to table 2?
 => "verb forms"
 
+<spectei> this is a good idea
+<spectei> we need to be explicit about what we cover and what we don't cover
+
 "Transitive verbs are ones that require an object. It can also
 be seen as they ( verbs ) are transferring their action to an
 object. ... Intransitive verbs, on the contrary, do not need an object."
@@ -73,12 +66,18 @@ kind of verbs Sindhi includes. Are there just transitive and intransitive verbs
 or also e.g. ditransitive verbs? How is that distinction relevant to your
 morphological analyser?
 
+<spectei> we can say that the distinction is important for morphological disambiguation and parsing as the transitivity of the verb determines the subject case in certain tenses 
+
 2.4:
 "Adjuncts amplify part of a sentence. They generally do not
 inflect. Its five main types are: adverbs, particles, postposition,
 conjunction and interjections."
 => adjuncts refer to a syntactic category, not a PoS category.. Again it is a
 general definition ..
+
+<spectei> do not call these adjuncts
+<spectei> maybe something like "the remaining parts of speech are uninflecting closed categories, these include: "
+
 
 3:
 
@@ -93,7 +92,9 @@ your own research
 4: sounds like a technical report describing the steps and progress of your
 work rather than relevant information to the reader, e.g. how many twolc rules
 does your analyzer include, what was the quality of the Wikipedia texts
-(coverage of forms etc.), which version of Wikipedia has been used
+(coverage of forms etc.), 
+
+<spectei> we should say the number of paradigms somewhere
 
 Figure 2: The subtext should be included in running text rather than being below the figure to improve
 readability.
@@ -127,4 +128,5 @@ language in Apertium’s SVN repository"
 make the mistakes that it did."
 => what is the evidence for you thinking that?
 
+<spectei> yeah, we should mention this
 
