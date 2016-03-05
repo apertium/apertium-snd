@@ -28,12 +28,14 @@ mentioned by you to which bound morphemes are attached etc. This should be
 shortened in favor of a to give a morphological description of Sindhi more
 space.
 
+______________________________
 
 if you give so much background on the conditions and history of Sindhi you
 should draw conclusions from it i.e. the demand for language technological
 tools etc.
 
 <spectei> this is a good idea
+______________________________
 
 "Adjectives have three degrees for comparison, positive,
 comparative which are expressed analytically. "
@@ -41,6 +43,7 @@ comparative which are expressed analytically. "
 and
 comparative (e.g. ...) and superlative (e.g. ...) which are expressed
 analytically.
+______________________________
 
 2.3.1:
 "We have not completely added all the forms in our
@@ -57,6 +60,7 @@ reference to table 2?
 
 <spectei> this is a good idea
 <spectei> we need to be explicit about what we cover and what we don't cover
+_______________________________
 
 "Transitive verbs are ones that require an object. It can also
 be seen as they ( verbs ) are transferring their action to an
@@ -67,34 +71,9 @@ or also e.g. ditransitive verbs? How is that distinction relevant to your
 morphological analyser?
 
 <spectei> we can say that the distinction is important for morphological disambiguation and parsing as the transitivity of the verb determines the subject case in certain tenses 
+--------------------------------
 
-2.4:
-"Adjuncts amplify part of a sentence. They generally do not
-inflect. Its five main types are: adverbs, particles, postposition,
-conjunction and interjections."
-=> adjuncts refer to a syntactic category, not a PoS category.. Again it is a
-general definition ..
-
-<spectei> do not call these adjuncts
-<spectei> maybe something like "the remaining parts of speech are uninflecting closed categories, these include: "
-
-
-3:
-
-"We had referred this library during initial
-stages of our work and we had also found and reported
-some mistakes in it. For instance, some feminine nouns
-were assigned to a paradigm for masculine nouns." => this belongs into a
-technical report, not in your individual research
-The section should be cut down focusing on the work you are going to use for
-your own research
-
-4: sounds like a technical report describing the steps and progress of your
-work rather than relevant information to the reader, e.g. how many twolc rules
-does your analyzer include, what was the quality of the Wikipedia texts
-(coverage of forms etc.), 
-
-<spectei> we should say the number of paradigms somewhere
+4: 
 
 Figure 2: The subtext should be included in running text rather than being below the figure to improve
 readability.
@@ -113,14 +92,6 @@ analyses, so what do you want to illustrate?
 1-4 is a technical report style which it should not, instead of a temporal
 structure of the work process, the results, challenges, should be ordered by
 linguistic/technical criteria
-
-
-5.2. "more recent version of the analyser" => which version number or date?
-reproducability of results
-
-"The list is publicaly available for each
-language in Apertium’s SVN repository"
-=> link or name of the list
 
 
 5.3 
