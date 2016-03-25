@@ -1,8 +1,54 @@
 Me :
+1. cite my LTC paper
 
-how do we add about the creation of multi-lingual dictionary creation of urdu sindhi hindi ?
+2.how do we add about the creation of multi-lingual dictionary creation of urdu sindhi hindi ?
 - dictionary helped in inducing some morph features while creating morph-analyser.. features such as lexical category and gender.
 
+<spectre> you haven't written anything about which parts of the verbal paradigm we cover
+<spectre> and which parts we do not 
+<raveesh> parts.. in term of tenses/persons right ?
+<spectre> yes
+<spectre> i hope we cover all persons!!!
+<raveesh> yes we do
+<raveesh> we conver quite a many tenses as well
+<raveesh> *cover
+<spectre> :)
+<raveesh> but not all extreme ones like future habitual or something
+<spectre> ok, so write that in the article
+<spectre> and give an example
+<raveesh> alright :)
+<spectre> in fact we could do a table
+<raveesh> of the tenses/forms that we have and we dont ?
+<spectre> with Verb Tense | Form | Covered 
+<raveesh> dont you think that's make it more dense, we already have loads of figures and tables
+<spectre> yeah, it would be better if we could do it in prose
+<raveesh> okay
+
+3. about verbs :
+<spectei> i am not happy
+<spectei> with the description in 2.2.2.
+<spectei> the reviewers asked us to describe the forms that were covered
+<spectei> and the forms that aren't covered
+<spectei> and i agreed
+<spectei> also we are 5.5 pages/8 pages
+<spectei> so we have plenty of space
+<raveesh> in 2.2.2.
+<raveesh> there 2 things pointed by reviewers
+<raveesh> 1. added the comment about transitivity
+<raveesh> and the other was
+<raveesh> => here you suddenly mix the description of the language and structure of your
+<raveesh> analyser, stay consistent! Also if you mention that not all forms are covered,
+	<raveesh> what is the percentage of covered verbs
+	<raveesh> i have mentioned in text the forms that arent present
+	<raveesh> how do i give an estimate in number when i myself am not aware of all kinds of verb forms ?
+	<raveesh> *estimate in percentage
+	<spectei> they should be described by the grammar
+	<raveesh> that website that we were following ?
+	<spectei> "according to the grammar of X (YYYY), the following inflectional forms have been implemented:"
+	<spectei> "however, the ZZZ, KKK, JJJ forms have not yet been implemented as described"
+	<spectei>  
+	<raveesh> http://www.ciil-lisindia.net/Sindhi/sindhi_struct.html ?
+	<spectei> you could also give examples of the forms implemented and those not implemented
 ============================================================================
                             REVIEWER #3
 ============================================================================
@@ -13,65 +59,6 @@ work and drawing conclusions.
 There are repeated formatting errors and figures are hard to read and miss
 explanations/references.
 
-Abstract:
-
-
-1: "These words a constructed by combining smaller meaning-bearing units,
-called morphemes. A morphological
-analysis of a word involves describing one or more of its properties such as:
-gender, number, person, case, lexical
-category, etc. The properties are captured by the morpheme(s) that a word is
-composed of."
-=> if you want to cite a general definition of morphology/morphemes it should
-be exact, there are free morphemes that do not describe the properties
-mentioned by you to which bound morphemes are attached etc. This should be
-shortened in favor of a to give a morphological description of Sindhi more
-space.
-
-______________________________
-
-if you give so much background on the conditions and history of Sindhi you
-should draw conclusions from it i.e. the demand for language technological
-tools etc.
-
-<spectei> this is a good idea
-______________________________
-
-"Adjectives have three degrees for comparison, positive,
-comparative which are expressed analytically. "
-=> should be: Adjectives have three degrees for comparison, analytical positive
-and
-comparative (e.g. ...) and superlative (e.g. ...) which are expressed
-analytically.
-______________________________
-
-2.3.1:
-"We have not completely added all the forms in our
-lexicon. Some such uncovered forms are various moods,
-some forms of tenses (conditional, perfect, participles , habitual,
-indefinite), causative forms, etc. We have covered
-some verbs form of auxiliaries, transitive and intransitive
-verbs."
-=> here you suddenly mix the description of the language and structure of your
-analyser, stay consistent! Also if you mention that not all forms are covered,
-what is the percentage of covered verbs, how many entries are there etc.? A
-reference to table 2?
-=> "verb forms"
-
-<spectei> this is a good idea
-<spectei> we need to be explicit about what we cover and what we don't cover
-_______________________________
-
-"Transitive verbs are ones that require an object. It can also
-be seen as they ( verbs ) are transferring their action to an
-object. ... Intransitive verbs, on the contrary, do not need an object."
-=> again this is an (unnecessary) definition while you it is relevant which
-kind of verbs Sindhi includes. Are there just transitive and intransitive verbs
-or also e.g. ditransitive verbs? How is that distinction relevant to your
-morphological analyser?
-
-<spectei> we can say that the distinction is important for morphological disambiguation and parsing as the transitivity of the verb determines the subject case in certain tenses 
---------------------------------
 
 4: 
 
@@ -87,12 +74,6 @@ i.e. what do you want to illustrate with it? Since you disambiguated it
 manually, it does not show the morphological analyser's ability to give various
 analyses, so what do you want to illustrate?
 
-5.1: 
-
-1-4 is a technical report style which it should not, instead of a temporal
-structure of the work process, the results, challenges, should be ordered by
-linguistic/technical criteria
-
 
 5.3 
 "There are quite a few reason that we think why our analyser
@@ -101,3 +82,10 @@ make the mistakes that it did."
 
 <spectei> yeah, we should mention this
 
+spectre> we can just rewrite the sentence
+<raveesh> sure, are you able to edit the latex ?
+<spectre> There are a number of reasons behind the mistakes that our analyser made. 
+<spectre>  
+<spectre> just put it like this
+<spectre> that way we remove "we thought" and it is a statement not a supposition :)
+<spectre> and we list them afterwards

@@ -680,8 +680,7 @@
       <e><p><l>ٿيندي</l><r>ٿو<s n="vblex"/><s n="fut"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ٿيندا</l><r>ٿو<s n="vblex"/><s n="fut"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ٿينديون</l><r>ٿو<s n="vblex"/><s n="fut"/><s n="f"/><s n="pl"/></r></p></e>
-
-
+<!-- Continuous present tense. Identical with the indefinite present and only the auxiliary verb tho/ tha/thi/thyű is replaced by /pyo /pya /pei / peyű/ respectively. -->
     </pardef>
 
     <pardef n="سگهن__vaux">
