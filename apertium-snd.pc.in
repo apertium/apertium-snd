@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-snd
+
+Name: apertium-snd
+Description: Finite-state morphological transducer and constraint grammar for Sindhi
+Version: @VERSION@
+
