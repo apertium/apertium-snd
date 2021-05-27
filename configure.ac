@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Sindhi], [0.1.0], [apertium-stuff@lists.sourceforge.net], [apertium-snd], [http://wiki.apertium.org/wiki/Apertium-snd])
+AC_INIT([Apertium Sindhi], [0.1.0], [apertium-stuff@lists.sourceforge.net], [apertium-snd], [https://wiki.apertium.org/wiki/Apertium-snd])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
